@@ -730,17 +730,17 @@
     let CEFR_C1_Words = new Set();
     
     // Paths to external files
-    const LARGE_DICTIONARY_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_alpha.txt";
-    const SMALL_DICTIONARY_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_beta.txt";
-    const STOPWORDS_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_stop.txt";
-    const IRREGULARWORDS_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_irregular.txt";
-    const SIMPLEWORDS_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_simple.txt";
-    const PERSIAN_SIMILAR_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_similar_persian.txt";
-    const CEFR_A1_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_A1.txt";
-    const CEFR_A2_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_A2.txt";
-    const CEFR_B1_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_B1.txt";
-    const CEFR_B2_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_B2.txt";
-    const CEFR_C1_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_C1.txt";
+    const LARGE_DICTIONARY_FILE_PATH = "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_alpha.txt";
+    const SMALL_DICTIONARY_FILE_PATH = "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_beta.txt";
+    const STOPWORDS_FILE_PATH = "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_stop.txt";
+    const IRREGULARWORDS_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_irregular.txt";
+    const SIMPLEWORDS_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_simple.txt";
+    const PERSIAN_SIMILAR_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_similar_persian.txt";
+    const CEFR_A1_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_CEFR_A1.txt";
+    const CEFR_A2_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_CEFR_A2.txt";
+    const CEFR_B1_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_CEFR_B1.txt";
+    const CEFR_B2_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_CEFR_B2.txt";
+    const CEFR_C1_FILE_PATH= "https://github.com/MortezaMaghrebi/WordHero_Website/raw/refs/heads/main/word_datasets/words_CEFR_C1.txt";
     
     // Helper functions for simulating pass by reference
     function createRef(initialValue = "") {
@@ -874,11 +874,6 @@
             document.getElementById('inputText').value = savedText;
         }
  
-        // Find upload button and add event listner
-        ///const uploadBtn = document.querySelector('button[onclick="uploadWordList()"]');
-        //if (uploadBtn) {
-        //    uploadBtn.addEventListener('click', uploadWordList);
-        //}
  
         // Update word count on input
         document.getElementById('inputText').addEventListener('input', updateWordCount);
@@ -887,6 +882,7 @@
         // Set the list tab as active by default
         switchTab('list');
 
+		showNotification('در حال بارگذاری پایگاه داده، لطفا منتظر بمانید!', 'info');
         // Load dictionary and stop words
         Promise.all([fetchSmallDictionary(),fetchLargeDictionary(), fetchStopWords(),fetchIrregularWords(),fetchSimpleWords(),fetchCEFR_A1_Words(),fetchCEFR_A2_Words(),fetchCEFR_B1_Words(),fetchCEFR_B2_Words(),fetchCEFR_C1_Words(),fetchPersianSimilarWords()])
             .then(() => {
