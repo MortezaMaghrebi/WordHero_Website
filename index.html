@@ -1,0 +1,1658 @@
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استخراج کننده کلمات معنی دار انگلیسی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/compromise@latest/builds/compromise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stemmer@1.0.1/stemmer.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --secondary: #0d9488;
+            --secondary-dark: #0f766e;
+            --accent: #f59e0b;
+            --light: #f8fafc;
+            --dark: #1e293b;
+        }
+        
+        body {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f0f4ff 0%, #e6e6ff 100%);
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 0 0 30px 30px;
+        }
+        
+        .word-cloud span {
+            display: inline-block;
+            margin: 8px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+            font-weight: 500;
+        }
+        
+        .word-cloud span:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 10px 25px rgba(79, 70, 229, 0.4);
+        }
+        
+        .tab-button {
+            transition: all 0.3s ease;
+            border-radius: 8px 8px 0 0;
+            padding: 0.75rem 1.5rem;
+        }
+        
+        .tab-button.active {
+            background: white;
+            color: var(--primary);
+            font-weight: bold;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        #loading {
+            display: none;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 180px;
+            background-color: var(--dark);
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 0.875rem;
+        }
+        
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            border-radius: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            border: none;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
+            color: white;
+            border: none;
+        }
+        
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 14px rgba(13, 148, 136, 0.2), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+        
+        .btn-accent {
+            background: linear-gradient(135deg, var(--accent) 0%, #d97706 100%);
+            color: white;
+            border: none;
+        }
+        
+        .btn-accent:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 14px rgba(245, 158, 11, 0.2), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+        
+        .btn-light {
+            background: white;
+            color: var(--dark);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .btn-light:hover {
+            background: #f8fafc;
+            transform: translateY(-2px);
+        }
+        
+        .progress-container {
+            position: relative;
+            width: 100%;
+            height: 12px;
+            background: #e2e8f0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+        
+        .word-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+        
+        .word-item:hover {
+            background: #f8fafc;
+            transform: translateX(5px);
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .custom-checkbox {
+            position: relative;
+            padding-right: 2rem;
+            cursor: pointer;
+        }
+        
+        .custom-checkbox input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+        
+        .checkmark {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 22px;
+            width: 22px;
+            background-color: #f8fafc;
+            border: 2px solid #cbd5e1;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .custom-checkbox input:checked ~ .checkmark {
+            background-color: var(--primary);
+            border-color: var(--primary);
+        }
+        
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+        
+        .custom-checkbox input:checked ~ .checkmark:after {
+            display: block;
+        }
+        
+        .custom-checkbox .checkmark:after {
+            right: 7px;
+            top: 3px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+        
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 1rem 1.5rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.5s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+        }
+        
+        .notification.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        .notification.success {
+            border-right: 4px solid #10b981;
+        }
+        
+        .notification.error {
+            border-right: 4px solid #ef4444;
+        }
+        
+        .notification.info {
+            border-right: 4px solid var(--primary);
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                padding: 1.5rem;
+            }
+            
+            .btn {
+                padding: 0.6rem 1rem;
+                font-size: 0.875rem;
+            }
+            
+            .tab-button {
+                padding: 0.5rem 1rem;
+                font-size: 0.875rem;
+            }
+        }
+        
+        /* استایل‌های جدید برای modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .modal-container {
+            background: white;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 500px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            transform: translateY(50px);
+            opacity: 0;
+            transition: all 0.4s ease;
+        }
+        
+        .modal-overlay.active .modal-container {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        .modal-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .modal-icon {
+            font-size: 3rem;
+            color: #10b981;
+            margin-bottom: 1rem;
+        }
+        
+        .modal-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+        
+        .modal-body {
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #64748b;
+            line-height: 1.6;
+        }
+        
+        .modal-footer {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .btn-download {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 12px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(16, 185, 129, 0.3);
+        }
+        
+        .btn-download:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 14px rgba(16, 185, 129, 0.4);
+        }
+        
+        .btn-later {
+            background: transparent;
+            color: #64748b;
+            padding: 0.75rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-later:hover {
+            background: #f1f5f9;
+        }
+        
+        .app-preview {
+            display: flex;
+            justify-content: center;
+            margin: 1.5rem 0;
+        }
+        
+        .phone-mockup {
+            width: 150px;
+            height: 300px;
+            background: #1e293b;
+            border-radius: 30px;
+            padding: 10px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .phone-screen {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .phone-screen i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .phone-screen span {
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 640px) {
+            .modal-container {
+                width: 95%;
+                padding: 1.5rem;
+            }
+            
+            .phone-mockup {
+                width: 120px;
+                height: 240px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-6">
+        <div class="card overflow-hidden">
+            <div class="header text-center">
+                <h1 class="text-3xl md:text-4xl font-bold mb-2">
+                    <i class="fas fa-language ml-2"></i>استخراج کننده کلمات معنی دار انگلیسی
+                </h1>
+                <p class="text-blue-100 mb-6 text-lg">متن انگلیسی خود را وارد کنید تا کلمات کلیدی به همراه فراوانی آن ها استخراج شوند</p>
+                
+                <div class="flex flex-wrap justify-center gap-3 mb-4">
+                    <button onclick="clearText()" class="btn btn-light">
+                        <i class="fas fa-trash-alt ml-1"></i> پاک کردن
+                    </button>
+                    <button onclick="saveText()" class="btn btn-accent">
+                        <i class="fas fa-save ml-1"></i> ذخیره متن
+                    </button>
+                    <button onclick="loadText()" class="btn btn-secondary">
+                        <i class="fas fa-folder-open ml-1"></i> بارگذاری متن
+                    </button>
+                    <button onclick="toggleAdvanced()" class="btn btn-light">
+                        <i class="fas fa-cog ml-1"></i> تنظیمات
+                    </button>
+                </div>
+            </div>
+            
+            <div class="p-6">
+                <div id="advancedOptions" class="bg-gray-50 p-5 rounded-xl mb-6 hidden">
+                    <h3 class="font-semibold mb-4 text-lg text-gray-700"><i class="fas fa-sliders-h ml-2"></i>تنظیمات پیشرفته</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removePlurals" checked>
+                            <span class="checkmark"></span>
+                            تبدیل جمع به مفرد
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="normalizeVerbs" checked>
+                            <span class="checkmark"></span>
+                            تبدیل افعال به مصدر
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removePeople" checked>
+                            <span class="checkmark"></span>
+                            حذف نام اشخاص
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removePlaces" checked>
+                            <span class="checkmark"></span>
+                            حذف مکان‌ها
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeOrganizations" checked>
+                            <span class="checkmark"></span>
+                            حذف سازمان‌ها
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeIrregularVerbs" checked>
+                            <span class="checkmark"></span>
+                            حذف افعال بی قاعده
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeSimpleWords" >
+                            <span class="checkmark"></span>
+                            حذف کلمات آسان دبیرستان
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeNotInDictionary60000" checked>
+                            <span class="checkmark"></span>
+                            فیلتر بر اساس دیکشنری کوچک
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeNotInDictionary300000" checked>
+                            <span class="checkmark"></span>
+                            فیلتر بر اساس دیکشنری بزرگ
+                        </label>
+                        <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeSimilarToPersianWords" checked>
+                            <span class="checkmark"></span>
+                            حذف کلمات مشترک با فارسی
+                        </label>
+						<label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeNotStemmer" >
+                            <span class="checkmark"></span>
+                            ریشه یابی ظاهری کلمات
+                        </label>
+						<label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeCEFR_A1" checked>
+                            <span class="checkmark"></span>
+                            حذف کلمات سطح A1
+                        </label>
+ 						<label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeCEFR_A2" >
+                            <span class="checkmark"></span>
+                            حذف کلمات سطح A2
+                        </label>
+						<label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeCEFR_B1" >
+                            <span class="checkmark"></span>
+                            حذف کلمات سطح B1
+                        </label>
+ 						<label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeCEFR_B2" >
+                            <span class="checkmark"></span>
+                            حذف کلمات سطح B2
+                        </label>
+						<label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeCEFR_C1" >
+                            <span class="checkmark"></span>
+                            حذف کلمات سطح C1
+                        </label>
+                       <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="sortWords" >
+                            <span class="checkmark"></span>
+                            مرتب‌سازی بر اساس فراوانی
+                        </label>
+                        <div class="flex items-center">
+                            <label for="minWordLength" class="ml-2 text-gray-700">حداقل طول کلمه:</label>
+                            <input type="number" id="minWordLength" value="3" min="1" max="10" class="w-16 border rounded-lg p-2 mr-2 text-center">
+                        </div>
+                        <div class="flex items-center">
+                            <label for="minFrequency" class="ml-2 text-gray-700">حداقل تکرار:</label>
+                            <input type="number" id="minFrequency" value="1" min="1" max="100" class="w-16 border rounded-lg p-2 mr-2 text-center">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative mb-6">
+                    <textarea id="inputText" class="w-full p-4 border rounded-xl focus:ring-2 focus:ring-indigo-300 focus:border-indigo-300 shadow-sm" rows="10" placeholder="متن انگلیسی خود را اینجا وارد کنید..."></textarea>
+                    <div class="absolute bottom-3 left-3 bg-indigo-500 text-white px-3 py-1 rounded-lg text-sm" id="wordCount">0 کلمه</div>
+                </div>
+             
+                <div class="flex justify-between items-center mb-6">
+                    <div class="text-sm text-gray-500 hidden md:block">برای بهترین نتایج، متن کامل و معنی‌دار وارد کنید</div>
+                    <button onclick="extractWords()" class="btn btn-primary">
+                        استخراج کلمات
+                        <i class="fas fa-search mr-2"></i>
+                    </button>
+                </div>
+
+                 <div id="progressBarContainer" class="mb-6 hidden">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-sm text-gray-600">پیشرفت پردازش</span>
+                        <span class="text-sm text-gray-600" id="progressText">0%</span>
+                    </div>
+                    <div class="progress-container">
+                        <div id="progressBar" class="progress-bar"></div>
+                    </div>
+                </div>  
+                
+                <div id="loading" class="text-center py-8 hidden">
+                    <div class="inline-flex flex-col items-center">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-500 mb-4"></div>
+                        <div class="text-gray-600">در حال پردازش متن...</div>
+                        <div class="text-sm text-gray-500 mt-1" id="loadingStatus">آماده سازی</div>
+                    </div>
+                </div>
+                
+
+                
+                <div id="output" class="hidden">
+                    <div class="flex flex-wrap justify-between items-center mb-6">
+                        <div class="flex border-b mb-4 md:mb-0">
+                            <button id="listTab" class="tab-button active" onclick="switchTab('list')">
+                                <i class="fas fa-list ml-1"></i> نمایش لیستی
+                            </button>
+                            <button id="cloudTab" class="tab-button" onclick="switchTab('cloud')">
+                                <i class="fas fa-cloud ml-1"></i> نمایش ابری
+                            </button>
+                            <button id="statsTab" class="tab-button" onclick="switchTab('stats')">
+                                <i class="fas fa-chart-bar ml-1"></i> آمار
+                            </button>
+                        </div>
+						<div class="flex border-b mb-4 md:mb-0 gap-2">
+							<button onclick="saveWordList()" class="btn btn-secondary">
+								<i class="fas fa-download ml-2"></i>
+								ذخیره لیست
+							</button>
+							<button onclick="uploadWordList()" class="btn btn-secondary">
+								<i class="fas fa-upload ml-2"></i>
+								ارسال لیست به اپلیکیشن آموزشی 
+							</button>
+                        </div>
+
+                    </div>
+                    
+                    <div id="cloudView" class="tab-content hidden">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700">ابر کلمات</h2>
+                        <div id="wordCloud" class="word-cloud mt-2 p-6 bg-gray-50 rounded-xl text-center min-h-[200px] flex flex-wrap justify-center items-center"></div>
+                    </div>
+                    
+                    <div id="listView" class="tab-content">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700">لیست کلمات به ترتیب فراوانی</h2>
+                        <div class="flex justify-between mb-2 px-4 font-semibold text-gray-600">
+                            <span>کلمه</span>
+                            <span>تعداد</span>
+                        </div>
+                        <div id="wordList" class="border rounded-xl overflow-hidden max-h-80 overflow-y-auto"></div>
+                    </div>
+                    
+                    <div id="statsView" class="tab-content hidden">
+                        <h2 class="text-xl font-semibold mb-4 text-gray-700">آمار متن</h2>
+                        <div id="textStats" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="notification" class="notification">
+        <i class="fas fa-check-circle text-green-500 ml-2" id="notificationIcon"></i>
+        <span id="notificationMessage">عملیات با موفقیت انجام شد</span>
+    </div>
+
+    <!-- Modal جدید برای هدایت به دانلود اپلیکیشن -->
+    <div class="modal-overlay" id="downloadModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3 class="modal-title">آفرین! لیست کلمات شما آپلود شد</h3>
+            </div>
+            
+            <div class="app-preview">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <i class="fas fa-language"></i>
+                        <span>لیست کلمات شما اینجا منتظرتان است</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal-body">
+                <p>لیست کلمات شما با موفقیت آپلود شد! حالا می‌توانید آن‌ها را در اپلیکیشن اندروید ما مشاهده و مدیریت کنید.</p>
+            </div>
+            
+            <div class="modal-footer">
+                <a href="#" class="btn-download" id="downloadAppBtn">
+                    <i class="fas fa-download"></i>
+                    دانلود اپلیکیشن
+                </a>
+                <button class="btn-later" id="closeModalBtn">بعداً دانلود می‌کنم</button>
+            </div>
+        </div>
+    </div>
+<script>
+    // Global variables
+    let processedWords = {};
+    let externalSmallDictionary = new Set();
+    let externalLargeDictionary = new Set();
+    let irregularWords = new Set();
+    let simpleWords = new Set();
+    let persianSimilarWords = new Set();
+    let stopWords = new Set();
+    let CEFR_A1_Words = new Set();
+    let CEFR_A2_Words = new Set();
+    let CEFR_B1_Words = new Set();
+    let CEFR_B2_Words = new Set();
+    let CEFR_C1_Words = new Set();
+    
+    // Paths to external files
+    const LARGE_DICTIONARY_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_alpha.txt";
+    const SMALL_DICTIONARY_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_beta.txt";
+    const STOPWORDS_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_stop.txt";
+    const IRREGULARWORDS_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_irregular.txt";
+    const SIMPLEWORDS_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_simple.txt";
+    const PERSIAN_SIMILAR_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_similar_persian.txt";
+    const CEFR_A1_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_A1.txt";
+    const CEFR_A2_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_A2.txt";
+    const CEFR_B1_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_B1.txt";
+    const CEFR_B2_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_B2.txt";
+    const CEFR_C1_FILE_PATH= "https://raw.githubusercontent.com/MortezaMaghrebi/Datesets-For-Word-Hero-Application/refs/heads/main/words_CEFR_C1.txt";
+    
+    // Helper functions for simulating pass by reference
+    function createRef(initialValue = "") {
+        return { value: initialValue };
+    }
+    
+    // Stemmer functions
+    function isVowel(char) {
+        return ['a', 'e', 'i', 'o', 'u'].includes(char.toLowerCase());
+    }
+
+    function endsWithRef(word, param, bodyRef, last1Ref, last2Ref, last3Ref) {
+        const w = word.length;
+        const p = param.length;
+        
+        if (w > p) {
+            if (word.substring(w - p) === param) {
+                const body = word.substring(0, w - p);
+                const last1 = w - p - 1 >= 0 ? word.substring(w - p - 1, w - p) : "";
+                const last2 = w - p - 2 >= 0 ? word.substring(w - p - 2, w - p - 1) : "";
+                const last3 = w - p - 3 >= 0 ? word.substring(w - p - 3, w - p - 2) : "";
+                
+                // Return values through object references
+                bodyRef.value = body;
+                last1Ref.value = last1;
+                last2Ref.value = last2;
+                last3Ref.value = last3;
+                
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function endsWith(word, param) {
+        const w = word.length;
+        const p = param.length;
+        
+        if (w >= p) {
+            return word.substring(w - p) === param;
+        }
+        return false;
+    }
+
+    function makeSimplestForm(word) {
+        if (!word || word.length < 2) return word;
+        
+        let simplest = "";
+        const bodyRef = createRef();
+        const last1Ref = createRef();
+        const last2Ref = createRef();
+        const last3Ref = createRef();
+        
+        if (endsWithRef(word, "ed", bodyRef, last1Ref, last2Ref, last3Ref)) {
+            if (word.length < 4) simplest = word;
+            else if (last1Ref.value === "e" || last1Ref.value === "o" || last1Ref.value === "y") {
+                simplest = bodyRef.value + "e";
+            }
+            else if (last1Ref.value === "l" && last2Ref.value === "l") {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else if (last1Ref.value === last2Ref.value && !isVowel(last1Ref.value) && isVowel(last3Ref.value)) {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else if (last1Ref.value === "k" && last2Ref.value === "c") {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else simplest = bodyRef.value;
+        }
+        else if (endsWithRef(word, "ing", bodyRef, last1Ref, last2Ref, last3Ref)) {
+            if (word.length < 5) simplest = word;
+            else if (last1Ref.value === "e" && (last2Ref.value === "e" || last2Ref.value === "o" || last2Ref.value === "y")) {
+                simplest = bodyRef.value;
+            }
+            else if (last1Ref.value === "l" && last2Ref.value === "l") {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else if (last1Ref.value === last2Ref.value && !isVowel(last1Ref.value) && isVowel(last3Ref.value)) {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else if (last1Ref.value === "k" && last2Ref.value === "c") {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else simplest = bodyRef.value;
+        }
+        else if (endsWithRef(word, "er", bodyRef, last1Ref, last2Ref, last3Ref)) {
+            if (word.length < 4) simplest = word;
+            else if (last1Ref.value === "k" && last2Ref.value === "c") {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else simplest = bodyRef.value;
+        }
+        else if (endsWithRef(word, "'s", bodyRef, last1Ref, last2Ref, last3Ref)) {
+            if (word.length < 4) simplest = word;
+            else simplest = bodyRef.value;
+        }
+        else if (endsWithRef(word, "es", bodyRef, last1Ref, last2Ref, last3Ref)) {
+            if (word.length < 4) simplest = word;
+            else if ((last1Ref.value === "s" && last2Ref.value === "s")) {
+                simplest = bodyRef.value.substring(0, bodyRef.value.length - 1);
+            }
+            else if ((last1Ref.value === "s" && last2Ref.value === "h") || (last1Ref.value === "c" && last2Ref.value === "h")) {
+                simplest = bodyRef.value;
+            }
+            else if (last1Ref.value === "s" || last1Ref.value === "z" || last1Ref.value === "x") {
+                simplest = bodyRef.value;
+            }
+            else simplest = bodyRef.value;
+        }
+        else if (endsWithRef(word, "ies", bodyRef, last1Ref, last2Ref, last3Ref)) {
+            if (word.length < 5) simplest = word;
+            else simplest = bodyRef.value + "y";
+        }
+        else if (endsWithRef(word, "s", bodyRef, last1Ref, last2Ref, last3Ref)) {
+            simplest = bodyRef.value;
+        }
+        else simplest = word;
+        
+        return simplest.substring(0, 1).toUpperCase() + simplest.substring(1).toLowerCase();
+    }
+
+    function stemmer(word) {
+        return makeSimplestForm(word.toLowerCase()).toLowerCase();
+    }
+
+    // Initialize the app on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        // Load saved text if it exists
+        const savedText = localStorage.getItem('extractorText');
+        if (savedText) {
+            document.getElementById('inputText').value = savedText;
+        }
+ 
+        // Find upload button and add event listner
+        ///const uploadBtn = document.querySelector('button[onclick="uploadWordList()"]');
+        //if (uploadBtn) {
+        //    uploadBtn.addEventListener('click', uploadWordList);
+        //}
+ 
+        // Update word count on input
+        document.getElementById('inputText').addEventListener('input', updateWordCount);
+        updateWordCount();
+        
+        // Set the list tab as active by default
+        switchTab('list');
+
+        // Load dictionary and stop words
+        Promise.all([fetchSmallDictionary(),fetchLargeDictionary(), fetchStopWords(),fetchIrregularWords(),fetchSimpleWords(),fetchCEFR_A1_Words(),fetchCEFR_A2_Words(),fetchCEFR_B1_Words(),fetchCEFR_B2_Words(),fetchCEFR_C1_Words(),fetchPersianSimilarWords()])
+            .then(() => {
+                showNotification('پایگاه داده کلمات با موفقیت بارگذاری شد', 'success');
+            })
+            .catch(err => {
+                console.error("Failed to load resources:", err);
+                showNotification('خطا در بارگذاری منابع سیستم', 'error');
+            });
+    });
+
+    // Fetch dictionary from external source
+    async function fetchLargeDictionary() {
+        try {
+            showNotification('در حال بارگذاری لغت‌نامه بزرگ...', 'info');
+            const response = await fetch(LARGE_DICTIONARY_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            externalLargeDictionary = new Set(words);
+            console.log("✅ Large dictionary loaded:", externalLargeDictionary.size, "words");
+        } catch (err) {
+            console.error("❌ Failed to load large dictionary:", err);
+            showNotification('خطا در بارگذاری لغت‌نامه بزرگ', 'error');
+        }
+    }
+
+	// Fetch dictionary from external source
+    async function fetchSmallDictionary() {
+        try {
+            showNotification('در حال بارگذاری لغت‌نامه کوچک...', 'info');
+            const response = await fetch(SMALL_DICTIONARY_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            externalSmallDictionary = new Set(words);
+            console.log("✅ Small dictionary loaded:", externalSmallDictionary.size, "words");
+        } catch (err) {
+            console.error("❌ Failed to load small dictionary:", err);
+            showNotification('خطا در بارگذاری لغت‌نامه کوچک', 'error');
+        }
+    }
+
+	// Fetch simple words from external source
+    async function fetchSimpleWords() {
+        try {
+            showNotification('در حال بارگذاری کلمات آسان...', 'info');
+            const response = await fetch(SIMPLEWORDS_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            simpleWords = new Set(words);
+            console.log("✅ Simple words loaded:", simpleWords.size, "words");
+        } catch (err) {
+            console.error("❌ Failed to load simple words:", err);
+            showNotification('خطا در بارگذاری کلمات آسان', 'error');
+        }
+    }
+
+	// Fetch persian similar words from external source
+    async function fetchPersianSimilarWords() {
+        try {
+            showNotification('در حال بارکذاری کلمات مشترک با فارسی...', 'info');
+            const response = await fetch(PERSIAN_SIMILAR_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            persianSimilarWords = new Set(words);
+            console.log("✅ Persian similar words loaded:", persianSimilarWords.size, "words");
+        } catch (err) {
+            console.error("❌ Failed to load persian similar words:", err);
+            showNotification('خطا در بارگذاری کلمات مشترک با فارسی', 'error');
+        }
+    }
+
+	
+    // Fetch stop words from external source
+    async function fetchStopWords() {
+        try {
+            showNotification('در حال بارگذاری کلمات توقف...', 'info');
+            const response = await fetch(STOPWORDS_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            stopWords = new Set(words);
+            console.log("✅ Stop words loaded:", stopWords.size);
+        } catch (err) {
+            console.error("❌ Failed to load stop words:", err);
+            showNotification('خطا در بارگذاری کلمات توقف', 'error');
+        }
+    }
+	
+	
+	
+	// Fetch Irregular verbs from external source
+    async function fetchIrregularWords() {
+        try {
+            showNotification('در حال بارگیری افعال بی قاعده...', 'info');
+            const response = await fetch(IRREGULARWORDS_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            irregularWords = new Set(words);
+            console.log("✅ Irregular verbs loaded:", irregularWords.size);
+        } catch (err) {
+            console.error("❌ Failed to load irregular verbs:", err);
+            showNotification('خطا در بارگزاری افعال بی قاعده', 'error');
+        }
+    }
+	
+	// Fetch CEFR A1 words from external source
+    async function fetchCEFR_A1_Words() {
+        try {
+            showNotification('در حال بارگیری لغات سطح A1...', 'info');
+            const response = await fetch(CEFR_A1_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            CEFR_A1_Words = new Set(words);
+            console.log("✅ CEFR A1 words loaded:", CEFR_A1_Words.size);
+        } catch (err) {
+            console.error("❌ Failed to load CEFR A1 words:", err);
+            showNotification('خطا در بارگذاری لغات سطح A1', 'error');
+        }
+    }
+
+	// Fetch CEFR A2 words from external source
+    async function fetchCEFR_A2_Words() {
+        try {
+            showNotification('در حال بارگیری لغات سطح A2...', 'info');
+            const response = await fetch(CEFR_A2_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            CEFR_A2_Words = new Set(words);
+            console.log("✅ CEFR A2 words loaded:", CEFR_A2_Words.size);
+        } catch (err) {
+            console.error("❌ Failed to load CEFR A2 words:", err);
+            showNotification('خطا در بارگذاری لغات سطح A2', 'error');
+        }
+    }
+	
+	// Fetch CEFR B1 words from external source
+    async function fetchCEFR_B1_Words() {
+        try {
+            showNotification('در حال بارگیری لغات سطح B1...', 'info');
+            const response = await fetch(CEFR_B1_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            CEFR_B1_Words = new Set(words);
+            console.log("✅ CEFR B1 words loaded:", CEFR_B1_Words.size);
+        } catch (err) {
+            console.error("❌ Failed to load CEFR B1 words:", err);
+            showNotification('خطا در بارگذاری لغات سطح B1', 'error');
+        }
+    }
+	
+	// Fetch CEFR B2 words from external source
+    async function fetchCEFR_B2_Words() {
+        try {
+            showNotification('در حال بارگیری لغات سطح B2...', 'info');
+            const response = await fetch(CEFR_B2_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            CEFR_B2_Words = new Set(words);
+            console.log("✅ CEFR B2 words loaded:", CEFR_B2_Words.size);
+        } catch (err) {
+            console.error("❌ Failed to load CEFR B2 words:", err);
+            showNotification('خطا در بارگذاری لغات سطح B2', 'error');
+        }
+    }
+	
+	// Fetch CEFR C1 words from external source
+    async function fetchCEFR_C1_Words() {
+        try {
+            showNotification('در حال بارگیری لغات سطح C1...', 'info');
+            const response = await fetch(CEFR_C1_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            CEFR_C1_Words = new Set(words);
+            console.log("✅ CEFR C1 words loaded:", CEFR_C1_Words.size);
+        } catch (err) {
+            console.error("❌ Failed to load CEFR C1 words:", err);
+            showNotification('خطا در بارگذاری لغات سطح C1', 'error');
+        }
+    }
+	
+	
+	// Show notification
+	function showNotification(message, type = 'info', link = null) {
+		const notification = document.getElementById('notification');
+		const icon = document.getElementById('notificationIcon');
+		const messageEl = document.getElementById('notificationMessage');
+	
+		// Set icon based on type
+		if (type === 'success') {
+			icon.className = 'fas fa-check-circle text-green-500 ml-2';
+		} else if (type === 'error') {
+			icon.className = 'fas fa-exclamation-circle text-red-500 ml-2';
+		} else {
+			icon.className = 'fas fa-info-circle text-blue-500 ml-2';
+		}
+	
+		// Set message (with link styling if provided)
+		if(link) {
+			messageEl.innerHTML = `<span style="text-decoration:underline; cursor:pointer;">${message}</span>`;
+			notification.onclick = () => window.open(link, "_blank");
+		} else {
+			messageEl.textContent = message;
+			notification.onclick = null;
+		}
+	
+		// Show notification
+		notification.className = `notification ${type} show`;
+	
+		// Duration: 10s if link, 3s otherwise
+		const duration = link ? 10000 : 3000;
+	
+		setTimeout(() => {
+			notification.classList.remove('show');
+		}, duration);
+	}
+
+    // Updates the word count displayed below the textarea
+    function updateWordCount() {
+        const text = document.getElementById('inputText').value;
+        const wordCount = text.trim() ? text.split(/\s+/).length : 0;
+        document.getElementById('wordCount').textContent = `${wordCount} کلمه`;
+    }
+
+    // Toggles the visibility of advanced options
+    function toggleAdvanced() {
+        const options = document.getElementById('advancedOptions');
+        options.classList.toggle('hidden');
+    }
+
+    // Switches between the different output tabs (cloud, list, stats)
+    function switchTab(tabName) {
+        document.querySelectorAll('.tab-content').forEach(tab => {
+            tab.classList.add('hidden');
+        });
+        
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.classList.remove('active');
+        });
+        
+        document.getElementById(tabName + 'View').classList.remove('hidden');
+        document.getElementById(tabName + 'Tab').classList.add('active');
+    }
+    
+    // Updates the progress bar UI
+    function updateProgressBar(progress, status = '') {
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const progressContainer = document.getElementById('progressBarContainer');
+        const loadingStatus = document.getElementById('loadingStatus');
+
+        progressBarContainer.classList.remove('hidden');
+        progressBar.style.width = `${progress}%`;
+        progressText.textContent = `${Math.round(progress)}%`;
+        
+        if (status && loadingStatus) {
+            loadingStatus.textContent = status;
+        }
+    }
+
+    // Preprocess text
+    function preprocess(sentence, minWordLength = 3) {
+        return sentence
+            .replace(/\b0\b/g, 'o')      // 0 -> o
+            .replace(/\b1\b/g, 'l')      // 1 -> l
+            .replace(/[^\p{L}\s]/gu, ' ') // فقط حروف و فاصله نگه دار
+            .toLowerCase()                // lowercase
+            .replace(/\s+/g, ' ')         // چند فاصله → یکی
+            .trim()                       // trim
+            .split(' ')
+            .filter(w => w.length >= minWordLength && !/\d/.test(w))
+            .join(' ');
+    }
+
+
+
+    // Split text into chunks for processing
+    function splitTextIntoChunks(text, chunkSize) {
+        const chunks = [];
+        let start = 0;
+        while (start < text.length) {
+            let end = start + chunkSize;
+            if (end >= text.length) {
+                end = text.length;
+            } else {
+                let lastSpace = text.lastIndexOf(' ', end);
+                if (lastSpace > start) {
+                    end = lastSpace;
+                }
+            }
+    
+            chunks.push(text.slice(start, end).trim());
+            start = end + 1;
+        }
+        return chunks;
+    }
+    
+    // Main function to extract and process words from the text
+    async function extractWords() {
+        const inputText = document.getElementById('inputText').value;
+        const wordCloud = document.getElementById('wordCloud');
+        const wordList = document.getElementById('wordList');
+        const outputDiv = document.getElementById('output');
+        const loadingDiv = document.getElementById('loading');
+        const progressBarContainer = document.getElementById('progressBarContainer');
+        
+        // Clear previous results and show loading states
+        wordCloud.innerHTML = '';
+        wordList.innerHTML = '';
+        outputDiv.classList.add('hidden');
+        loadingDiv.style.display = 'flex';
+        processedWords = {}; // Reset word frequency counter
+
+        if (!inputText.trim()) {
+            loadingDiv.style.display = 'none';
+            showNotification('لطفا متنی را وارد کنید', 'error');
+            return;
+        }
+
+        localStorage.setItem('extractorText', inputText);
+
+        // Split the text into sentences to process in chunks
+        const sentences = inputText.split(/[.!؟\n]/);
+        const totalSentences = sentences.length;
+        let sentencesProcessed = 0;
+
+        // Get settings from UI
+        const minWordLength = parseInt(document.getElementById('minWordLength').value) || 3;
+		const minFrequency = parseInt(document.getElementById('minFrequency').value) || 1;
+		const filterSmallDictionary = document.getElementById('removeNotInDictionary60000').checked;
+		const filterLargeDictionary = document.getElementById('removeNotInDictionary300000').checked;
+		const filterPersianSimilars = document.getElementById('removeSimilarToPersianWords').checked;
+		const filterSimpleWords =  document.getElementById('removeSimpleWords').checked;
+		const filterIrregularVerbs =  document.getElementById('removeIrregularVerbs').checked;
+		const filterStemmer =  document.getElementById('removeNotStemmer').checked;
+		const filterCEFR_A1 =  document.getElementById('removeCEFR_A1').checked;
+		const filterCEFR_A2 =  document.getElementById('removeCEFR_A2').checked;
+		const filterCEFR_B1 =  document.getElementById('removeCEFR_B1').checked;
+		const filterCEFR_B2 =  document.getElementById('removeCEFR_B2').checked;
+		const filterCEFR_C1 =  document.getElementById('removeCEFR_C1').checked;
+		
+
+        updateProgressBar(0, 'آماده سازی متن...');
+        progressBarContainer.classList.remove('hidden');
+		
+        // Process each sentence
+        for (const sentence of sentences) {
+            if (!sentence.trim()) {
+                sentencesProcessed++;
+                continue;
+            }
+
+            let cleaned = preprocess(sentence, minWordLength);
+            if (!cleaned) {
+                sentencesProcessed++;
+                continue;
+            }
+
+            let doc = nlp(cleaned);
+            
+            // Apply NLP transformations based on settings
+            if (document.getElementById('removePlurals').checked) {
+                doc.nouns().toSingular();
+            }
+            if (document.getElementById('normalizeVerbs').checked) {
+                doc.verbs().toInfinitive();
+            }
+            
+            let terms = doc.terms().out('array');
+            
+            // Remove entities based on settings
+            let removeEntities = [];
+            if (document.getElementById('removePeople').checked) removeEntities.push(...doc.people().out('array'));
+            if (document.getElementById('removePlaces').checked) removeEntities.push(...doc.places().out('array'));
+            if (document.getElementById('removeOrganizations').checked) removeEntities.push(...doc.organizations().out('array'));
+            
+            let finalWords;
+			if (filterStemmer) {
+				finalWords = terms.map(w => stemmer(w))
+								.filter(w => !removeEntities.includes(w));
+			} else {
+				finalWords = terms.filter(w => !removeEntities.includes(w));
+			}
+            
+            // Count words
+            for (const w of finalWords) {
+                processedWords[w] = (processedWords[w] || 0) + 1;
+            }
+            
+            sentencesProcessed++;
+            const progress = (sentencesProcessed / totalSentences) * 100;
+            updateProgressBar(progress, `پردازش جمله ${sentencesProcessed} از ${totalSentences}`);
+
+            // Pause to allow UI updates and prevent freezing
+            await new Promise(resolve => setTimeout(resolve, 10));
+        }
+        
+        
+        // Final processing after all sentences are done
+        const filteredWordFreq = Object.fromEntries(
+            Object.entries(processedWords).filter(([word, freq]) =>
+                (freq >= minFrequency) && 
+                (!filterLargeDictionary || externalLargeDictionary.has(word.toLowerCase())) && 
+				(!filterSmallDictionary || externalSmallDictionary.has(word.toLowerCase())) && 
+				(!filterIrregularVerbs || !irregularWords.has(word.toLowerCase())) && 
+				(!filterSimpleWords || !simpleWords.has(word.toLowerCase())) && 
+				(!filterPersianSimilars || !persianSimilarWords.has(word.toLowerCase())) && 
+				(!filterCEFR_A1 || !CEFR_A1_Words.has(word.toLowerCase())) && 
+				(!filterCEFR_A2 || !CEFR_A2_Words.has(word.toLowerCase())) && 
+				(!filterCEFR_B1 || !CEFR_B1_Words.has(word.toLowerCase())) && 
+				(!filterCEFR_B2 || !CEFR_B2_Words.has(word.toLowerCase())) && 
+				(!filterCEFR_C1 || !CEFR_C1_Words.has(word.toLowerCase())) && 
+                (!stopWords.has(word.toLowerCase()))
+            )
+        );
+
+        // Check if sorting is enabled
+        const shouldSort = document.getElementById('sortWords').checked;
+        
+        let sortedWords;
+        if (shouldSort) {
+            // Sort by frequency (descending)
+            sortedWords = Object.entries(filteredWordFreq)
+                .sort((a, b) => b[1] - a[1]);
+        } else {
+            // Keep original order (as they appear in text)
+            sortedWords = Object.entries(filteredWordFreq);
+        }
+
+        // Display the final results
+        displayResults(sortedWords, inputText, Object.values(processedWords));
+
+        loadingDiv.style.display = 'none';
+        progressBarContainer.classList.add('hidden');
+        outputDiv.classList.remove('hidden');
+        outputDiv.classList.add('fade-in');
+
+        if (sortedWords.length === 0) {
+            wordCloud.innerHTML = '<p class="text-gray-500 text-center py-10">هیچ کلمه معنی‌داری یافت نشد. لطفا تنظیمات را تغییر دهید.</p>';
+            wordList.innerHTML = '<p class="text-gray-500 text-center py-10">هیچ کلمه معنی‌داری یافت نشد. لطفا تنظیمات را تغییر دهید.</p>';
+            showNotification('هیچ کلمه معنی‌داری یافت نشد. لطفا تنظیمات را تغییر دهید.', 'info');
+        } else {
+            showNotification(`استخراج ${sortedWords.length} کلمه معنی‌دار با موفقیت انجام شد`, 'success');
+        }
+    }
+    
+    // Displays the final results in the word cloud, list, and stats tabs
+    function displayResults(sortedWords, inputText, words) {
+        const wordCloud = document.getElementById('wordCloud');
+        const wordList = document.getElementById('wordList');
+        const shouldSort = document.getElementById('sortWords').checked;
+
+        // Update list title based on sorting preference
+        const listTitle = document.querySelector('#listView h2');
+        listTitle.textContent = shouldSort 
+            ? 'لیست کلمات به ترتیب فراوانی' 
+            : 'لیست کلمات به ترتیب ظاهر شدن در متن';
+
+        wordCloud.innerHTML = '';
+        wordList.innerHTML = '';
+
+        // Create word cloud
+        if (sortedWords.length > 0) {
+            sortedWords.forEach(([word, freq]) => {
+                const span = document.createElement('span');
+                span.className = 'tooltip';
+                span.innerHTML = `${word}`;
+                span.title = `تعداد: ${freq}`;
+                span.style.fontSize = `${Math.min(16 + freq * 2, 28)}px`;
+                span.style.opacity = `${Math.min(0.4 + freq / sortedWords[0][1], 1)}`;
+                wordCloud.appendChild(span);
+            });
+        } else {
+            wordCloud.innerHTML = '<p class="text-gray-500">هیچ کلمه معنی‌داری یافت نشد</p>';
+        }
+
+        // Create word list
+        if (sortedWords.length > 0) {
+            sortedWords.forEach(([word, freq]) => {
+                const div = document.createElement('div');
+                div.className = 'word-item';
+                div.innerHTML = `
+                    <span class="font-medium">${word}</span>
+                    <span class="bg-indigo-100 text-indigo-800 rounded-full px-3 py-1 text-sm font-bold">${freq}</span>
+                `;
+                wordList.appendChild(div);
+            });
+        } else {
+            wordList.innerHTML = '<p class="text-gray-500 text-center py-10">هیچ کلمه معنی‌داری یافت نشد</p>';
+        }
+
+        displayStatistics(inputText, words, sortedWords);
+    }
+
+    // Displays text statistics in the stats tab
+    function displayStatistics(text, words, sortedWords) {
+        const statsDiv = document.getElementById('textStats');
+        statsDiv.innerHTML = '';
+        
+        const totalWords = text.split(/\s+/).length;
+        const uniqueWords = sortedWords.length;
+        const meaningfulWords = words.length;
+        
+        // Find most frequent word only if sorting is enabled
+        let mostFrequent = 'یافت نشد';
+        if (document.getElementById('sortWords').checked && sortedWords.length) {
+            mostFrequent = `${sortedWords[0][0]} (${sortedWords[0][1]} بار)`;
+        }
+        
+        const stats = [
+            { title: 'تعداد کل کلمات', value: totalWords, icon: 'fas fa-font', color: 'text-indigo-500' },
+            { title: 'تعداد کلمات معنی‌دار', value: meaningfulWords, icon: 'fas fa-star', color: 'text-amber-500' },
+            { title: 'تعداد کلمات منحصر به فرد', value: uniqueWords, icon: 'fas fa-key', color: 'text-green-500' },
+            { title: 'پرتکرارترین کلمه', value: mostFrequent, icon: 'fas fa-crown', color: 'text-purple-500' },
+            { title: 'تنوع واژگان', value: (meaningfulWords > 0) ? `${((uniqueWords / meaningfulWords) * 100).toFixed(1)}%` : '0%', icon: 'fas fa-chart-pie', color: 'text-blue-500' },
+            { title: 'میانگین فراوانی کلمات', value: (uniqueWords > 0) ? (meaningfulWords / uniqueWords).toFixed(1) : '0', icon: 'fas fa-calculator', color: 'text-red-500' }
+        ];
+        
+        stats.forEach(stat => {
+            const div = document.createElement('div');
+            div.className = 'stat-card';
+            div.innerHTML = `
+                <div class="flex items-center mb-3">
+                    <i class="${stat.icon} ${stat.color} text-xl ml-3"></i>
+                    <div class="text-gray-700 font-medium">${stat.title}</div>
+                </div>
+                <div class="text-2xl font-bold text-gray-800">${stat.value}</div>
+            `;
+            statsDiv.appendChild(div);
+        });
+    }
+
+    // Clears the text area and results
+    function clearText() {
+        if (confirm('آیا از پاک کردن متن اطمینان دارید؟')) {
+            document.getElementById('inputText').value = '';
+            document.getElementById('output').classList.add('hidden');
+            updateWordCount();
+            localStorage.removeItem('extractorText');
+            showNotification('متن با موفقیت پاک شد', 'success');
+        }
+    }
+
+    // Saves the text from the input to a local file
+    function saveText() {
+        const text = document.getElementById('inputText').value;
+        if (!text.trim()) {
+            showNotification('متنی برای ذخیره کردن وجود ندارد', 'error');
+            return;
+        }
+        
+        const blob = new Blob([text], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'extracted-text.txt';
+        a.click();
+        
+        URL.revokeObjectURL(url);
+    }
+
+    // Loads a text file from the user's computer
+    function loadText() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.txt,.text';
+        
+        input.onchange = function(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('inputText').value = e.target.result;
+                updateWordCount();
+            };
+            reader.readAsText(file);
+        };
+        
+        input.click();
+    }
+
+	async function createOrUpdateFile(dataset_name, dataset_words) {
+		const OWNER = "MortezaMaghrebi";
+		const REPO = "User_Datasets_For_WordHero_Application";
+		const TOKEN = "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"; // محدود به همین ریپو
+		
+		// بررسی وجود فایل
+		let sha = null;
+		const getRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${dataset_name}`, {
+			headers: {
+			"Authorization": `token ${TOKEN}`,
+			"Accept": "application/vnd.github+json"
+			}
+		});
+		
+		if (getRes.status === 200) {
+			const existingFile = await getRes.json();
+			sha = existingFile.sha;
+		}
+		
+		// ایجاد یا آپدیت فایل
+		const putRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${dataset_name}`, {
+			method: "PUT",
+			headers: {
+			"Authorization": `token ${TOKEN}`,
+			"Accept": "application/vnd.github+json"
+			},
+			body: JSON.stringify({
+			message: sha ? `Update ${dataset_name}` : `Add ${dataset_name}`,
+			content: btoa(dataset_words), // تبدیل متن به Base64
+			sha: sha
+			})
+		});
+
+		const data = await putRes.json();
+		console.log("GitHub Response:", data);
+		return data;
+	}
+    // Saves the word list to a local file
+    function saveWordList() {
+        const wordListItems = document.querySelectorAll('#wordList > div');
+        if (wordListItems.length === 0) {
+             window.alert('لیست کلمات خالی است. لطفا ابتدا متن را استخراج کنید.');
+             return;
+        }
+        
+        let content = '';
+        wordListItems.forEach(item => {
+            const wordText = item.querySelector('span').textContent;
+            const parts = wordText.split(' (');
+            const word = parts[0];
+            const count = item.querySelector('.bg-indigo-100').textContent;
+            
+            content += `${word}\n`;
+        });
+        
+		// از کاربر نام فایل را بپرس
+		let filename ="word-list.txt";
+		
+		// ذخیره محلی
+		const blob = new Blob([content], { type: 'text/plain' });
+		const url = URL.createObjectURL(blob);
+		const a = document.createElement('a');
+		a.href = url;
+		a.download = filename;
+		a.click();
+		URL.revokeObjectURL(url);
+	}
+	
+	async function uploadWordList() {
+		const wordListItems = document.querySelectorAll('#wordList > div');
+		if (wordListItems.length === 0) {
+			showNotification('لیست کلمات خالی است. لطفا ابتدا متن را استخراج کنید.', 'error');
+			return;
+		}
+	
+		let content = '';
+		wordListItems.forEach(item => {
+			const wordText = item.querySelector('span').textContent;
+			const parts = wordText.split(' (');
+			const word = parts[0];
+			content += `${word}\n`;
+		});
+	
+		// گرفتن نام فایل از کاربر و چک کردن خالی نبودن
+		let filename = "";
+		while (!filename || filename.trim() === "") {
+			filename = window.prompt("لطفا یک نام مناسب برای لیست لغات خود انتخاب کنید (اسم کتاب باشد):");
+			if (filename === null) return; // کاربر لغو کرد
+		}
+	
+		filename = filename.trim();
+	
+		// اضافه کردن پسوند .txt اگر کاربر نذاشته
+		if (!filename.toLowerCase().endsWith(".txt")) {
+			filename += ".txt";
+		}
+	
+		// لینک فایل روی GitHub
+		const githubUrl = `https://github.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/blob/main/${encodeURIComponent(filename)}`;
+	
+        showNotification('در حال آپلود لیست کلمات...', 'info');
+		// ارسال به GitHub
+		createOrUpdateFile(filename, content)
+			.then(() => {
+				setTimeout(() => {
+					// پس از موفقیت‌آمیز بودن آپلود
+					showNotification('فایل با موفقیت به GitHub ارسال شد! برای مشاهده کلیک کنید.', 'success', githubUrl);
+					// نمایش modal دانلود اپلیکیشن پس از 1 ثانیه
+					setTimeout(showDownloadModal, 1000);
+				}, 2000);
+				// نمایش نوتیفیکیشن لینک‌دار
+			})
+			.catch(err => showNotification("خطا در ارسال فایل به GitHub: " + err, 'error'));
+	}
+	
+	// تابع نمایش modal دانلود
+    function showDownloadModal() {
+        const modal = document.getElementById('downloadModal');
+        modal.classList.add('active');
+        
+        // اضافه کردن event listener برای دکمه‌ها
+        document.getElementById('downloadAppBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            // در اینجا می‌توانید کاربر را به صفحه دانلود هدایت کنید
+            // برای نمونه، یک لینک فرضی گذاشته شده
+            window.location.href = 'https://github.com/MortezaMaghrebi/Word-Hero/raw/refs/heads/main/WordHero/app/release/app-release.apk';
+            
+            // افکت کلیک روی دکمه
+            this.style.transform = 'scale(0.98)';
+            setTimeout(() => {
+                this.style.transform = '';
+            }, 200);
+        });
+        
+        document.getElementById('closeModalBtn').addEventListener('click', function() {
+            closeDownloadModal();
+        });
+        
+        // بستن modal با کلیک خارج از آن
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeDownloadModal();
+            }
+        });
+    }
+    
+    // تابع بستن modal
+    function closeDownloadModal() {
+        const modal = document.getElementById('downloadModal');
+        modal.classList.remove('active');
+    }
+
+</script>
+</body>
+</html>
