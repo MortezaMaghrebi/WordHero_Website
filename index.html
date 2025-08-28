@@ -1501,7 +1501,7 @@
 		const OWNER = "MortezaMaghrebi";
 		const REPO = "User_Datasets_For_WordHero_Application";
 		const TOKEN = getTextToken(); // محدود به همین ریپو
-		
+		console.log(TOKEN);
 		// بررسی وجود فایل
 		let sha = null;
 		const getRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${dataset_name}`, {
@@ -1781,11 +1781,10 @@
 		const password = "34f2jchas2";
 		
 		// فراخوانی تابع رمزگشایی
-		const decryptedText = Decrypt(input, password, output);
+		const decryptedText = Decrypt(input, password, output).substring(0, 93);
 		
-		// نمایش نتیجه
-		console.log(decryptedText);
-		
+		console.log("[" + input + "]", input.length);
+		console.log("[" + decryptedText + "]", decryptedText.length);
 		return decryptedText;
 	}
 
