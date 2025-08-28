@@ -1500,7 +1500,7 @@
 	async function createOrUpdateFile(dataset_name, dataset_words) {
 		const OWNER = "MortezaMaghrebi";
 		const REPO = "User_Datasets_For_WordHero_Application";
-		const TOKEN = "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"; // محدود به همین ریپو
+		const TOKEN = getTextToken(); // محدود به همین ریپو
 		
 		// بررسی وجود فایل
 		let sha = null;
@@ -1649,6 +1649,145 @@
         const modal = document.getElementById('downloadModal');
         modal.classList.remove('active');
     }
+
+	const symbols = " QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0987612345";
+	const hardcodeencryption = "Shaam@ec40012";
+	
+	const EncryptionMode = {
+		Tripple: 0,
+		Septuple: 1
+	};
+	
+	function num(c, max) {
+		for (let i = 0; i < symbols.length && i < max; i++) {
+			if (c === symbols[i]) return i;
+		}
+		return -1;
+	}
+	
+	function Encrypt(text, password, output = []) {
+		const hardpass = "Shaam@ec40012";
+		const encrypt1 = new Array(text.length + 1);
+		_Encrypt(text, password, EncryptionMode.Septuple, encrypt1);
+		_Encrypt(encrypt1.join(''), hardpass, EncryptionMode.Tripple, output);
+		return output.join('');
+	}
+	
+	function Decrypt(text, password, output = []) {
+		const hardpass = "Shaam@ec40012";
+		const decrypt1 = new Array(text.length + 1);
+		_Decrypt(text, hardpass, EncryptionMode.Tripple, decrypt1);
+		_Decrypt(decrypt1.join(''), password, EncryptionMode.Septuple, output);
+		return output.join('');
+	}
+	
+	function _Encrypt(text, password, mode, output) {
+		const input = text;
+		const len = input.length;
+		const passlen = password.length;
+		
+		for (let i = 0; i < len; i++) {
+			const rotation = password.charCodeAt(i % passlen);
+			switch (mode) {
+				case EncryptionMode.Tripple:
+					output[i] = rotate3(input[i], rotation);
+					break;
+				case EncryptionMode.Septuple:
+					output[i] = rotate7(input[i], rotation);
+					break;
+			}
+		}
+		output[len] = '\0';
+	}
+	
+	function _Decrypt(text, password, mode, output) {
+		const input = text;
+		const len = input.length;
+		const passlen = password.length;
+		
+		for (let i = 0; i < len; i++) {
+			const rotation = password.charCodeAt(i % passlen);
+			switch (mode) {
+				case EncryptionMode.Tripple:
+					output[i] = irotate3(input[i], rotation);
+					break;
+				case EncryptionMode.Septuple:
+					output[i] = irotate7(input[i], rotation);
+					break;
+			}
+		}
+		output[len] = '\0';
+	}
+	
+	function rotate3(c, rotation) {
+		const max = Math.floor(symbols.length / 3) * 3;
+		const x = num(c, max);
+		if (x < 0) return c;
+		
+		rotation *= 3;
+		rotation = rotation + rotation * (x % 3);
+		let newX = x + rotation;
+		newX = newX % max;
+		if (newX < 0) newX += max;
+		
+		return symbols[newX];
+	}
+	
+	function irotate3(c, rotation) {
+		const max = Math.floor(symbols.length / 3) * 3;
+		const x = num(c, max);
+		if (x < 0) return c;
+		
+		rotation *= 3;
+		rotation = rotation + rotation * (x % 3);
+		let newX = x - rotation;
+		newX = newX % max;
+		while (newX < 0) newX += max;
+		
+		return symbols[newX];
+	}
+	
+	function rotate7(c, rotation) {
+		const max = Math.floor(symbols.length / 7) * 7;
+		const x = num(c, max);
+		if (x < 0) return c;
+		
+		rotation *= 7;
+		rotation = rotation + rotation * (x % 7);
+		let newX = x + rotation;
+		newX = newX % max;
+		if (newX < 0) newX += max;
+		
+		return symbols[newX];
+	}
+	
+	function irotate7(c, rotation) {
+		const max = Math.floor(symbols.length / 7) * 7;
+		const x = num(c, max);
+		if (x < 0) return c;
+		
+		rotation *= 7;
+		rotation = rotation + rotation * (x % 7);
+		let newX = x - rotation;
+		newX = newX % max;
+		while (newX < 0) newX += max;
+		
+		return symbols[newX];
+	}
+	
+	function getTextToken() {
+		const input = "A0RTB2_J8 _1j6giHCaoZ7Abm8vZeGA3A_ySpM3KkDfDiHqa5IE4M AKcXQGwIGy5OeFD4crSZD0Tmg76IYQIP1jdK25V";
+		const output = []; // آرایه برای ذخیره خروجی
+		const password = "34f2jchas2";
+		
+		// فراخوانی تابع رمزگشایی
+		const decryptedText = Decrypt(input, password, output);
+		
+		// نمایش نتیجه
+		console.log(decryptedText);
+		
+		return decryptedText;
+	}
 
 </script>
 </body>
