@@ -540,7 +540,7 @@
                             فیلتر بر اساس دیکشنری کوچک
                         </label>
                         <label class="custom-checkbox flex items-center">
-                            <input type="checkbox" id="removeNotInDictionary300000" checked>
+                            <input type="checkbox" id="removeNotInDictionary300000">
                             <span class="checkmark"></span>
                             فیلتر بر اساس دیکشنری بزرگ
                         </label>
@@ -884,14 +884,24 @@
         showNotification('در حال بارگذاری پایگاه داده کلمات', 'info');
 
         // Load dictionary and stop words
-        Promise.all([fetchSmallDictionary(),fetchLargeDictionary(), fetchStopWords(),fetchIrregularWords(),fetchSimpleWords(),fetchCEFR_A1_Words(),fetchCEFR_A2_Words(),fetchCEFR_B1_Words(),fetchCEFR_B2_Words(),fetchCEFR_C1_Words(),fetchPersianSimilarWords()])
-            .then(() => {
-                showNotification('پایگاه داده کلمات با موفقیت بارگذاری شد', 'success');
-            })
-            .catch(err => {
-                console.error("Failed to load resources:", err);
-                showNotification('خطا در بارگذاری منابع سیستم', 'error');
-            });
+        // بارگذاری سریع دیتای ضروری
+		Promise.all([fetchSmallDictionary(), fetchStopWords()])
+		.then(() => {
+			showNotification('کلمات پایه بارگذاری شد', 'success');
+			// بقیه منابع رو بعداً لود کن
+			setTimeout(() => {
+				Promise.all([fetchLargeDictionary(), fetchIrregularWords(), fetchSimpleWords(), fetchCEFR_A1_Words(), fetchCEFR_A2_Words(), fetchCEFR_B1_Words(), fetchCEFR_B2_Words(), fetchCEFR_C1_Words(), fetchPersianSimilarWords()])
+				.then(() => {
+					showNotification('پایگاه داده کامل بارگذاری شد', 'success');
+				})
+				.catch(err => {
+					console.error("خطا در بارگذاری منابع سیستم: ", err);
+				});
+			}, 500); // نیم ثانیه بعد
+		}).catch(err => {
+					console.error("خطا در بارگذاری منابع سیستم: ", err);
+		});
+
     });
 	
     // Fetch dictionary from external source
