@@ -1,0 +1,11 @@
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\bin\Debug\DictionaryCreator.exe.config
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\bin\Debug\DictionaryCreator.exe
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\bin\Debug\DictionaryCreator.pdb
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csproj.AssemblyReference.cache
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csproj.SuggestedBindingRedirects.cache
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.Form1.resources
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.Properties.Resources.resources
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csproj.GenerateResource.cache
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csproj.CoreCompileInputs.cache
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.exe
+D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.pdb
