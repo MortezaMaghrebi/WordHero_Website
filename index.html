@@ -540,6 +540,11 @@
                             فیلتر بر اساس دیکشنری کوچک
                         </label>
                         <label class="custom-checkbox flex items-center">
+                            <input type="checkbox" id="removeNotInMyDictionary" checked>
+                            <span class="checkmark"></span>
+                            موجود در دیکشنری سایت
+                        </label>
+                        <label class="custom-checkbox flex items-center">
                             <input type="checkbox" id="removeNotInDictionary300000">
                             <span class="checkmark"></span>
                             فیلتر بر اساس دیکشنری بزرگ
@@ -728,6 +733,8 @@
     let CEFR_B1_Words = new Set();
     let CEFR_B2_Words = new Set();
     let CEFR_C1_Words = new Set();
+    let my_dictionary_lines = new Set();
+    let my_dictionary_words = new Set();
     
     // Paths to external files
 	const LARGE_DICTIONARY_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_alpha.txt";
@@ -741,6 +748,7 @@
 	const CEFR_B1_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_CEFR_B1.txt";
 	const CEFR_B2_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_CEFR_B2.txt";
 	const CEFR_C1_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_CEFR_C1.txt";
+	const MY_DICTIONARY_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/my_dictionary.txt";
     
     // Helper functions for simulating pass by reference
     function createRef(initialValue = "") {
@@ -890,7 +898,7 @@
 			showNotification('کلمات پایه بارگذاری شد', 'success');
 			// بقیه منابع رو بعداً لود کن
 			setTimeout(() => {
-				Promise.all([fetchLargeDictionary(), fetchIrregularWords(), fetchSimpleWords(), fetchCEFR_A1_Words(), fetchCEFR_A2_Words(), fetchCEFR_B1_Words(), fetchCEFR_B2_Words(), fetchCEFR_C1_Words(), fetchPersianSimilarWords()])
+				Promise.all([fetchLargeDictionary(), fetchIrregularWords(), fetchSimpleWords(), fetchCEFR_A1_Words(), fetchCEFR_A2_Words(), fetchCEFR_B1_Words(), fetchCEFR_B2_Words(), fetchCEFR_C1_Words(), fetchPersianSimilarWords(),fetchMy_Dictionary_Words()])
 				.then(() => {
 					showNotification('پایگاه داده کامل بارگذاری شد', 'success');
 				})
@@ -1105,6 +1113,25 @@
         }
     }
 	
+	// Fetch My_Dictionary words from external source
+    async function fetchMy_Dictionary_Words() {
+        try {
+            showNotification('در حال بارگیری دیکشنری...', 'info');
+            const response = await fetch(MY_DICTIONARY_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const lines = text.split(/\r?\n/).map(w => w.trim()).filter(Boolean);
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase().split("#")[0]).filter(Boolean);
+			 
+            my_dictionary_lines = new Set(lines);
+            my_dictionary_words = new Set(words);
+            console.log("✅ My dictionary file loaded:", my_dictionary_lines.size);
+        } catch (err) {
+            console.error("❌ Failed to load dictionary:", err);
+            showNotification('خطا در بارگذاری دیکشنری', 'error');
+        }
+    }
 	
 	// Show notification
 	function showNotification(message, type = 'info', link = null) {
@@ -1255,6 +1282,7 @@
 		const minFrequency = parseInt(document.getElementById('minFrequency').value) || 1;
 		const filterSmallDictionary = document.getElementById('removeNotInDictionary60000').checked;
 		const filterLargeDictionary = document.getElementById('removeNotInDictionary300000').checked;
+		const filterMyDictionary = document.getElementById('removeNotInMyDictionary').checked;
 		const filterPersianSimilars = document.getElementById('removeSimilarToPersianWords').checked;
 		const filterSimpleWords =  document.getElementById('removeSimpleWords').checked;
 		const filterIrregularVerbs =  document.getElementById('removeIrregularVerbs').checked;
@@ -1328,6 +1356,7 @@
                 (freq >= minFrequency) && 
                 (!filterLargeDictionary || externalLargeDictionary.has(word.toLowerCase())) && 
 				(!filterSmallDictionary || externalSmallDictionary.has(word.toLowerCase())) && 
+				(!filterMyDictionary || my_dictionary_words.has(word.toLowerCase())) && 
 				(!filterIrregularVerbs || !irregularWords.has(word.toLowerCase())) && 
 				(!filterSimpleWords || !simpleWords.has(word.toLowerCase())) && 
 				(!filterPersianSimilars || !persianSimilarWords.has(word.toLowerCase())) && 
@@ -1510,14 +1539,23 @@
 	async function createOrUpdateFile(dataset_name, dataset_words) {
 		const OWNER = "MortezaMaghrebi";
 		const REPO = "User_Datasets_For_WordHero_Application";
-		const TOKEN = getTextToken(); // محدود به همین ریپو
+		const TOKEN = getTextToken();
 		console.log(TOKEN);
+		
+		// تابع برای کدگذاری UTF-8 به Base64
+		function encodeBase64UTF8(str) {
+			const encoder = new TextEncoder();
+			const data = encoder.encode(str);
+			const base64 = btoa(String.fromCharCode(...data));
+			return base64;
+		}
+		
 		// بررسی وجود فایل
 		let sha = null;
 		const getRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${dataset_name}`, {
 			headers: {
-			"Authorization": `token ${TOKEN}`,
-			"Accept": "application/vnd.github+json"
+				"Authorization": `token ${TOKEN}`,
+				"Accept": "application/vnd.github+json"
 			}
 		});
 		
@@ -1530,16 +1568,16 @@
 		const putRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${dataset_name}`, {
 			method: "PUT",
 			headers: {
-			"Authorization": `token ${TOKEN}`,
-			"Accept": "application/vnd.github+json"
+				"Authorization": `token ${TOKEN}`,
+				"Accept": "application/vnd.github+json"
 			},
 			body: JSON.stringify({
-			message: sha ? `Update ${dataset_name}` : `Add ${dataset_name}`,
-			content: btoa(dataset_words), // تبدیل متن به Base64
-			sha: sha
+				message: sha ? `Update ${dataset_name}` : `Add ${dataset_name}`,
+				content: encodeBase64UTF8(dataset_words), // استفاده از تابع جدید
+				sha: sha
 			})
 		});
-
+	
 		const data = await putRes.json();
 		console.log("GitHub Response:", data);
 		return data;
@@ -1575,6 +1613,7 @@
 		URL.revokeObjectURL(url);
 	}
 	
+
 	async function uploadWordList() {
 		const wordListItems = document.querySelectorAll('#wordList > div');
 		if (wordListItems.length === 0) {
@@ -1583,13 +1622,33 @@
 		}
 	
 		let content = '';
+		let notfounds='';
+		let found=0;
+		let notfound=0;
 		wordListItems.forEach(item => {
 			const wordText = item.querySelector('span').textContent;
 			const parts = wordText.split(' (');
 			const word = parts[0];
-			content += `${word}\n`;
+			
+			if (my_dictionary_words.has(word.toLowerCase())) {
+				// پیدا کردن خط مربوطه در my_dictionary_lines
+				let foundLine = '';
+				for (const line of my_dictionary_lines) {
+					if (line.toLowerCase().startsWith(word.toLowerCase() + '#')) {
+						foundLine = line;
+						break;
+					}
+				}
+				if (foundLine) {
+					content += `${foundLine}\n`;
+					found++;
+				}
+			}else{
+				notfound++;
+				notfounds += `${word}\n`;
+			}	
 		});
-	
+
 		// گرفتن نام فایل از کاربر و چک کردن خالی نبودن
 		let filename = "";
 		while (!filename || filename.trim() === "") {
@@ -1613,7 +1672,7 @@
 			.then(() => {
 				setTimeout(() => {
 					// پس از موفقیت‌آمیز بودن آپلود
-					showNotification('فایل با موفقیت به GitHub ارسال شد! برای مشاهده کلیک کنید.', 'success', githubUrl);
+					showNotification(""+found+" کلمه از "+(notfound+found)+" کلمه آپلود شدند و مابقی در دیکشنری موجود نیست", 'success', githubUrl);
 					// نمایش modal دانلود اپلیکیشن پس از 1 ثانیه
 					setTimeout(showDownloadModal, 1000);
 				}, 2000);
@@ -1621,7 +1680,6 @@
 			})
 			.catch(err => showNotification("خطا در ارسال فایل به GitHub: " + err, 'error'));
 	}
-
 	
 	// تابع نمایش modal دانلود
     function showDownloadModal() {
@@ -1798,6 +1856,76 @@
 		return decryptedText;
 	}
 
+	// تابع اصلی برای باز کردن تب جدید و پرسیدن سوال از DeepSeek
+	function askDeepSeek(question) {
+		// باز کردن تب جدید با آدرس DeepSeek
+		const newTab = window.open('https://chat.deepseek.com/', '_blank');
+		
+		// اگر باز شدن تب مسدود شد
+		if (!newTab) {
+			alert('لطفا مسدود کردن pop-up را غیرفعال کنید');
+			return;
+		}
+		
+		// منتظر می‌مانیم تا صفحه کامل لود شود
+		let attempts = 0;
+		const maxAttempts = 30; // حداکثر 30 تلاش (6 ثانیه)
+		
+		const checkLoaded = setInterval(() => {
+			attempts++;
+			
+			try {
+				// بررسی می‌کنیم که صفحه کامل لود شده باشد
+				if (newTab.document.readyState === 'complete' && 
+					newTab.document.querySelector('textarea')) {
+					
+					clearInterval(checkLoaded);
+					
+					// پیدا کردن فیلد متن برای وارد کردن سوال
+					const textarea = newTab.document.querySelector('textarea');
+					
+					if (textarea) {
+						// قرار دادن سوال در فیلد متن
+						textarea.value = question;
+						
+						// ایجاد event برای شبیه‌سازی تایپ کاربر
+						const inputEvent = new Event('input', { bubbles: true });
+						textarea.dispatchEvent(inputEvent);
+						
+						// پیدا کردن دکمه ارسال
+						const sendButton = newTab.document.querySelector('button[type="submit"]');
+						
+						if (sendButton && !sendButton.disabled) {
+							// کلیک روی دکمه ارسال
+							sendButton.click();
+						} else {
+							// اگر دکمه پیدا نشد، از Enter استفاده می‌کنیم
+							const enterEvent = new KeyboardEvent('keydown', {
+								key: 'Enter',
+								code: 'Enter',
+								keyCode: 13,
+								which: 13,
+								bubbles: true
+							});
+							textarea.dispatchEvent(enterEvent);
+						}
+					}
+				}
+			} catch (error) {
+				// خطاهای cross-origin را مدیریت می‌کنیم
+				if (attempts >= maxAttempts) {
+					clearInterval(checkLoaded);
+					console.log('صفحه در حال لود شدن است...');
+				}
+			}
+			
+			// اگر بیش از حد تلاش کردیم، متوقف می‌شود
+			if (attempts >= maxAttempts) {
+				clearInterval(checkLoaded);
+				console.log('زمان انتظار به پایان رسید');
+			}
+		}, 200); // هر 200 میلی‌ثانیه چک می‌کند
+	}
 </script>
 </body>
 </html>
