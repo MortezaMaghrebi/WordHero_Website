@@ -1507,7 +1507,7 @@
         const sentences = inputText.split(/[.!؟\n]/);
         const totalSentences = sentences.length;
         let sentencesProcessed = 0;
-
+		let totalWords=0;
         // Get settings from UI
         const minWordLength = parseInt(document.getElementById('minWordLength').value) || 3;
 		const minFrequency = parseInt(document.getElementById('minFrequency').value) || 1;
@@ -1570,6 +1570,7 @@
             // Count words
             for (const w of finalWords) {
                 processedWords[w] = (processedWords[w] || 0) + 1;
+				totalWords++;
             }
             
             sentencesProcessed++;
@@ -1580,6 +1581,11 @@
             await new Promise(resolve => setTimeout(resolve, 10));
         }
         
+		const meaningfulWordFreq =Object.entries( Object.fromEntries(
+            Object.entries(processedWords).filter(([word, freq]) =>
+                (externalLargeDictionary.has(word.toLowerCase()))
+            )
+        ));
         
         // Final processing after all sentences are done
         const filteredWordFreq = Object.fromEntries(
@@ -1614,7 +1620,7 @@
         }
 
         // Display the final results
-        displayResults(sortedWords, inputText, Object.values(processedWords));
+        displayResults(sortedWords, totalWords, meaningfulWordFreq.length);
 
         loadingDiv.style.display = 'none';
         progressBarContainer.classList.add('hidden');
@@ -1631,7 +1637,7 @@
     }
     
     // Displays the final results in the word cloud, list, and stats tabs
-    function displayResults(sortedWords, inputText, words) {
+    function displayResults(sortedWords, totalWords, meaningfulWords) {
         const wordCloud = document.getElementById('wordCloud');
         const wordList = document.getElementById('wordList');
         const shouldSort = document.getElementById('sortWords').checked;
@@ -1675,18 +1681,16 @@
             wordList.innerHTML = '<p class="text-gray-500 text-center py-10">هیچ کلمه معنی‌داری یافت نشد</p>';
         }
 
-        displayStatistics(inputText, words, sortedWords);
+        displayStatistics(totalWords, meaningfulWords, sortedWords);
     }
 
     // Displays text statistics in the stats tab
-    function displayStatistics(text, words, sortedWords) {
+    function displayStatistics(totalWords, meaningfulWords, sortedWords) {
         const statsDiv = document.getElementById('textStats');
         statsDiv.innerHTML = '';
         
-        const totalWords = text.split(/\s+/).length;
-        const uniqueWords = sortedWords.length;
-        const meaningfulWords = words.length;
-        
+        const selectedWords = sortedWords.length;
+         
         // Find most frequent word only if sorting is enabled
         let mostFrequent = 'یافت نشد';
         if (document.getElementById('sortWords').checked && sortedWords.length) {
@@ -1696,10 +1700,10 @@
         const stats = [
             { title: 'تعداد کل کلمات', value: totalWords, icon: 'fas fa-font', color: 'text-indigo-500' },
             { title: 'تعداد کلمات معنی‌دار', value: meaningfulWords, icon: 'fas fa-star', color: 'text-amber-500' },
-            { title: 'تعداد کلمات منحصر به فرد', value: uniqueWords, icon: 'fas fa-key', color: 'text-green-500' },
+            { title: 'تعداد کلمات انتخاب شده', value: selectedWords, icon: 'fas fa-key', color: 'text-green-500' },
             { title: 'پرتکرارترین کلمه', value: mostFrequent, icon: 'fas fa-crown', color: 'text-purple-500' },
-            { title: 'تنوع واژگان', value: (meaningfulWords > 0) ? `${((uniqueWords / meaningfulWords) * 100).toFixed(1)}%` : '0%', icon: 'fas fa-chart-pie', color: 'text-blue-500' },
-            { title: 'میانگین فراوانی کلمات', value: (uniqueWords > 0) ? (meaningfulWords / uniqueWords).toFixed(1) : '0', icon: 'fas fa-calculator', color: 'text-red-500' }
+            { title: 'تنوع واژگان', value: (totalWords > 0) ? `${((meaningfulWords / totalWords) * 100).toFixed(1)}%` : '0%', icon: 'fas fa-chart-pie', color: 'text-blue-500' },
+            { title: 'میانگین فراوانی کلمات', value: (meaningfulWords > 0) ? (totalWords / meaningfulWords).toFixed(1) : '0', icon: 'fas fa-calculator', color: 'text-red-500' }
         ];
         
         stats.forEach(stat => {
