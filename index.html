@@ -1175,7 +1175,7 @@
 		notification.className = `notification ${type} show`;
 	
 		// Duration: 10s if link, 3s otherwise
-		const duration = link ? 10000 : 3000;
+		const duration = link ? 10000 : 4000;
 	
 		setTimeout(() => {
 			notification.classList.remove('show');
@@ -1687,6 +1687,8 @@
 			if (groupname === null) return; // کاربر لغو کرد
 		}
 		
+		showNotification("در حال پیدا کردن لغات  شما از دیکشنری، لطفا صبر کنید...", 'info', githubUrl);
+					
 		let content = '';
 		let notfounds='';
 		let found=0;
