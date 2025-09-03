@@ -1672,7 +1672,21 @@
 			showNotification('لیست کلمات خالی است. لطفا ابتدا متن را استخراج کنید.', 'error');
 			return;
 		}
-	
+		
+		
+		
+		let filename = "";
+		while (!filename || filename.trim() === "") {
+			filename = window.prompt("لطفا یک نام مناسب برای لیست لغات خود انتخاب کنید (اسم کتاب باشد با حروف انگلیسی):");
+			if (filename === null) return; // کاربر لغو کرد
+		}
+		
+		let groupname = "";
+		while (!groupname || groupname.trim() === "") {
+			groupname = window.prompt("نام نویسنده یا سری کتاب یا نام خودتان را به انگلیسی وارد کنید");
+			if (groupname === null) return; // کاربر لغو کرد
+		}
+		
 		let content = '';
 		let notfounds='';
 		let found=0;
@@ -1701,14 +1715,10 @@
 			}	
 		});
 
-		// گرفتن نام فایل از کاربر و چک کردن خالی نبودن
-		let filename = "";
-		while (!filename || filename.trim() === "") {
-			filename = window.prompt("لطفا یک نام مناسب برای لیست لغات خود انتخاب کنید (اسم کتاب باشد با حروف انگلیسی):");
-			if (filename === null) return; // کاربر لغو کرد
-		}
+		
 	
 		filename = filename.trim();
+		groupname=groupname.trim();
 		let filename_git=filename;
 		// اضافه کردن پسوند .txt اگر کاربر نذاشته
 		if (!filename.toLowerCase().endsWith(".txt")) {
@@ -1725,7 +1735,7 @@
 				setTimeout(() => {
 					// پس از موفقیت‌آمیز بودن آپلود
 					showNotification(""+found+" کلمه از "+(notfound+found)+" کلمه آپلود شدند و مابقی در دیکشنری موجود نیست", 'success', githubUrl);
-					const newline = `Users/${filename_git}--https://raw.githubusercontent.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/refs/heads/main/UserFiles/${encodeURIComponent(filename)}--`;
+					const newline = `${groupname}/${filename_git}--https://raw.githubusercontent.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/refs/heads/main/UserFiles/${encodeURIComponent(filename)}--`;
 					addLineToGitHubFile(newline)
 						.then(success => {
 							if (success) {
