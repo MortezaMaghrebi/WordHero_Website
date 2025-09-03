@@ -1657,14 +1657,14 @@
 		}
 	
 		filename = filename.trim();
-	
+		let filename_git=filename;
 		// اضافه کردن پسوند .txt اگر کاربر نذاشته
 		if (!filename.toLowerCase().endsWith(".txt")) {
 			filename += ".txt";
 		}
 	
 		// لینک فایل روی GitHub
-		const githubUrl = `https://github.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/blob/main/${encodeURIComponent(filename)}`;
+		const githubUrl = `https://github.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/blob/main/User%20Files/${encodeURIComponent(filename)}`;
 	
         showNotification('در حال آپلود لیست کلمات...', 'info');
 		// ارسال به GitHub
@@ -1673,14 +1673,146 @@
 				setTimeout(() => {
 					// پس از موفقیت‌آمیز بودن آپلود
 					showNotification(""+found+" کلمه از "+(notfound+found)+" کلمه آپلود شدند و مابقی در دیکشنری موجود نیست", 'success', githubUrl);
+					const newline = `Users/${filename_git}--https://raw.githubusercontent.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/refs/heads/main/User%20Files/${encodeURIComponent(filename)}--`;
+					addLineToGitHubFile(newline)
+						.then(success => {
+							if (success) {
+								console.log('عملیات موفقیت‌آمیز بود');
+								setTimeout(showDownloadModal, 1000);
+							} else {
+								console.log('عملیات ناموفق بود');
+							}
+						});
+					appendLineToGitHubFile();
 					// نمایش modal دانلود اپلیکیشن پس از 1 ثانیه
-					setTimeout(showDownloadModal, 1000);
+					
 				}, 2000);
 				// نمایش نوتیفیکیشن لینک‌دار
 			})
 			.catch(err => showNotification("خطا در ارسال فایل به GitHub: " + err, 'error'));
 	}
 	
+	async function addLineToGitHubFile(newLine) {
+		const owner = 'MortezaMaghrebi';
+		const repo = 'User_Datasets_For_WordHero_Application';
+		const path = 'Datasets.txt';
+		const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+		const token = getTextToken();
+		
+		try {
+			// 1. دریافت اطلاعات فعلی فایل
+			const response = await fetch(apiUrl, {
+				headers: {
+					'Authorization': `token ${token}`,
+					'Accept': 'application/vnd.github.v3+json'
+				}
+			});
+			
+			if (!response.ok) {
+				throw new Error(`خطا در دریافت فایل: ${response.status}`);
+			}
+			
+			const fileData = await response.json();
+			const currentContent = atob(fileData.content.replace(/\n/g, ''));
+			
+			// 2. اضافه کردن خط جدید
+			const newContent = currentContent + '\n' + newLine;
+			const encodedContent = btoa(newContent);
+			
+			// 3. آپدیت فایل
+			const updateResponse = await fetch(apiUrl, {
+				method: 'PUT',
+				headers: {
+					'Authorization': `token ${token}`,
+					'Accept': 'application/vnd.github.v3+json',
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					message: `افزودن خط جدید: ${newLine}`,
+					content: encodedContent,
+					sha: fileData.sha
+				})
+			});
+			
+			if (!updateResponse.ok) {
+				throw new Error(`خطا در آپدیت فایل: ${updateResponse.status}`);
+			}
+			
+			console.log('خط با موفقیت اضافه شد');
+			return true;
+			
+		} catch (error) {
+			console.error('خطا:', error);
+			return false;
+		}
+	}
+
+
+	async function appendLineToGitHubFile( newLine) {
+		const repoOwner = "MortezaMaghrebi"; // نام کاربری گیت‌هاب
+		const repoName = "User_Datasets_For_WordHero_Application"; // نام ریپو
+		const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/Datasets.txt`;
+	
+		try {
+			// گرفتن محتوای فعلی فایل
+			let response = await fetch(apiUrl, {
+				headers: {
+					Authorization: `token ${GITHUB_TOKEN}`
+				}
+			});
+	
+			if (!response.ok) {
+				// اگر فایل وجود نداشت (404)، فایل جدید ساخته می‌شود
+				if (response.status === 404) {
+					const content = btoa(newLine + "\n");
+					await fetch(apiUrl, {
+						method: "PUT",
+						headers: {
+							Authorization: `token ${GITHUB_TOKEN}`,
+							"Content-Type": "application/json",
+						},
+						body: JSON.stringify({
+							message: "ایجاد فایل جدید و افزودن خط",
+							content: content
+						}),
+					});
+					showNotification("فایل جدید ساخته شد و خط اضافه شد.", "success");
+					return;
+				} else {
+					throw new Error("خطا در دریافت فایل: " + response.statusText);
+				}
+			}
+	
+			const data = await response.json();
+	
+			// محتوای قبلی فایل
+			const content = atob(data.content.replace(/\n/g, ""));
+	
+			// اضافه کردن خط جدید
+			const updatedContent = content + "\n" + newLine;
+	
+			// آپلود نسخه جدید فایل
+			await fetch(apiUrl, {
+				method: "PUT",
+				headers: {
+					Authorization: `token ${GITHUB_TOKEN}`,
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify({
+					message: "افزودن یک خط جدید به فایل",
+					content: btoa(updatedContent),
+					sha: data.sha
+				}),
+			});
+	
+			const githubUrl = `https://github.com/${repoOwner}/${repoName}/blob/main/Datasets.txt`;
+			showNotification("یک خط جدید با موفقیت به فایل اضافه شد.", "success", githubUrl);
+			
+		} catch (err) {
+			showNotification("خطا در آپلود: " + err.message, "error");
+		}
+	}
+
 	// تابع نمایش modal دانلود
     function showDownloadModal() {
         const modal = document.getElementById('downloadModal');
