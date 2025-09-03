@@ -707,7 +707,7 @@
             </div>
             
             <div class="modal-body">
-                <p>لیست کلمات شما با موفقیت آپلود شد! حالا می‌توانید آن‌ها را در اپلیکیشن اندروید ما مشاهده و مدیریت کنید.</p>
+                <p>لیست کلمات شما با موفقیت آپلود شد! حالا می‌توانید آن‌ها را در اپلیکیشن اندروید ما مشاهده کنید و با روش گیمیفیکیشن و تصویری آموزش ببینید.</p>
             </div>
             
             <div class="modal-footer">
@@ -1555,86 +1555,7 @@
         input.click();
     }
 
-	async function createOrUpdateFile(dataset_name, dataset_words) {
-		const OWNER = "MortezaMaghrebi";
-		const REPO = "User_Datasets_For_WordHero_Application";
-		const TOKEN = getTextToken(); // فرض می‌کنیم این تابع توکن را برمی‌گرداند
-		const FOLDER_PATH = "UserFiles/"; // مسیر فولدر
-		
-		// نام فایل کامل با مسیر
-		const fullPath = `${FOLDER_PATH}${dataset_name}`;
-		
-		console.log("Using token:", TOKEN);
-		
-		// تابع برای کدگذاری UTF-8 به Base64 (بهتر شده)
-		function encodeBase64UTF8(str) {
-			if (typeof str !== 'string') {
-				str = String(str);
-			}
-			try {
-				// روش بهتر برای کدگذاری UTF-8
-				return btoa(unescape(encodeURIComponent(str)));
-			} catch (e) {
-				// روش fallback
-				const encoder = new TextEncoder();
-				const data = encoder.encode(str);
-				return btoa(String.fromCharCode(...data));
-			}
-		}
-		
-		try {
-			// بررسی وجود فایل
-			let sha = null;
-			const getRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${fullPath}`, {
-				headers: {
-					"Authorization": `token ${TOKEN}`,
-					"Accept": "application/vnd.github.v3+json",
-					"X-GitHub-Api-Version": "2022-11-28"
-				}
-			});
-			
-			if (getRes.status === 200) {
-				const existingFile = await getRes.json();
-				sha = existingFile.sha;
-				console.log("File exists, will update:", existingFile.path);
-			} else if (getRes.status === 404) {
-				console.log("File does not exist, will create new file");
-			} else {
-				throw new Error(`Failed to check file existence: ${getRes.status} ${getRes.statusText}`);
-			}
-			
-			// ایجاد یا آپدیت فایل
-			const putRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${fullPath}`, {
-				method: "PUT",
-				headers: {
-					"Authorization": `token ${TOKEN}`,
-					"Accept": "application/vnd.github.v3+json",
-					"Content-Type": "application/json",
-					"X-GitHub-Api-Version": "2022-11-28"
-				},
-				body: JSON.stringify({
-					message: sha ? `Update ${dataset_name}` : `Add ${dataset_name}`,
-					content: encodeBase64UTF8(dataset_words),
-					sha: sha
-				})
-			});
-			
-			if (!putRes.ok) {
-				const errorData = await putRes.json();
-				console.error("GitHub API Error:", errorData);
-				throw new Error(`Failed to create/update file: ${putRes.status} ${putRes.statusText}`);
-			}
-			
-			const data = await putRes.json();
-			console.log("GitHub Response Success:", data);
-			return data;
-			
-		} catch (error) {
-			console.error("Error in createOrUpdateFile:", error);
-			throw error;
-		}
-	}
-
+	
     function saveWordList() {
         const wordListItems = document.querySelectorAll('#wordList > div');
         if (wordListItems.length === 0) {
@@ -1666,154 +1587,266 @@
 	}
 	
 
-	async function uploadWordList() {
-		const wordListItems = document.querySelectorAll('#wordList > div');
-		if (wordListItems.length === 0) {
-			showNotification('لیست کلمات خالی است. لطفا ابتدا متن را استخراج کنید.', 'error');
-			return;
-		}
-		
-		
-		
-		let filename = "";
-		while (!filename || filename.trim() === "") {
-			filename = window.prompt("لطفا یک نام مناسب برای لیست لغات خود انتخاب کنید (اسم کتاب باشد با حروف انگلیسی):");
-			if (filename === null) return; // کاربر لغو کرد
-		}
-		
-		let groupname = "";
-		while (!groupname || groupname.trim() === "") {
-			groupname = window.prompt("نام نویسنده یا سری کتاب یا نام خودتان را به انگلیسی وارد کنید");
-			if (groupname === null) return; // کاربر لغو کرد
-		}
-		
-		showNotification("در حال پیدا کردن لغات  شما از دیکشنری، لطفا صبر کنید...", 'info', githubUrl);
-					
-		let content = '';
-		let notfounds='';
-		let found=0;
-		let notfound=0;
-		wordListItems.forEach(item => {
-			const wordText = item.querySelector('span').textContent;
-			const parts = wordText.split(' (');
-			const word = parts[0];
-			
-			if (my_dictionary_words.has(word.toLowerCase())) {
-				// پیدا کردن خط مربوطه در my_dictionary_lines
-				let foundLine = '';
-				for (const line of my_dictionary_lines) {
-					if (line.toLowerCase().startsWith(word.toLowerCase() + '#')) {
-						foundLine = line;
-						break;
-					}
-				}
-				if (foundLine) {
-					content += `${foundLine}\n`;
-					found++;
-				}
-			}else{
-				notfound++;
-				notfounds += `${word}\n`;
-			}	
-		});
 
-		
-	
-		filename = filename.trim();
-		groupname=groupname.trim();
-		let filename_git=filename;
-		// اضافه کردن پسوند .txt اگر کاربر نذاشته
-		if (!filename.toLowerCase().endsWith(".txt")) {
-			filename += ".txt";
-		}
-	
-		// لینک فایل روی GitHub
-		const githubUrl = `https://github.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/blob/main/UserFiles/${encodeURIComponent(filename)}`;
-	
+async function uploadWordList() {
+    const wordListItems = document.querySelectorAll('#wordList > div');
+    if (wordListItems.length === 0) {
+        showNotification('لیست کلمات خالی است. لطفا ابتدا متن را استخراج کنید.', 'error');
+        return;
+    }
+    
+    let filename = "";
+    while (!filename || filename.trim() === "") {
+        filename = window.prompt("لطفا یک نام مناسب برای لیست لغات خود انتخاب کنید (اسم کتاب باشد با حروف انگلیسی):");
+        if (filename === null) return; // کاربر لغو کرد
+    }
+    
+    let groupname = "";
+    while (!groupname || groupname.trim() === "") {
+        groupname = window.prompt("نام نویسنده یا سری کتاب یا نام خودتان را به انگلیسی وارد کنید");
+        if (groupname === null) return; // کاربر لغو کرد
+    }
+    
+    showNotification("در حال پیدا کردن لغات شما از دیکشنری، لطفا صبر کنید...", 'info');
+    
+    // ایجاد یک دکمه توقف برای کاربر
+    const stopButton = document.createElement('button');
+    stopButton.textContent = 'توقف عملیات';
+    stopButton.style.position = 'fixed';
+    stopButton.style.top = '10px';
+    stopButton.style.right = '10px';
+    stopButton.style.zIndex = '1000';
+    stopButton.style.padding = '10px 15px';
+    stopButton.style.backgroundColor = '#ff4757';
+    stopButton.style.color = 'white';
+    stopButton.style.border = 'none';
+    stopButton.style.borderRadius = '5px';
+    stopButton.style.cursor = 'pointer';
+    document.body.appendChild(stopButton);
+    
+    let content = '';
+    let notfounds = '';
+    let found = 0;
+    let notfound = 0;
+    let isCancelled = false;
+    
+    // اضافه کردن event listener برای دکمه توقف
+    stopButton.addEventListener('click', () => {
+        isCancelled = true;
+        showNotification('عملیات متوقف شد', 'info');
+        document.body.removeChild(stopButton);
+    });
+    
+    try {
+        // پردازش کلمات به صورت غیرهمزمان با وقفه‌های زمانی
+        for (let i = 0; i < wordListItems.length; i++) {
+            if (isCancelled) break;
+            
+            const item = wordListItems[i];
+            const wordText = item.querySelector('span').textContent;
+            const parts = wordText.split(' (');
+            const word = parts[0];
+            
+            if (my_dictionary_words.has(word.toLowerCase())) {
+                // پیدا کردن خط مربوطه در my_dictionary_lines
+                let foundLine = '';
+                for (const line of my_dictionary_lines) {
+                    if (line.toLowerCase().startsWith(word.toLowerCase() + '#')) {
+                        foundLine = line;
+                        break;
+                    }
+                }
+                if (foundLine) {
+                    content += `${foundLine}\n`;
+                    found++;
+                }
+            } else {
+                notfound++;
+                notfounds += `${word}\n`;
+            }
+            
+            // وقفه هر 50 آیتم برای جلوگیری از مسدود شدن رابط کاربری
+            if (i % 50 === 0) {
+                await new Promise(resolve => setTimeout(resolve, 0));
+                showNotification(`در حال پردازش... ${i + 1} از ${wordListItems.length} کلمات پردازش شد`, 'info');
+            }
+        }
+        
+        // حذف دکمه توقف
+        document.body.removeChild(stopButton);
+        
+        if (isCancelled) return;
+        
+        filename = filename.trim();
+        groupname = groupname.trim();
+        let filename_git = filename;
+        
+        // اضافه کردن پسوند .txt اگر کاربر نذاشته
+        if (!filename.toLowerCase().endsWith(".txt")) {
+            filename += ".txt";
+        }
+        
+        // لینک فایل روی GitHub
+        const githubUrl = `https://github.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/blob/main/UserFiles/${encodeURIComponent(filename)}`;
+        
         showNotification('در حال آپلود لیست کلمات...', 'info');
-		// ارسال به GitHub
-		createOrUpdateFile(filename, content)
-			.then(() => {
-				setTimeout(() => {
-					// پس از موفقیت‌آمیز بودن آپلود
-					showNotification(""+found+" کلمه از "+(notfound+found)+" کلمه آپلود شدند و مابقی در دیکشنری موجود نیست", 'success', githubUrl);
-					const newline = `${groupname}/${filename_git}--https://raw.githubusercontent.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/refs/heads/main/UserFiles/${encodeURIComponent(filename)}--`;
-					addLineToGitHubFile(newline)
-						.then(success => {
-							if (success) {
-								console.log('عملیات موفقیت‌آمیز بود');
-								setTimeout(showDownloadModal, 1000);
-							} else {
-								console.log('عملیات ناموفق بود');
-							}
-						});
-					// نمایش modal دانلود اپلیکیشن پس از 1 ثانیه
-					
-				}, 2000);
-				// نمایش نوتیفیکیشن لینک‌دار
-			})
-			.catch(err =>{
-					showNotification("خطا در ارسال فایل به GitHub: " + err, 'error');
-					console.log("ERROR: "+"Error sending fine to GitHub: " + err);
-				}
-			);
-	}
-	
-	async function addLineToGitHubFile(newLine) {
-		const owner = 'MortezaMaghrebi';
-		const repo = 'User_Datasets_For_WordHero_Application';
-		const path = 'Datasets.txt';
-		const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
-		const token = getTextToken();
-		
-		try {
-			// 1. دریافت اطلاعات فعلی فایل
-			const response = await fetch(apiUrl, {
-				headers: {
-					'Authorization': `token ${token}`,
-					'Accept': 'application/vnd.github.v3+json'
-				}
-			});
-			
-			if (!response.ok) {
-				throw new Error(`خطا در دریافت فایل: ${response.status}`);
-			}
-			
-			const fileData = await response.json();
-			const currentContent = atob(fileData.content.replace(/\n/g, ''));
-			
-			// 2. اضافه کردن خط جدید
-			const newContent = currentContent + '\n' + newLine;
-			const encodedContent = btoa(newContent);
-			
-			// 3. آپدیت فایل
-			const updateResponse = await fetch(apiUrl, {
-				method: 'PUT',
-				headers: {
-					'Authorization': `token ${token}`,
-					'Accept': 'application/vnd.github.v3+json',
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify({
-					message: `افزودن خط جدید: ${newLine}`,
-					content: encodedContent,
-					sha: fileData.sha
-				})
-			});
-			
-			if (!updateResponse.ok) {
-				throw new Error(`خطا در آپدیت فایل: ${updateResponse.status}`);
-			}
-			
-			console.log('خط با موفقیت اضافه شد');
-			return true;
-			
-		} catch (error) {
-			console.error('خطا:', error);
-			return false;
-		}
-	}
+        
+        // ارسال به GitHub
+        await createOrUpdateFile(filename, content);
+        
+        // پس از موفقیت‌آمیز بودن آپلود
+        showNotification(`${found} کلمه از ${notfound + found} کلمه آپلود شدند و مابقی در دیکشنری موجود نیست`, 'success', githubUrl);
+        
+        const newline = `${groupname}/${filename_git}--https://raw.githubusercontent.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/refs/heads/main/UserFiles/${encodeURIComponent(filename)}--`;
+        const success = await addLineToGitHubFile(newline);
+        
+        if (success) {
+            console.log('عملیات موفقیت‌آمیز بود');
+            setTimeout(showDownloadModal, 1000);
+        } else {
+            console.log('عملیات ناموفق بود');
+        }
+    } catch (err) {
+        document.body.removeChild(stopButton);
+        showNotification("خطا در ارسال فایل به GitHub: " + err, 'error');
+        console.log("ERROR: " + "Error sending file to GitHub: " + err);
+    }
+}
 
+async function createOrUpdateFile(dataset_name, dataset_words) {
+    const OWNER = "MortezaMaghrebi";
+    const REPO = "User_Datasets_For_WordHero_Application";
+    const TOKEN = getTextToken(); // فرض می‌کنیم این تابع توکن را برمی‌گرداند
+    const FOLDER_PATH = "UserFiles/"; // مسیر فولدر
+    
+    // نام فایل کامل با مسیر
+    const fullPath = `${FOLDER_PATH}${dataset_name}`;
+    
+    console.log("Using token:", TOKEN);
+    
+    // تابع برای کدگذاری UTF-8 به Base64 (بهتر شده)
+    function encodeBase64UTF8(str) {
+        if (typeof str !== 'string') {
+            str = String(str);
+        }
+        try {
+            // روش بهتر برای کدگذاری UTF-8
+            return btoa(unescape(encodeURIComponent(str)));
+        } catch (e) {
+            // روش fallback
+            const encoder = new TextEncoder();
+            const data = encoder.encode(str);
+            return btoa(String.fromCharCode(...data));
+        }
+    }
+    
+    try {
+        // بررسی وجود فایل
+        let sha = null;
+        const getRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${fullPath}`, {
+            headers: {
+                "Authorization": `token ${TOKEN}`,
+                "Accept": "application/vnd.github.v3+json",
+                "X-GitHub-Api-Version": "2022-11-28"
+            }
+        });
+        
+        if (getRes.status === 200) {
+            const existingFile = await getRes.json();
+            sha = existingFile.sha;
+            console.log("File exists, will update:", existingFile.path);
+        } else if (getRes.status === 404) {
+            console.log("File does not exist, will create new file");
+        } else {
+            throw new Error(`Failed to check file existence: ${getRes.status} ${getRes.statusText}`);
+        }
+        
+        // ایجاد یا آپدیت فایل
+        const putRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${fullPath}`, {
+            method: "PUT",
+            headers: {
+                "Authorization": `token ${TOKEN}`,
+                "Accept": "application/vnd.github.v3+json",
+                "Content-Type": "application/json",
+                "X-GitHub-Api-Version": "2022-11-28"
+            },
+            body: JSON.stringify({
+                message: sha ? `Update ${dataset_name}` : `Add ${dataset_name}`,
+                content: encodeBase64UTF8(dataset_words),
+                sha: sha
+            })
+        });
+        
+        if (!putRes.ok) {
+            const errorData = await putRes.json();
+            console.error("GitHub API Error:", errorData);
+            throw new Error(`Failed to create/update file: ${putRes.status} ${putRes.statusText}`);
+        }
+        
+        const data = await putRes.json();
+        console.log("GitHub Response Success:", data);
+        return data;
+        
+    } catch (error) {
+        console.error("Error in createOrUpdateFile:", error);
+        throw error;
+    }
+}
+
+async function addLineToGitHubFile(newLine) {
+    const owner = 'MortezaMaghrebi';
+    const repo = 'User_Datasets_For_WordHero_Application';
+    const path = 'Datasets.txt';
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+    const token = getTextToken();
+    
+    try {
+        // 1. دریافت اطلاعات فعلی فایل
+        const response = await fetch(apiUrl, {
+            headers: {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json'
+            }
+        });
+        
+        if (!response.ok) {
+            throw new Error(`خطا در دریافت فایل: ${response.status}`);
+        }
+        
+        const fileData = await response.json();
+        const currentContent = atob(fileData.content.replace(/\n/g, ''));
+        
+        // 2. اضافه کردن خط جدید
+        const newContent = currentContent + '\n' + newLine;
+        const encodedContent = btoa(newContent);
+        
+        // 3. آپدیت فایل
+        const updateResponse = await fetch(apiUrl, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: `افزودن خط جدید: ${newLine}`,
+                content: encodedContent,
+                sha: fileData.sha
+            })
+        });
+        
+        if (!updateResponse.ok) {
+            throw new Error(`خطا در آپدیت فایل: ${updateResponse.status}`);
+        }
+        
+        console.log('خط با موفقیت اضافه شد');
+        return true;
+        
+    } catch (error) {
+        console.error('خطا:', error);
+        return false;
+    }
+}
 
 	
 	// تابع نمایش modal دانلود
