@@ -912,6 +912,8 @@
 
     });
 	
+	let numfetch=0;
+	
     // Fetch dictionary from external source
     async function fetchLargeDictionary() {
         try {
@@ -924,6 +926,7 @@
     
             externalLargeDictionary = new Set(words);
             console.log("✅ Large dictionary loaded:", externalLargeDictionary.size, "words");
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load large dictionary:", err);
             showNotification('خطا در بارگذاری لغت‌نامه بزرگ', 'error');
@@ -942,6 +945,7 @@
     
             externalSmallDictionary = new Set(words);
             console.log("✅ Small dictionary loaded:", externalSmallDictionary.size, "words");
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load small dictionary:", err);
             showNotification('خطا در بارگذاری لغت‌نامه کوچک', 'error');
@@ -960,6 +964,7 @@
     
             simpleWords = new Set(words);
             console.log("✅ Simple words loaded:", simpleWords.size, "words");
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load simple words:", err);
             showNotification('خطا در بارگذاری کلمات آسان', 'error');
@@ -978,6 +983,7 @@
     
             persianSimilarWords = new Set(words);
             console.log("✅ Persian similar words loaded:", persianSimilarWords.size, "words");
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load persian similar words:", err);
             showNotification('خطا در بارگذاری کلمات مشترک با فارسی', 'error');
@@ -997,6 +1003,7 @@
     
             stopWords = new Set(words);
             console.log("✅ Stop words loaded:", stopWords.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load stop words:", err);
             showNotification('خطا در بارگذاری کلمات توقف', 'error');
@@ -1017,6 +1024,7 @@
     
             irregularWords = new Set(words);
             console.log("✅ Irregular verbs loaded:", irregularWords.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load irregular verbs:", err);
             showNotification('خطا در بارگزاری افعال بی قاعده', 'error');
@@ -1035,6 +1043,7 @@
     
             CEFR_A1_Words = new Set(words);
             console.log("✅ CEFR A1 words loaded:", CEFR_A1_Words.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load CEFR A1 words:", err);
             showNotification('خطا در بارگذاری لغات سطح A1', 'error');
@@ -1053,6 +1062,7 @@
     
             CEFR_A2_Words = new Set(words);
             console.log("✅ CEFR A2 words loaded:", CEFR_A2_Words.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load CEFR A2 words:", err);
             showNotification('خطا در بارگذاری لغات سطح A2', 'error');
@@ -1071,6 +1081,7 @@
     
             CEFR_B1_Words = new Set(words);
             console.log("✅ CEFR B1 words loaded:", CEFR_B1_Words.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load CEFR B1 words:", err);
             showNotification('خطا در بارگذاری لغات سطح B1', 'error');
@@ -1089,6 +1100,7 @@
     
             CEFR_B2_Words = new Set(words);
             console.log("✅ CEFR B2 words loaded:", CEFR_B2_Words.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load CEFR B2 words:", err);
             showNotification('خطا در بارگذاری لغات سطح B2', 'error');
@@ -1107,6 +1119,7 @@
     
             CEFR_C1_Words = new Set(words);
             console.log("✅ CEFR C1 words loaded:", CEFR_C1_Words.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load CEFR C1 words:", err);
             showNotification('خطا در بارگذاری لغات سطح C1', 'error');
@@ -1127,6 +1140,7 @@
             my_dictionary_lines = new Set(lines);
             my_dictionary_words = new Set(words);
             console.log("✅ My dictionary file loaded:", my_dictionary_lines.size);
+			numfetch++;
         } catch (err) {
             console.error("❌ Failed to load dictionary:", err);
             showNotification('خطا در بارگذاری دیکشنری', 'error');
@@ -1250,6 +1264,11 @@
     
     // Main function to extract and process words from the text
     async function extractWords() {
+		if(numfetch<12)
+		{
+			showNotification(`پایگاه های داده کلمات هنوز بارگذاری نشده اند، صبر کنید یا صفحه را رفرش کنید`, 'info');
+			return;
+		}
         const inputText = document.getElementById('inputText').value;
         const wordCloud = document.getElementById('wordCloud');
         const wordList = document.getElementById('wordList');
@@ -1539,50 +1558,83 @@
 	async function createOrUpdateFile(dataset_name, dataset_words) {
 		const OWNER = "MortezaMaghrebi";
 		const REPO = "User_Datasets_For_WordHero_Application";
-		const TOKEN = getTextToken();
-		console.log(TOKEN);
+		const TOKEN = getTextToken(); // فرض می‌کنیم این تابع توکن را برمی‌گرداند
+		const FOLDER_PATH = "UserFiles/"; // مسیر فولدر
 		
-		// تابع برای کدگذاری UTF-8 به Base64
+		// نام فایل کامل با مسیر
+		const fullPath = `${FOLDER_PATH}${dataset_name}`;
+		
+		console.log("Using token:", TOKEN);
+		
+		// تابع برای کدگذاری UTF-8 به Base64 (بهتر شده)
 		function encodeBase64UTF8(str) {
-			const encoder = new TextEncoder();
-			const data = encoder.encode(str);
-			const base64 = btoa(String.fromCharCode(...data));
-			return base64;
-		}
-		
-		// بررسی وجود فایل
-		let sha = null;
-		const getRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${dataset_name}`, {
-			headers: {
-				"Authorization": `token ${TOKEN}`,
-				"Accept": "application/vnd.github+json"
+			if (typeof str !== 'string') {
+				str = String(str);
 			}
-		});
-		
-		if (getRes.status === 200) {
-			const existingFile = await getRes.json();
-			sha = existingFile.sha;
+			try {
+				// روش بهتر برای کدگذاری UTF-8
+				return btoa(unescape(encodeURIComponent(str)));
+			} catch (e) {
+				// روش fallback
+				const encoder = new TextEncoder();
+				const data = encoder.encode(str);
+				return btoa(String.fromCharCode(...data));
+			}
 		}
 		
-		// ایجاد یا آپدیت فایل
-		const putRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${dataset_name}`, {
-			method: "PUT",
-			headers: {
-				"Authorization": `token ${TOKEN}`,
-				"Accept": "application/vnd.github+json"
-			},
-			body: JSON.stringify({
-				message: sha ? `Update ${dataset_name}` : `Add ${dataset_name}`,
-				content: encodeBase64UTF8(dataset_words), // استفاده از تابع جدید
-				sha: sha
-			})
-		});
-	
-		const data = await putRes.json();
-		console.log("GitHub Response:", data);
-		return data;
+		try {
+			// بررسی وجود فایل
+			let sha = null;
+			const getRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${fullPath}`, {
+				headers: {
+					"Authorization": `token ${TOKEN}`,
+					"Accept": "application/vnd.github.v3+json",
+					"X-GitHub-Api-Version": "2022-11-28"
+				}
+			});
+			
+			if (getRes.status === 200) {
+				const existingFile = await getRes.json();
+				sha = existingFile.sha;
+				console.log("File exists, will update:", existingFile.path);
+			} else if (getRes.status === 404) {
+				console.log("File does not exist, will create new file");
+			} else {
+				throw new Error(`Failed to check file existence: ${getRes.status} ${getRes.statusText}`);
+			}
+			
+			// ایجاد یا آپدیت فایل
+			const putRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${fullPath}`, {
+				method: "PUT",
+				headers: {
+					"Authorization": `token ${TOKEN}`,
+					"Accept": "application/vnd.github.v3+json",
+					"Content-Type": "application/json",
+					"X-GitHub-Api-Version": "2022-11-28"
+				},
+				body: JSON.stringify({
+					message: sha ? `Update ${dataset_name}` : `Add ${dataset_name}`,
+					content: encodeBase64UTF8(dataset_words),
+					sha: sha
+				})
+			});
+			
+			if (!putRes.ok) {
+				const errorData = await putRes.json();
+				console.error("GitHub API Error:", errorData);
+				throw new Error(`Failed to create/update file: ${putRes.status} ${putRes.statusText}`);
+			}
+			
+			const data = await putRes.json();
+			console.log("GitHub Response Success:", data);
+			return data;
+			
+		} catch (error) {
+			console.error("Error in createOrUpdateFile:", error);
+			throw error;
+		}
 	}
-    // Saves the word list to a local file
+
     function saveWordList() {
         const wordListItems = document.querySelectorAll('#wordList > div');
         if (wordListItems.length === 0) {
@@ -1689,7 +1741,11 @@
 				}, 2000);
 				// نمایش نوتیفیکیشن لینک‌دار
 			})
-			.catch(err => showNotification("خطا در ارسال فایل به GitHub: " + err, 'error'));
+			.catch(err =>{
+					showNotification("خطا در ارسال فایل به GitHub: " + err, 'error');
+					console.log("ERROR: "+"Error sending fine to GitHub: " + err);
+				}
+			);
 	}
 	
 	async function addLineToGitHubFile(newLine) {
