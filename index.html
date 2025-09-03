@@ -1664,7 +1664,7 @@
 		}
 	
 		// لینک فایل روی GitHub
-		const githubUrl = `https://github.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/blob/main/User%20Files/${encodeURIComponent(filename)}`;
+		const githubUrl = `https://github.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/blob/main/UserFiles/${encodeURIComponent(filename)}`;
 	
         showNotification('در حال آپلود لیست کلمات...', 'info');
 		// ارسال به GitHub
@@ -1673,7 +1673,7 @@
 				setTimeout(() => {
 					// پس از موفقیت‌آمیز بودن آپلود
 					showNotification(""+found+" کلمه از "+(notfound+found)+" کلمه آپلود شدند و مابقی در دیکشنری موجود نیست", 'success', githubUrl);
-					const newline = `Users/${filename_git}--https://raw.githubusercontent.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/refs/heads/main/User%20Files/${encodeURIComponent(filename)}--`;
+					const newline = `Users/${filename_git}--https://raw.githubusercontent.com/MortezaMaghrebi/User_Datasets_For_WordHero_Application/refs/heads/main/UserFiles/${encodeURIComponent(filename)}--`;
 					addLineToGitHubFile(newline)
 						.then(success => {
 							if (success) {
