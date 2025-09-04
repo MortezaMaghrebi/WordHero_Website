@@ -1630,7 +1630,7 @@
                 (freq >= minFrequency) && 
                 (!filterLargeDictionary || externalLargeDictionary.has(word.toLowerCase())) && 
 				(!filterSmallDictionary || externalSmallDictionary.has(word.toLowerCase())) && 
-				(!filterMyDictionary || my_dictionary_words.has(word.toLowerCase())) && 
+				(!filterMyDictionary || (dictionary_loaded===0) || my_dictionary_words.has(word.toLowerCase())) && 
 				(!filterIrregularVerbs || !irregularWords.has(word.toLowerCase())) && 
 				(!filterSimpleWords || !simpleWords.has(word.toLowerCase())) && 
 				(!filterPersianSimilars || !persianSimilarWords.has(word.toLowerCase())) && 
@@ -1696,8 +1696,8 @@
                 span.className = 'tooltip';
                 span.innerHTML = `${word}`;
                 span.title = `تعداد: ${freq}`;
-                span.style.fontSize = `${Math.min(16 + freq * 2, 28)}px`;
-                span.style.opacity = `${Math.min(0.4 + freq / sortedWords[0][1], 1)}`;
+                span.style.fontSize = `${Math.min(13 + freq * 3, 40)}px`;
+                span.style.opacity = `${Math.min(0.4 + freq*0.2 / sortedWords[0][1], 1)}`;
                 wordCloud.appendChild(span);
             });
         } else {
