@@ -767,6 +767,11 @@
                                 <span class="checkmark"></span>
                                 حذف کلمات سطح C1
                             </label>
+							<label class="custom-checkbox flex items-center">
+                                <input type="checkbox" id="removeCEFR_C2">
+                                <span class="checkmark"></span>
+                                حذف کلمات سطح C2
+                            </label>
                         </div>
                         
                         <div class="option-group">
@@ -945,6 +950,7 @@
     let CEFR_B1_Words = new Set();
     let CEFR_B2_Words = new Set();
     let CEFR_C1_Words = new Set();
+    let CEFR_C2_Words = new Set();
     let my_dictionary_lines = new Set();
     let my_dictionary_words = new Set();
     
@@ -960,6 +966,7 @@
 	const CEFR_B1_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_CEFR_B1.txt";
 	const CEFR_B2_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_CEFR_B2.txt";
 	const CEFR_C1_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_CEFR_C1.txt";
+	const CEFR_C2_FILE_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/words_CEFR_C2.txt";
 	const MY_DICTIONARY_PATH = "https://raw.githubusercontent.com/MortezaMaghrebi/WordHero_Website/main/word_datasets/my_dictionary.txt";
     
     // Helper functions for simulating pass by reference
@@ -1110,9 +1117,17 @@
 			showNotification('کلمات پایه بارگذاری شد', 'success');
 			// بقیه منابع رو بعداً لود کن
 			setTimeout(() => {
-				Promise.all([fetchLargeDictionary(), fetchIrregularWords(), fetchSimpleWords(), fetchCEFR_A1_Words(), fetchCEFR_A2_Words(), fetchCEFR_B1_Words(), fetchCEFR_B2_Words(), fetchCEFR_C1_Words(), fetchPersianSimilarWords(),fetchMy_Dictionary_Words()])
+				Promise.all([fetchLargeDictionary(), fetchIrregularWords(), fetchSimpleWords(), fetchCEFR_A1_Words(), fetchCEFR_A2_Words(), fetchCEFR_B1_Words(), fetchCEFR_B2_Words(), fetchCEFR_C1_Words(),fetchCEFR_C2_Words(), fetchPersianSimilarWords()])
 				.then(() => {
-					showNotification('پایگاه داده کامل بارگذاری شد', 'success');
+				    setTimeout(() => {
+						Promise.all([fetchMy_Dictionary_Words()])
+						.then(() => {
+							showNotification('پایگاه داده کامل بارگذاری شد', 'success');
+						})
+						.catch(err => {
+							console.error("خطا در بارگذاری دیکشنری", err);
+						});
+					}, 500); // نیم ثانیه بعد
 				})
 				.catch(err => {
 					console.error("خطا در بارگذاری منابع سیستم: ", err);
@@ -1337,7 +1352,27 @@
             showNotification('خطا در بارگذاری لغات سطح C1', 'error');
         }
     }
+
+	// Fetch CEFR C2 words from external source
+    async function fetchCEFR_C2_Words() {
+        try {
+            showNotification('در حال بارگیری لغات سطح C2...', 'info');
+            const response = await fetch(CEFR_C2_FILE_PATH);
+            if (!response.ok) throw new Error("HTTP error " + response.status);
+    
+            const text = await response.text();
+            const words = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(Boolean);
+    
+            CEFR_C2_Words = new Set(words);
+            console.log("✅ CEFR C2 words loaded:", CEFR_C2_Words.size);
+			numfetch++;
+        } catch (err) {
+            console.error("❌ Failed to load CEFR C2 words:", err);
+            showNotification('خطا در بارگذاری لغات سطح C2', 'error');
+        }
+    }
 	
+	let dictionary_loaded=0;
 	// Fetch My_Dictionary words from external source
     async function fetchMy_Dictionary_Words() {
         try {
@@ -1352,8 +1387,9 @@
             my_dictionary_lines = new Set(lines);
             my_dictionary_words = new Set(words);
             console.log("✅ My dictionary file loaded:", my_dictionary_lines.size);
-			numfetch++;
+			dictionary_loaded=1;
         } catch (err) {
+		
             console.error("❌ Failed to load dictionary:", err);
             showNotification('خطا در بارگذاری دیکشنری', 'error');
         }
@@ -1810,6 +1846,21 @@ async function uploadWordList() {
         showNotification('لیست کلمات خالی است. لطفا ابتدا متن را استخراج کنید.', 'error');
         return;
     }
+	
+	if(dictionary_loaded<1)
+	{
+		showNotification(`دیکشنری هنوز بارگذاری نشده است، دوباره بارگذاری می شود چند لحظه بعد تلاش کنید.`, 'info');
+		setTimeout(() => {
+						Promise.all([fetchMy_Dictionary_Words()])
+						.then(() => {
+							showNotification('دیکشنری بارگذاری شد', 'success');
+						})
+						.catch(err => {
+							console.error("خطا در بارگذاری دیکشنری", err);
+						});
+					}, 500); // نیم ثانیه بعد
+		return;
+	}
     
     let filename = "";
     while (!filename || filename.trim() === "") {
