@@ -134,5 +134,71 @@ namespace DictionaryCreator
             {
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] lines = rtxmy_dictionary.Lines;
+            List<string> A1 = new List<string>();
+            List<string> A2 = new List<string>();
+            List<string> B1 = new List<string>();
+            List<string> B2 = new List<string>();
+            List<string> C1 = new List<string>();
+            List<string> C2 = new List<string>();
+
+            for (int i = 0; i < lines.Length; i++)
+            {
+                string[] items = lines[i].Split('#');
+                if (items.Length > 4)
+                {
+                    string word = items[0].ToLower();
+                    string CEFR = items[4].ToUpper();
+                    switch (CEFR)
+                    {
+                        case "A1":
+                            A1.Add(word);
+                            break;
+                        case "A2":
+                            A2.Add(word);
+                            break;
+                        case "B1":
+                            B1.Add(word);
+                            break;
+                        case "B2":
+                            B2.Add(word);
+                            break;
+                        case "C1":
+                            C1.Add(word);
+                            break;
+                        case "C2":
+                            C2.Add(word);
+                            break;
+
+                    }
+                   
+                }
+                progressBar1.Value = i * 100 / lines.Length;
+                if (i % 10 == 0) Application.DoEvents();
+
+            }
+            SaveToFile("A1.txt", A1);
+            SaveToFile("A2.txt", A2);
+            SaveToFile("B1.txt", B1);
+            SaveToFile("B2.txt", B2);
+            SaveToFile("C1.txt", C1);
+            SaveToFile("C2.txt", C2);
+            MessageBox.Show("Saved");
+
+        }
+
+        void SaveToFile(string file,List<string> list)
+        {
+            string str = "";
+            foreach(string s in list)
+            {
+                str += s + "\r\n";
+            }
+            System.IO.File.WriteAllText(file, str);
+        }
+
     }
 }

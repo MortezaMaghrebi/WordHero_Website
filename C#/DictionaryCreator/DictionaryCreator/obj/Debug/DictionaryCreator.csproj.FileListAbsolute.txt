@@ -9,3 +9,13 @@ D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\o
 D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csproj.CoreCompileInputs.cache
 D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.exe
 D:\ALL Projects\Github\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.pdb
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\bin\Debug\DictionaryCreator.exe.config
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\bin\Debug\DictionaryCreator.exe
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\bin\Debug\DictionaryCreator.pdb
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csprojAssemblyReference.cache
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.Form1.resources
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.Properties.Resources.resources
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csproj.GenerateResource.cache
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.csproj.CoreCompileInputs.cache
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.exe
+C:\Users\Morteza\Documents\GitClone\WordHero_Website\C#\DictionaryCreator\DictionaryCreator\obj\Debug\DictionaryCreator.pdb
