@@ -36517,3 +36517,1249 @@ hater#متنفر#He is a hater of all forms of injustice.#detester, despiser#C1#
 hatful#مشت#She made a hatful of money selling her paintings.#a lot, a large amount#C2#ˈhætfʊl#او یک مشت پول از فروش نقاشی‌هایش به دست آورد.
 hatless#بی‌کلاه#He walked in the rain, hatless and cold.#without a hat, bare-headed#C1#ˈhætləs#او در باران راه می‌رفت، بی‌کلاه و سرد.
 hatrack#جا لباسی#He hung his coat on the hatrack by the door.#coat rack, stand#B2#ˈhætræk#او کتش را روی جا لباسی کنار در آویزان کرد.
+favorite#محبوب#Pizza is my favorite food.#beloved#A1#ˈfeɪvərɪt#پیتزا غذای مورد علاقه من است.
+fucking#لعنتي#This is fucking amazing.#damn#C2#ˈfʌkɪŋ#این فوق العاده لعنتی است.
+organize#سازمان دهی#We need to organize the files.#arrange#B1#ˈɔːrɡənaɪz#ما باید پرونده ها را سازماندهی کنیم.
+behavioral#رفتاری#He has behavioral issues at school.#conduct#C1#bɪˈheɪvjərəl#او در مدرسه مشکلات رفتاری دارد.
+asshole#احمق#Don't be such an asshole.#jerk#C2#ˈæshoʊl#اینقدر احمق نباش.
+tumor#تومور#The doctors found a benign tumor.#growth#C1#ˈtuːmər#پزشکان یک تومور خوش خیم پیدا کردند.
+authorize#مجوز دادن#The manager will authorize the payment.#approve#B2#ˈɔːθəraɪz#مدیر پرداخت را مجوز خواهد داد.
+summarize#خلاصه کردن#Can you summarize the article?#sum up#B2#ˈsʌməraɪz#می توانی مقاله را خلاصه کنی؟
+maximize#بیشینه کردن#We need to maximize our profits.#optimize#C1#ˈmæksɪmaɪz#ما باید سود خود را به حداکثر برسانیم.
+neighboring#همسایه#We visited a neighboring town.#adjacent#B2#ˈneɪbərɪŋ#ما از یک شهر همسایه بازدید کردیم.
+endeavor#تلاش#It was a noble endeavor.#effort#C1#ɪnˈdevər#این یک تلاش نجیبانه بود.
+whoo#هو (فریاد)#Whoo! That was exciting!#wow#A2#wuː#وو! این هیجان انگیز بود!
+linebacker#بازیکن خط دفاعی#The linebacker tackled the quarterback.#defender#C2#ˈlaɪnbækər#بازیکن خط دفاعی quarterback را تکل کرد.
+credential#مدرک#She has excellent credentials.#qualification#C1#krəˈdenʃl#او مدارک عالی دارد.
+sperm#اسپرم#Sperm fertilizes the egg.#spermatozoon#C2#spɜːrm#اسپرم تخمک را بارور می کند.
+condo#آپارتمان#They bought a condo downtown.#apartment#B2#ˈkɑːndoʊ#آنها یک آپارتمان در مرکز شهر خریدند.
+yogurt#ماست#I like to eat yogurt with honey.#yoghurt#A1#ˈjoʊɡərt#من دوست دارم ماست با عسل بخورم.
+paralyze#فلج کردن#The accident paralyzed him.#cripple#C1#ˈpærəlaɪz#حادثه او را فلج کرد.
+sideway#کناری#The car slid sideways.#sideways#B1#ˈsaɪdweɪ#ماشین به کنار لغزید.
+temp#دما#The temp reached 30 degrees today.#temperature#B1#temp#دما امروز به 30 درجه رسید.
+visualize#تجسم کردن#Try to visualize your success.#imagine#B2#ˈvɪʒuəlaɪz#سعی کنید موفقیت خود را تجسم کنید.
+veggie#سبزیجات#I'm a veggie; I don't eat meat.#vegetable#A2#ˈvedʒi#من گیاهخوارم؛ گوشت نمی خورم.
+cree#(معمولاً بخشی از اسم خاص)#Cree is a First Nations people.#N/A#C2#kriː#Cree یک ملت بومی اول است.
+methodist#متودیست#She attends a Methodist church.#N/A#C2#ˈmeθədɪst#او در یک کلیسای متودیست شرکت می کند.
+fulfillment#تحقق#He found fulfillment in his work.#satisfaction#C1#fʊlˈfɪlmənt#او در کارش تحقق یافت.
+bosnian#بوسنیایی#They speak Bosnian in Bosnia.#N/A#B2#ˈbɑːzniən#آنها در بوسنی بوسنیایی صحبت می کنند.
+tortilla#ترتیا#We ate tacos with corn tortillas.#flatbread#B1#tɔːrˈtiːə#ما تاکو با نان ترتیا ذرت خوردیم.
+catholicism#کاتولیسیسم#Catholicism is a branch of Christianity.#N/A#C2#kəˈθɑːləsɪzəm#کاتولیسیسم شاخه ای از مسیحیت است.
+unauthorized#غیر مجاز#This is an unauthorized copy.#unapproved#C1#ʌnˈɔːθəraɪzd#این یک کپی غیرمجاز است.
+atm#عابر بانک#I need to get cash from the ATM.#cash machine#A2#ˌeɪ tiː ˈem#من باید از دستگاه خودپرداز پول نقد بگیرم.
+lutheran#لوتری#The Lutheran church is nearby.#N/A#C2#ˈluːθərən#کلیسای لوتری در نزدیکی است.
+outskirt#حومه شهر#They live on the outskirts of town.#suburb#B2#ˈaʊtskɜːrt#آنها در حومه شهر زندگی می کنند.
+abduct#ربودن#The kidnappers abducted the child.#kidnap#C1#æbˈdʌkt#ربایندگان کودک را ربودند.
+computerize#رایانه ای کردن#The library will computerize its records.#automate#C1#kəmˈpjuːtəraɪz#کتابخانه سوابق خود را رایانه ای می کند.
+generalize#تعمیم دادن#It's not good to generalize about people.#stereotype#C1#ˈdʒenrəlaɪz#تعمیم دادن در مورد مردم خوب نیست.
+avatar#آواتار#He uses an avatar in online games.#icon#B2#ˈævətɑːr#او در بازی های آنلاین از آواتار استفاده می کند.
+rbi#امتیاز batted in (بیسبال)#The player has a high RBI count.#run batted in#C2#ˌɑːr biː ˈaɪ#بازیکن تعداد RBI بالایی دارد.
+hmo#سازمان نگهداری سلامت#My insurance is through an HMO.#health maintenance organization#C2#ˌeɪtʃ em ˈoʊ#بیمه من از طریق یک HMO است.
+penalize#مجازات کردن#The referee will penalize the team.#punish#C1#ˈpiːnəlaɪz#داور تیم را جریمه خواهد کرد.
+authorized#مجاز#Only authorized personnel can enter.#approved#B2#ˈɔːθəraɪzd#فقط پرسنل مجاز می توانند وارد شوند.
+seminal#بنیادی#It was a seminal work in the field.#groundbreaking#C2#ˈsemɪnl#این یک اثر بنیادی در این زمینه بود.
+kudo#ستایش#She received kudos for her performance.#praise#C1#ˈkuːdoʊ#او برای عملکردش ستایش دریافت کرد.
+veterinarian#دامپزشک#The veterinarian treated my dog.#vet#B2#ˌvetərəˈneriən#دامپزشک سگ من را درمان کرد.
+fantasize#خیال پردازی#He likes to fantasize about winning the lottery.#daydream#C1#ˈfæntəsaɪz#او دوست دارد در مورد برنده شدن در لاتاری خیال پردازی کند.
+consuming#all-consuming#غالب#Football is his consuming passion.#absorbing#C1#kənˈsuːmɪŋ#فوتبال اشتیاق غالب اوست.
+conceptualize#مفهومی کردن#It's hard to conceptualize such a large number.#envision#C2#kənˈseptʃuəlaɪz#تصور چنین عدد بزرگی سخت است.
+pediatric#کودکان#She is a pediatric nurse.#paediatric#C1#ˌpiːdiˈætrɪk#او یک پرستار اطفال است.
+showtime#زمان نمایش#Showtime is at 8 PM.#performance time#B1#ˈʃoʊtaɪm#زمان نمایش ساعت 8 بعد از ظهر است.
+gator#تمساح#We saw a gator in the swamp.#alligator#B2#ˈɡeɪtər#ما یک تمساح در مرداب دیدیم.
+reorganize#سازماندهی مجدد#We need to reorganize the department.#restructure#C1#ˌriːˈɔːrɡənaɪz#ما باید بخش را مجددا سازماندهی کنیم.
+saharan#صحرایی#The Saharan climate is very hot.#desert#C2#səˈhærən#آب و هوای صحرایی بسیار گرم است.
+ayatollah#آیت الله#The Ayatollah is a religious leader.#N/A#C2#ˌaɪəˈtoʊlə#آیت الله یک رهبر مذهبی است.
+wannabe#دوست دار بشه#He's just a rock star wannabe.#aspirant#C1#ˈwɑːnəbi#او فقط یک دوستدار ستاره راک است.
+unman#بی غیرت کردن#The failure did not unman him.#dishearten#C2#ʌnˈmæn#شکست او را بی غیرت نکرد.
+javascript#جاوا اسکریپت#JavaScript is a programming language.#N/A#B2#ˈdʒɑːvə skrɪpt#جاوا اسکریپت یک زبان برنامه نویسی است.
+pretzel#پرتزل#I bought a salty pretzel.#N/A#B1#ˈpretsl#یک پرتزل شور خریدم.
+ranging#در محدوده#Temperatures are ranging from 10 to 20 degrees.#varying#B2#ˈreɪndʒɪŋ#دما در محدوده 10 تا 20 درجه است.
+traumatize#ضربه روحی زدن#The accident traumatized her.#shock#C1#ˈtrɔːmətaɪz#حادثه به او ضربه روحی زد.
+armenian#ارمنی#She is of Armenian descent.#N/A#B2#ɑːrˈmiːniən#او تبار ارمنی دارد.
+gran#مادربزرگ#I visited my gran today.#granny#A2#ɡræn#من امروز مادربزرگم را دیدم.
+venezuelan#ونزوئلایی#Venezuelan coffee is excellent.#N/A#B2#ˌvenɪˈzweɪlən#قهوه ونزوئلا عالی است.
+tabletop#روی میز#We played a tabletop game.#desktop#B1#ˈteɪbltɑːp#ما یک بازی روی میزی انجام دادیم.
+yugoslav#یوگسلاو#Yugoslav history is complex.#N/A#C2#ˈjuːɡəslɑːv#تاریخ یوگسلاو پیچیده است.
+philippine#فیلیپینی#Philippine mangoes are sweet.#N/A#B2#ˈfɪlɪpiːn#انبه های فیلیپینی شیرین هستند.
+fiberglass#فایبرگلاس#The boat is made of fiberglass.#N/A#C1#ˈfaɪbərɡlæs#قایق از فایبرگلاس ساخته شده است.
+sassy#چلفتی#She gave a sassy reply.#cheeky#C1#ˈsæsi#او یک پاسخ چلفتی داد.
+outpour#ریختن#There was an outpour of support.#outflow#C2#ˈaʊtpɔːr#یک ریزش حمایت وجود داشت.
+wastewater#آب فاضلاب#The wastewater needs treatment.#sewage#C1#ˈweɪstwɔːtər#آب فاضلاب需要需要 تصفیه نیاز دارد.
+adhd#اختلال کمبود توجه#The child has ADHD.#attention deficit hyperactivity disorder#B2#ˌeɪ diː eɪtʃ ˈdiː#کودک اختلال کمبود توجه دارد.
+urinate#ادرار کردن#The doctor asked for a urine sample.#pee#C1#ˈjʊrɪneɪt#پزشک یک نمونه ادرار خواست.
+quran#قرآن#He reads the Quran every day.#Koran#B2#kʊˈrɑːn#او هر روز قرآن می خواند.
+ramadan#رمضان#Ramadan is a holy month.#N/A#B2#ˈræmədɑːn#رمضان یک ماه مقدس است.
+hookup#اتصال#They used a hookup to connect the cables.#connection#B2#ˈhʊkʌp#آنها از یک اتصال برای connecting the cables استفاده کردند.
+turd#گند#Don't step in that turd.#feces#C2#tɜːrd#روی آن گند قدم نزن.
+fecal#مدفوعی#They tested the fecal matter.#faecal#C2#ˈfiːkl#آنها ماده مدفوعی را آزمایش کردند.
+flunk#رد شدن#I'm afraid I'll flunk the test.#fail#B2#flʌŋk#می ترسم در امتحان رد شوم.
+categorization#دسته بندی#The categorization of books is necessary.#classification#C1#ˌkætəɡərəˈzeɪʃn#دسته بندی کتاب ها ضروری است.
+ahold#دسترسی#I need to get ahold of him.#contact#B2#əˈhoʊld#من باید به او دسترسی پیدا کنم.
+filipino#فیلیپینی#She is Filipino.#N/A#B2#ˌfɪlɪˈpiːnoʊ#او فیلیپینی است.
+windowsill#پنجره#The cat sat on the windowsill.#sill#B1#ˈwɪndoʊsɪl#گربه روی پنجره نشست.
+seatbelt#کمربند ایمنی#Always wear your seatbelt.#safety belt#A2#ˈsiːtbelt#همیشه کمربند ایمنی خود را ببندید.
+undersecretary#معاون وزیر#The undersecretary held a meeting.#deputy#C2#ˌʌndərˈsekrəteri#معاون وزیر یک جلسه برگزار کرد.
+tryout#آزمایش#He went to the basketball tryouts.#audition#B2#ˈtraɪaʊt#او به تست های بسکتبال رفت.
+idealize#ایده آل کردن#We often idealize the past.#romanticize#C1#aɪˈdiːəlaɪz#ما اغلب گذشته را idealize می کنیم.
+poly#پلی (پیشوند)#It was a polytechnic institute.#N/A#C2#ˈpɑːli#این یک مؤسسه پلی تکنیک بود.
+cambodian#کامبوجی#Cambodian culture is rich.#N/A#B2#kæmˈboʊdiən#فرهنگ کامبوج غنی است.
+expressway#اتوبان#We took the expressway to the city.#highway#B1#ɪkˈspresweɪ#ما اتوبان را به سمت شهر گرفتیم.
+trailhead#سرآغاز مسیر#We met at the trailhead.#trail start#B2#ˈtreɪlhed#ما در ابتدای مسیر ملاقات کردیم.
+commie#کمونیست#That's a commie ideology.#communist#C2#ˈkɑːmi#این یک ایدئولوژی کمونیستی است.
+documented#مستند#The event is well documented.#recorded#B2#ˈdɑːkjumentɪd#این رویداد به خوبی مستند شده است.
+rec#تفریح#The rec center is open.#recreation#B1#rek#مرکز تفریحی باز است.
+midseason#اواسط فصل#It was a midseason replacement.#mid-year#C1#ˈmɪdsiːzn#این یک جایگزین اواسط فصل بود.
+etiology#علت شناسی#The etiology of the disease is unknown.#cause#C2#ˌiːtiˈɑːlədʒi#علت شناسی بیماری ناشناخته است.
+biotech#بیوتکنولوژی#He works in biotech.#biotechnology#C1#ˈbaɪoʊtek#او در زمینه بیوتکنولوژی کار می کند.
+quarterfinal#یک چهارم نهایی#The team reached the quarterfinals.#last eight#B2#ˌkwɔːrtərˈfaɪnl#تیم به یک چهارم نهایی رسید.
+chickpea#نخود#I made hummus with chickpeas.#garbanzo#B1#ˈtʃɪkpiː#من حمص با نخود درست کردم.
+righty#راست دست#He's a righty.#right-hander#B2#ˈraɪti#او راست دست است.
+mol#مول (واحد)#One mol of a substance.#mole#C2#moʊl#یک مول از یک ماده.
+lingo#زبان#I don't understand their lingo.#jargon#C1#ˈlɪŋɡoʊ#من زبان آنها را نمی فهمم.
+mohawk#موهاک#He has a mohawk haircut.#N/A#B2#ˈmoʊhɔːk#او یک مدل موی موهاک دارد.
+agonize#رنج بردن#Don't agonize over the decision.#worry#C1#ˈæɡənaɪz#در مورد تصمیم رنج نبر.
+idolize#بت کردن#Many teenagers idolize pop stars.#worship#C1#ˈaɪdəlaɪz#بسیاری از نوجوانان بت های ستاره های پاپ هستند.
+situ#در جا (مخفف in situ)#The specimen was examined in situ.#in place#C2#ˈsaɪtuː#نمونه در جا examined شد.
+truckload#کامیون بار#They delivered a truckload of supplies.#lorryload#B2#ˈtrʌkloʊd#آنها یک کامیون بار مواد تحویل دادند.
+hotshot#آدم پرشور#He's a hotshot lawyer.#whiz#C2#ˈhɑːtʃɑːt#او یک وکیل پرشور است.
+hander#دست دهنده (پسوند)#He's a left-hander.#N/A#B2#ˈhændər#او چپ دست است.
+readout#خواندن#The digital readout was clear.#display#C1#ˈriːdaʊt#خواندن دیجیتال واضح بود.
+unexplore#کشف نشده#The area is largely unexplored.#uncharted#C2#ˌʌnɪkˈsplɔːrd#این区域 largely کشف نشده است.
+chalkboard#تخته سیاه#The teacher wrote on the chalkboard.#blackboard#A2#ˈtʃɔːkbɔːrd#معلم روی تخته سیاه نوشت.
+phenotypic#فنوتیپی#Phenotypic traits are observable.#N/A#C2#ˌfiːnoʊˈtɪpɪk#صفات فنوتیپی قابل مشاهده هستند.
+prescient#دوراندیش#His prescient remarks were ignored.#prophetic#C2#ˈpresiənt#اظهارات دوراندیشانه او نادیده گرفته شد.
+unrecognized#شناخته نشده#He passed by unrecognized.#unidentified#C1#ʌnˈrekəɡnaɪzd#او ناشناخته عبور کرد.
+fanboy#هوادار پسر#He's a total fanboy of that director.#enthusiast#C1#ˈfænbɔɪ#او یک هوادار پسر کامل آن کارگردان است.
+cul#Cul (مخفف یا نام)#N/A#N/A#N/A#kʌl#N/A
+herder#گله دار#The herder tended the sheep.#shepherd#B2#ˈhɜːrdər#گله دار از گوسفندان مراقبت کرد.
+minutia#جزئیات ناچیز#Don't worry about the minutia.#trivia#C2#mɪˈnuːʃə#نگران جزئیات ناچیز نباش.
+scrunch#فشردن#She scrunched up the paper.#crumple#B2#skrʌntʃ#او کاغذ را فشرد.
+sepsis#سپسیس#The patient developed sepsis.#blood poisoning#C2#ˈsepsɪs#بیمار دچار سپسیس شد.
+dishonor#بی احترامی#He brought dishonor to the family.#shame#C1#dɪsˈɑːnər#او بی احترامی به خانواده آورد.
+smoothie#اسموتی#I drank a fruit smoothie.#N/A#A2#ˈsmuːði#من یک اسموتی میوه نوشیدم.
+kuwaiti#کویتی#Kuwaiti oil reserves are large.#N/A#B2#kuˈweɪti#ذخایر نفت کویت بزرگ است.
+stent#استنت#The doctor inserted a stent.#N/A#C2#stent#پزشک یک استنت قرار داد.
+bolivian#بولیویایی#Bolivian food is spicy.#N/A#B2#bəˈlɪviən#غذای بولیویایی تند است.
+subspecy#زیرگونه#It is a subspecies of wolf.#N/A#C2#ˈsʌbspiːʃiː#این یک زیرگونه از wolf است.
+galvanize#تحریک کردن#The speech galvanized the crowd.#motivate#C2#ˈɡælvənaɪz#سخنرانی جمعیت را تحریک کرد.
+urinal#ادرارال#The men's room has a urinal.#N/A#B2#ˈjʊrɪnl#اتاق مردان یک ادرارال دارد.
+homogenous#همگن#The population is not homogenous.#uniform#C2#həˈmɑːdʒənəs#جمعیت همگن نیست.
+phonic#صوتی#Phonic skills are important for reading.#sound#C2#ˈfɑːnɪk#مهارت های صوتی برای reading مهم هستند.
+shill#جاسوس#He was accused of being a shill.#stooge#C2#ʃɪl#او متهم به being a shill شد.
+dai#Dai (نام)#N/A#N/A#N/A#daɪ#N/A
+peeve#رنجاندن#It's my biggest pet peeve.#annoyance#C2#piːv#این بزرگترین رنجش من است.
+honoree#تقدیر شده#She was the honoree of the evening.#awardee#C1#ˌɑːnəˈriː#او تقدیر شده شب بود.
+techie#فن آور#He's a real techie.#technician#B2#ˈteki#او یک فن آور واقعی است.
+iffy#مشکوک#The weather looks iffy today.#uncertain#C1#ˈɪfi#اوضاع آب و هوا امروز مشکوک به نظر می رسد.
+crosshair#十字线#Put the target in the crosshairs.#reticule#C2#ˈkrɔːsher#هدف را در十字线 قرار دهید.
+parlay#شرط بندی#He tried to parlay his fame into a political career.#convert#C2#ˈpɑːrleɪ#او سعی کرد شهرت خود را به یک career سیاسی تبدیل کند.
+mammography#ماموگرافی#Mammography can detect breast cancer.#N/A#C2#mæˈmɑːɡrəfi#ماموگرافی می تواند سرطان پستان را detect کند.
+onsite#در محل#There is an onsite clinic.#on-site#B2#ˌɑːnˈsaɪt#یک clinic در محل وجود دارد.
+touchscreen#صفحه لمسی#My phone has a touchscreen.#N/A#A2#ˈtʌtʃskriːn#تلفن من یک صفحه لمسی دارد.
+jailhouse#زندان#He told a jailhouse story.#prison#B2#ˈdʒeɪlhaʊs#او یک داستان زندان گفت.
+mete#سهمیه دادن#The judge will mete out punishment.#dispense#C2#miːt#قاضی punishment خواهد داد.
+rockfish#سنگ ماهی#We caught a rockfish.#N/A#B2#ˈrɑːkfɪʃ#ما یک سنگ ماهی caught کردیم.
+sioux#سو (قوم)#The Sioux are a Native American people.#N/A#C2#suː#سو یک people بومی آمریکایی هستند.
+walkie#واکی (مخفف walkie-talkie)#The guard used a walkie.#walkie-talkie#B1#ˈwɔːki#نگهبان از یک واکی استفاده کرد.
+innard#احشاء#The innards of the machine are complex.#insides#C2#ˈɪnərd#احشاء ماشین پیچیده است.
+unsing#خوانده نشده#The song remained unsung.#unvoiced#C2#ʌnˈsɪŋ#آهنگ خوانده نشده باقی ماند.
+cornbread#نان ذرت#We ate cornbread with chili.#N/A#B1#ˈkɔːrnbred#ما نان ذرت با chili خوردیم.
+frickin#frickin' (ملایم تر fucking)#That's frickin' awesome!#freaking#C1#ˈfrɪkɪn#این frickin' عالی است!
+ooo#اوو (صدای تعجب)#Ooo, that's nice!#ooh#A1#uː#اوو، این خوب است!
+bigfoot#پاگنده#Some people believe in Bigfoot.#Sasquatch#C1#ˈbɪɡfʊt#بعضی از مردم به پاگنده believe می کنند.
+riverboat#قایق رودخانه ای#We took a riverboat tour.#N/A#B1#ˈrɪvərboʊt#ما یک تور قایق رودخانه ای took کردیم.
+floodgate#سد#The floodgates were opened.#sluice#C2#ˈflʌdɡeɪt#سدها opened شدند.
+templar#شوالیه معبد#The Templars were a medieval order.#Knight Templar#C2#ˈtemplər#شوالیه های معبد یک order قرون وسطایی بودند.
+faze#به هم ریختن#The criticism didn't faze him.#disturb#C2#feɪz#انتقاد او را به هم نریخت.
+florentine#فلورانسی#She ordered eggs Florentine.#N/A#C2#ˈflɔːrəntiːn#او تخم مرغ فلورانسی ordered کرد.
+magisterium#مرجعیت (کلیسا)#The Magisterium teaches Catholic doctrine.#N/A#C2#ˌmædʒɪˈstɪriəm#مرجعیت آموزه های کاتولیک را teaches می کند.
+fallback#عقب نشینی#We need a fallback plan.#backup#C1#ˈfɔːlbæk#ما به یک plan عقب نشینی need داریم.
+stratify#طبقه بندی کردن#The data was stratified by age.#layer#C2#ˈstrætɪfaɪ#داده ها بر اساس age طبقه بندی شدند.
+frontman#رئیس#He's the frontman of the band.#leader#B2#ˈfrʌntmæn#او رئیس band است.
+douchebag#احمق#That guy is a total douchebag.#jerk#C2#ˈduːʃbæɡ#آن guy یک احمق کامل است.
+luman#لومن (واحد)#A lumen is a unit of light flow.#lumen#C2#ˈluːmən#لومن یک unit از light flow است.
+unitarian#یونیتاریان#Unitarianism is a liberal religion.#N/A#C2#ˌjuːnɪˈteriən#یونیتاریانیسم یک religion لیبرال است.
+proselytize#تبلیغ مذهبی کردن#They try to proselytize their faith.#convert#C2#ˈprɑːsələtaɪz#آنها سعی می کنند ایمان خود را تبلیغ کنند.
+hummu#حمص (غلط املایی رایج hummus)#I love hummus.#N/A#B1#ˈhʊmuː#من حمص را دوست دارم.
+scammer#کلاهبردار#Beware of scammers online.#swindler#B2#ˈskæmər#مراقب کلاهبرداران آنلاین باشید.
+hodgepodge#مخلوط#The rules are a hodgepodge.#jumble#C2#ˈhɑːdʒpɑːdʒ#قوانین یک مخلوط هستند.
+femoral#فمورال#The femoral artery is in the leg.#N/A#C2#ˈfemərəl#سرخرگ فمورال در leg است.
+strategize#راهبرد کردن#We need to strategize for the future.#plan#C1#ˈstrætədʒaɪz#ما need برای future راهبرد کنیم.
+ironclad#محکم#We have ironclad evidence.#irrefutable#C2#ˈaɪərnklæd#ما evidence محکم داریم.
+annualize#سالانه کردن#The rate was annualized for comparison.#N/A#C2#ˈænjuəlaɪz#نرخ برای comparison سالانه شد.
+underappreciated#کمتر قدردانی شده#Nurses are often underappreciated.#undervalued#C2#ˌʌndərəˈpriːʃieɪtɪd#پرستاران often کمتر قدردانی شده هستند.
+fertilize#بارور کردن#Farmers fertilize the soil.#enrich#B2#ˈfɜːrtəlaɪz#کشاورزان خاک را بارور می کنند.
+counterweight#وزن تعادل#The counterweight balances the load.#counterbalance#C2#ˈkaʊntərweɪt#وزن تعادل load را balances می کند.
+armory#اسلحه خانه#The armory was full of weapons.#arsenal#C2#ˈɑːrməri#اسلحه خانه پر از weapons بود.
+workaholic#معتاد به کار#He's a real workaholic.#N/A#B2#ˌwɜːrkəˈhɔːlɪk#او یک معتاد به کار واقعی است.
+diorama#دیوراما#The museum had a dinosaur diorama.#exhibit#C2#ˌdaɪəˈræmə#موزه یک دیورامای dinosaur داشت.
+dengue#دنگی#Dengue fever is spread by mosquitoes.#N/A#C2#ˈdeŋɡeɪ#تب دنگی توسط mosquitoes spread می شود.
+norse#نورس#Norse mythology is fascinating.#N/A#C2#nɔːrs#اساطیر نورس fascinating هستند.
+radicalization#تندروی کردن#The radicalization of youth is a concern.#extremism#C2#ˌrædɪkəlɪˈzeɪʃn#تندروی youth یک concern است.
+compartmentalize#بخش بندی کردن#He compartmentalizes his life.#segment#C2#kəmˌpɑːrtˈmentəlaɪz#او life خود را بخش بندی می کند.
+obstructionist#مانع تراش#The politician was an obstructionist.#obstructer#C2#əbˈstrʌkʃənɪst#سیاستمدار یک مانع تراش بود.
+volunteerism#داوطلب گرایی#Volunteerism is important for society.#N/A#C2#ˌvɑːlənˈtɪrɪzəm#داوطلب گرایی برای society مهم است.
+pantsuit#کت و شلوار زنانه#She wore a pantsuit to the interview.#trouser suit#B2#ˈpæntsuːt#او یک کت و شلوار زنانه به interview پوشید.
+aberrant#ناهنجار#The behavior was aberrant.#deviant#C2#æˈberənt#رفتار ناهنجار بود.
+dollhouse#خانه عروسکی#The child has a large dollhouse.#N/A#A2#ˈdɑːlhaʊs#کودک یک خانه عروسکی بزرگ دارد.
+mennonite#مِنونایت#Mennonites are a Christian group.#N/A#C2#ˈmenənaɪt#مِنونایت ها یک group مسیحی هستند.
+homebuyer#خریدار مسکن#The homebuyer got a mortgage.#house buyer#B2#ˈhoʊmbaɪər#خریدار مسکن یک mortgage got کرد.
+unadorn#تزئین نشده#The room was unadorned.#undecorated#C2#ˌʌnəˈdɔːrnd#اتاق تزئین نشده بود.
+exorcize#جن گیری کردن#The priest will exorcize the demon.#drive out#C2#ˈeksɔːrsaɪz#کشیش demon را جن گیری خواهد کرد.
+dino#دایناسور (مخفف)#The kids love dino toys.#dinosaur#A2#ˈdaɪnoʊ#بچه ها اسباب بازی های dino را دوست دارند.
+uninitiate#آگاه نکرده#To the uninitiated, it seems complex.#uninformed#C2#ˌʌnɪˈnɪʃieɪtɪd#برای آگاه نکرده، آن complex به نظر می رسد.
+declassify#افشا کردن#The government declassified the documents.#release#C2#ˌdiːˈklæsɪfaɪ#دولت documents را افشا کرد.
+applesauce#پوره سیب#She made applesauce.#N/A#A2#ˈæplsɔːs#او پوره سیب made کرد.
+mechanize#مکانیزه کردن#The farm mechanized its operations.#automate#C2#ˈmekənaɪz#مزرعه operations خود را مکانیزه کرد.
+lunchroom#اتاق ناهار خوری#We ate in the lunchroom.#cafeteria#A2#ˈlʌntʃruːm#ما در اتاق ناهار خوری ate کردیم.
+prepackage#از پیش بسته بندی کردن#The food is prepackaged.#prewrap#C2#ˌpriːˈpækɪdʒ#غذا از پیش بسته بندی شده است.
+athenian#آتنی#Athenian democracy was famous.#N/A#C2#əˈθiːniən#دموکراسی آتنی famous بود.
+publically#publicly (غلط املایی رایج)#It was publically announced.#publicly#B1#ˈpʌblɪkli#این publicly announced شد.
+synth#سینث (مخفف synthesizer)#He plays the synth.#synthesizer#B2#sɪnθ#او سینث plays می کند.
+unflinch#بی باک#He was unflinching in his resolve.#steadfast#C2#ʌnˈflɪntʃɪŋ#او در resolve خود بی باک بود.
+halal#حلال#Halal food is prepared in accordance with Islamic law.#lawful, permissible#B1#həˈlɑːl#غذای حلال مطابق با قوانین اسلامی آماده می شود.
+objectivism#عینیت گرایی#Objectivism is a philosophy that emphasizes objective reality.#realism#C2#ɑːbˈdʒektɪvɪzəm#عینیت گرایی فلسفه ای است که بر واقعیت عینی تاکید دارد.
+quadrennial#چهارساله#The Olympics is a quadrennial event.#four-yearly#C1#kwəˈdreniəl#المپیک یک رویداد چهارساله است.
+plastid#پلاستید#Chloroplasts are a type of plastid found in plant cells.#chloroplast, chromoplast#C2#ˈplæstɪd#کلروپلاست ها نوعی پلاستید هستند که در سلول های گیاهی یافت می شوند.
+crankbait#طعمه مصنوعی#He used a crankbait to catch the bass.#lure, bait#C1#ˈkræŋkbeɪt#او از یک طعمه مصنوعی برای صید ماهی بس استفاده کرد.
+tyrosine#تیروزین#Tyrosine is an amino acid found in many foods.#amino acid#C2#ˈtaɪrəsiːn#تیروزین یک اسید آمینه است که در بسیاری از غذاها یافت می شود.
+seeking#جستجو کردن#He is seeking a new job.#looking for, searching for#B2#ˈsiːkɪŋ#او در حال جستجوی شغل جدیدی است.
+narcolepsy#نارکولپسی#Narcolepsy is a sleep disorder.#sleep disorder#C2#ˈnɑːrkəlepsi#نارکولپسی یک اختلال خواب است.
+energizer#انرژی زا#He took an energizer before his workout.#stimulant, booster#C1#ˈenərdʒaɪzər#او قبل از تمرین خود یک ماده انرژی زا مصرف کرد.
+adaption#سازگاری#The adaption of the species to the new environment was slow.#adaptation, adjustment#C1#ˌædæpˈteɪʃən#سازگاری گونه با محیط جدید آهسته بود.
+bolus#توده گرد#The doctor gave the patient a large bolus of medicine.#lump, mass#C2#ˈboʊləs#پزشک به بیمار مقدار زیادی دارو به صورت توده گرد داد.
+malarkey#مهمل گویی#That's a bunch of malarkey.#nonsense, baloney#C2#məˈlɑːrki#اینها همه مهمل گویی است.
+nurturance#پرورش#Parents provide nurturance to their children.#care, upbringing#C2#ˈnɜːrtərəns#والدین به فرزندان خود پرورش می دهند.
+theatergoer#تئاتررو#The theatergoer applauded the performance.#playgoer#C1#ˈθiətəˌɡoʊər#تئاتررو از اجرا تشویق کرد.
+ascendance#برتری#The company's ascendance in the market was rapid.#dominance, rise#C2#əˈsendəns#برتری شرکت در بازار سریع بود.
+arcsecond#ثانیه قوسی#The star is a few arcseconds away from the other.#angular second#C2#ˈɑːrkˌsekənd#ستاره چند ثانیه قوسی از دیگری فاصله دارد.
+shirtwaist#پیراهن زنانه#She wore a shirtwaist with a long skirt.#blouse, top#C1#ˈʃɜːrtˌweɪst#او یک پیراهن زنانه با دامن بلند پوشید.
+pix#عکس#Send me some pix from your trip.#photos, pictures#B1#pɪks#چند تا عکس از سفرت برام بفرست.
+depo#انبار#The goods are stored in the depo.#depot, warehouse#B2#ˈdiːpoʊ#کالاها در انبار نگهداری می شوند.
+roomie#هم اتاقی#My roomie is from Canada.#roommate#B1#ˈruːmi#هم اتاقی من اهل کانادا است.
+viscera#احشاء#The viscera were examined by the surgeon.#internal organs#C2#ˈvɪsərə#احشاء توسط جراح معاینه شد.
+myeloid#میلویید#Myeloid cells are a type of blood cell.#myelocytic#C2#ˈmaɪəlɔɪd#سلول های میلویید نوعی سلول خونی هستند.
+ingenue#دختر جوان ساده#She played the role of an ingenue in the play.#naive young woman#C2#ˈændʒənuː#او در نمایش نقش یک دختر جوان ساده را بازی کرد.
+fahrenheit#فارنهایت#The temperature is 70 degrees Fahrenheit.#temperature scale#B2#ˈfærənˌhaɪt#دما ۷۰ درجه فارنهایت است.
+sherpa#شرپا#The sherpa guided the climbers up the mountain.#guide, porter#C1#ˈʃɜːrpə#شرپا کوهنوردان را به بالای کوه هدایت کرد.
+dickensian#دیکنسین#The living conditions were dickensian.#bleak, impoverished#C2#dɪˈkenziən#شرایط زندگی دیکنسین بود.
+mesoamerican#مزوآمریکایی#The Mesoamerican civilizations were very advanced.#Central American#C1#ˌmesoʊəˈmerɪkən#تمدن های مزوآمریکایی بسیار پیشرفته بودند.
+appointed#منصوب شده#He was appointed as the new CEO.#designated, assigned#B2#əˈpɔɪntɪd#او به عنوان مدیر عامل جدید منصوب شد.
+ulcerative#زخم دار#Ulcerative colitis is a disease of the large intestine.#ulcerous, sore#C2#ˈʌlsərətɪv#کولیت زخمی یک بیماری روده بزرگ است.
+accelerant#ماده آتش زا#Gasoline was used as an accelerant to start the fire.#igniter, kindling#C2#əkˈselərənt#بنزین به عنوان یک ماده آتش زا برای شروع آتش استفاده شد.
+underwhelm#تحت تاثیر قرار ندادن#The movie underwhelmed me.#disappoint, let down#C1#ˌʌndərˈwelm#فیلم مرا تحت تاثیر قرار نداد.
+punditry#نظریه پردازی#The punditry on the news was all over the place.#commentary, analysis#C2#ˈpʌndɪtri#نظریه پردازی در اخبار بسیار متفاوت بود.
+chico#پسر#Hey chico, what are you doing?#boy, kid#B1#ˈtʃiːkoʊ#هی پسر، چیکار میکنی؟
+printmaker#چاپگر#She is a talented printmaker.#engraver, lithographer#C1#ˈprɪntˌmeɪkər#او یک چاپگر با استعداد است.
+initialize#مقدار دهی اولیه کردن#You must initialize the variable before using it.#start, begin#C1#ɪˈnɪʃəlaɪz#باید قبل از استفاده، متغیر را مقدار دهی اولیه کنید.
+hashemite#هاشمی#The Hashemite Kingdom of Jordan.#Hashimi#C2#ˈhæʃəmaɪt#پادشاهی هاشمی اردن.
+stetson#کلاه لبه پهن#He was wearing a stetson hat.#cowboy hat#C1#ˈstetsən#او یک کلاه لبه پهن به سر داشت.
+accrete#جمع شدن#The dust and gas began to accrete into a star.#accumulate, gather#C2#əˈkriːt#گرد و غبار و گاز شروع به جمع شدن برای تشکیل یک ستاره کردند.
+uncheck#علامت تیک را برداشتن#Uncheck the box if you don't want to receive emails.#deselect, untick#B1#ˌʌnˈtʃek#اگر نمی خواهید ایمیل دریافت کنید، علامت تیک را بردارید.
+pooper#کسی که مدفوع می کند#Clean up after your dog, you pooper!#defecator#B2#ˈpuːpər#بعد از سگت رو تمیز کن، ای کسی که مدفوع می کنی!
+smokehouse#دودخانه#The smokehouse was used to preserve meat.#smoke shed#C1#ˈsmoʊkhaʊs#از دودخانه برای نگهداری گوشت استفاده می شد.
+roadrunner#دونده جاده#The roadrunner is a fast-running bird.#fast runner#C1#ˈroʊdˌrʌnər#دونده جاده یک پرنده سریع است.
+adventuresome#ماجراجو#He has an adventuresome spirit.#adventurous, daring#C2#ədˈventʃərsəm#او روحیه ماجراجویی دارد.
+columbine#گل پیاله#She planted a columbine in her garden.#flower#C1#ˈkɑːləmbaɪn#او یک گل پیاله در باغش کاشت.
+denominate#نامگذاری کردن#The currency is denominated in dollars.#name, call#C2#dɪˈnɑːməneɪt#واحد پول به دلار نامگذاری شده است.
+constructionist#ساختارگرا#He is a strict constructionist of the Constitution.#strict interpreter#C2#kənˈstrʌkʃənɪst#او یک ساختارگرای سختگیر از قانون اساسی است.
+doff#برداشتن#He doffed his hat in respect.#remove, take off#C1#dɑːf#او کلاه خود را به نشانه احترام برداشت.
+otolaryngology#گوش و حلق و بینی#He specializes in otolaryngology.#ENT#C2#ˌoʊtəʊlærɪŋˈɡɑːlədʒi#او در گوش و حلق و بینی تخصص دارد.
+tizzy#هیجان#She got herself into a tizzy over the news.#state of excitement#C1#ˈtɪzi#او به خاطر خبر هیجان زده شد.
+concessionaire#امتیازگیرنده#The concessionaire at the park sells food.#vendor, seller#C2#kənˌseʃəˈner#امتیازگیرنده در پارک غذا می فروشد.
+paralegal#دستیار حقوقی#A paralegal assists lawyers with their cases.#legal assistant#C1#ˌpærəˈliːɡəl#یک دستیار حقوقی به وکلا در پرونده هایشان کمک می کند.
+interscholastic#بین مدرسه ای#They competed in an interscholastic debate.#between schools#C2#ˌɪntərskəˈlæstɪk#آنها در یک مناظره بین مدرسه ای رقابت کردند.
+charism#کاریزم#The leader's charism was captivating.#charisma, charm#C2#ˈkærɪzəm#کاریزم رهبر جذاب بود.
+tasmanian#تاسمانیایی#The Tasmanian devil is a marsupial.#from Tasmania#C1#tæzˈmeɪniən#شیطان تاسمانی یک کیسه دار است.
+trackpad#ترک پد#I use the trackpad on my laptop.#touchpad#B1#ˈtrækˌpæd#من از ترک پد لپ تاپم استفاده می کنم.
+bedeck#تزئین کردن#The room was bedecked with flowers.#decorate, adorn#C2#bɪˈdek#اتاق با گل ها تزئین شده بود.
+scientism#علم گرایی#Scientism can be a very narrow view.#belief in science#C2#ˈsaɪəntɪzəm#علم گرایی می تواند یک دیدگاه بسیار محدود باشد.
+echolocation#موقعیت یابی پژواکی#Bats use echolocation to navigate.#sonar#C2#ˌekoʊloʊˈkeɪʃən#خفاش ها از موقعیت یابی پژواکی برای جهت یابی استفاده می کنند.
+westernization#غربی سازی#The westernization of the country.#westernizing#C1#ˌwestərnəˈzeɪʃən#غربی سازی کشور.
+canner#کنسرو ساز#The canner prepared the vegetables for storage.#preserver#C1#ˈkænər#کنسرو ساز سبزیجات را برای نگهداری آماده کرد.
+butthole#مقعد#The doctor examined the butthole.#anus, rectum#B2#ˈbʌthəʊl#پزشک مقعد را معاینه کرد.
+acidosis#اسیدوز#Acidosis is a medical condition.#acidemia#C2#ˌæsɪˈdoʊsɪs#اسیدوز یک وضعیت پزشکی است.
+infotainment#اطلاعات سرگرمی#The show is a mix of news and entertainment, or infotainment.#edutainment#C1#ˌɪnfoʊˈteɪnmənt#این برنامه ترکیبی از اخبار و سرگرمی یا اطلاعات سرگرمی است.
+shabbat#شبت#Shabbat is a day of rest in Judaism.#Sabbath#C1#ʃəˈbɑːt#شبت یک روز استراحت در یهودیت است.
+mozambican#موزامبیکی#She is of Mozambican descent.#from Mozambique#B2#ˌmoʊzæmˈbiːkən#او اصالت موزامبیکی دارد.
+netherworld#جهنم#He believed in the netherworld.#underworld, hell#C2#ˈneðərwɜːrld#او به جهنم اعتقاد داشت.
+ghostwriter#نویسنده سایه#He hired a ghostwriter to write his book.#uncredited writer#C1#ˈɡoʊstˌraɪtər#او یک نویسنده سایه استخدام کرد تا کتابش را بنویسد.
+sparky#پرانرژی#She's a sparky and lively person.#lively, energetic#C1#ˈspɑːrki#او یک فرد پرانرژی و سرزنده است.
+problemo#مشکل#We have a bit of a problemo.#problem, issue#B1#prəˈbleɪmoʊ#ما کمی مشکل داریم.
+islamization#اسلامی سازی#The islamization of the region was a slow process.#Islamization#C1#ˌɪzləməˈzeɪʃən#اسلامی سازی منطقه یک فرآیند کند بود.
+gigabit#گیگابیت#The internet speed is one gigabit per second.#data unit#C1#ˈɡɪɡəˌbɪt#سرعت اینترنت یک گیگابیت در ثانیه است.
+gyre#گرداب#The ocean currents form a large gyre.#vortex, whirlpool#C2#dʒaɪər#جریان های اقیانوسی یک گرداب بزرگ را تشکیل می دهند.
+beignet#بینیه#She ordered a beignet for dessert.#fried dough pastry#C1#beɪˈnjeɪ#او یک بینیه برای دسر سفارش داد.
+prescience#پیش آگاهی#Her prescience helped her avoid the disaster.#foresight, prophecy#C2#ˈpresiəns#پیش آگاهی او به او کمک کرد تا از فاجعه جلوگیری کند.
+malform#بد شکل شدن#The drug can cause the fetus to malform.#deform, misshape#C2#mælˈfɔːrm#این دارو می تواند باعث بد شکل شدن جنین شود.
+gazpacho#گاسپاچو#Gazpacho is a cold soup.#cold soup#C1#ɡɑːzˈpɑːtʃoʊ#گاسپاچو یک سوپ سرد است.
+mesothelioma#مزوتلیوما#Mesothelioma is a type of cancer.#cancer#C2#ˌmezəˌθiːliˈoʊmə#مزوتلیوما نوعی سرطان است.
+originalist#اصول گرا#He is an originalist in his legal views.#strict interpreter#C2#əˈrɪdʒənəlɪst#او در دیدگاه های حقوقی خود یک اصول گرا است.
+streetscape#منظر خیابان#The streetscape of the old town is charming.#street scene#C1#ˈstriːtskæp#منظر خیابان شهر قدیمی جذاب است.
+zodiacal#بروج فلکی#The zodiacal light is a faint glow in the sky.#of the zodiac#C2#zoʊˈdaɪəkəl#نور بروج فلکی یک درخشش ضعیف در آسمان است.
+conjunto#کونخونتو#Conjunto music is popular in Texas.#music genre#C2#kənˈhʊntoʊ#موسیقی کونخونتو در تگزاس محبوب است.
+iff#اگر و فقط اگر#The condition is true iff the statement is true.#if and only if#C2#ɪf#شرط درست است اگر و فقط اگر گزاره درست باشد.
+funhouse#خانه خنده#We went to the funhouse at the fair.#amusement house#B2#ˈfʌnhaʊs#ما به خانه خنده در نمایشگاه رفتیم.
+daybed#تخت روز#She sat on the daybed to read.#sofa bed#B1#ˈdeɪbed#او روی تخت روز نشست تا مطالعه کند.
+wedgie#شلوارک بالا کشیده#He gave his brother a wedgie as a joke.#prank#B2#ˈwedʒi#او برای شوخی به برادرش شلوارک بالا کشیده داد.
+forkful#یک چنگال#He took a forkful of salad.#a bite#B1#ˈfɔːrkfʊl#او یک چنگال سالاد برداشت.
+flexural#خمشی#The beam has high flexural strength.#bending#C2#ˈfleksərəl#تیر دارای استحکام خمشی بالایی است.
+cardiorespiratory#قلبی عروقی تنفسی#He has good cardiorespiratory fitness.#heart and lung#C2#ˌkɑːrdioʊrəˈspɪrəˌtɔːri#او آمادگی قلبی عروقی تنفسی خوبی دارد.
+decongestant#ضد احتقان#She took a decongestant for her stuffy nose.#nasal spray#C1#ˌdiːkənˈdʒestənt#او برای گرفتگی بینی اش یک ضد احتقان مصرف کرد.
+miniaturize#کوچک سازی کردن#They are trying to miniaturize the device.#shrink, make smaller#C1#ˈmɪnətʃəraɪz#آنها در تلاشند تا دستگاه را کوچک سازی کنند.
+zircon#زیرکون#The ring has a zircon in it.#gemstone#C1#ˈzɜːrkɑːn#حلقه یک زیرکون در خود دارد.
+hypoxic#کمبود اکسیژن#The patient was hypoxic.#lacking oxygen#C2#haɪˈpɑːksɪk#بیمار دچار کمبود اکسیژن بود.
+tubulin#توبولین#Tubulin is a protein in cells.#protein#C2#ˈtuːbjəlɪn#توبولین یک پروتئین در سلول ها است.
+electioneer#مبارزه انتخاباتی کردن#He's electioneering for his candidate.#campaign, canvass#C1#əˌlekʃəˈnɪər#او برای نامزدش مبارزه انتخاباتی می کند.
+polyphasic#چندفازی#Polyphasic sleep is not for everyone.#multi-phase#C2#ˌpɑːliˈfeɪzɪk#خواب چندفازی برای همه مناسب نیست.
+unconscionability#ظلم و ستم#The unconscionability of the contract was clear.#injustice, unfairness#C2#ʌnˌkɑːnʃənəˈbɪləti#ظلم و ستم قرارداد واضح بود.
+demoralize#تضعیف روحیه کردن#The loss demoralized the team.#dishearten, discourage#C1#dɪˈmɔːrəlaɪz#باخت روحیه تیم را تضعیف کرد.
+nacelle#کپسول#The engine is housed in a nacelle.#engine casing#C2#nəˈsel#موتور در یک کپسول قرار دارد.
+audiotape#نوار صوتی#He recorded his voice on an audiotape.#cassette, tape#B1#ˈɔːdiəˌteɪp#او صدایش را روی یک نوار صوتی ضبط کرد.
+pentecostalism#پنطیکاستیسم#Pentecostalism is a form of Christianity.#Christian movement#C2#ˌpentɪˈkɑːstəlɪzəm#پنطیکاستیسم نوعی از مسیحیت است.
+interspecy#بین گونه ای#Interspecy competition is common in nature.#between species#C2#ˌɪntərˈspiːsi#رقابت بین گونه ای در طبیعت رایج است.
+bioethicist#زیست اخلاق شناس#A bioethicist studies ethical issues in biology.#medical ethicist#C2#ˌbaɪoʊˈeθɪsɪst#یک زیست اخلاق شناس مسائل اخلاقی در زیست شناسی را مطالعه می کند.
+dinnerware#ظروف غذاخوری#We bought new dinnerware for the kitchen.#dishes, plates#B1#ˈdɪnərwer#ما ظروف غذاخوری جدیدی برای آشپزخانه خریدیم.
+feminization#زنانه سازی#The feminization of the workplace.#making feminine#C1#ˌfemɪnəˈzeɪʃən#زنانه سازی محل کار.
+beefsteak#استیک گوشت گاو#He grilled a thick beefsteak.#steak#B1#ˈbiːfsteɪk#او یک استیک گوشت گاو ضخیم کباب کرد.
+pyrrhic#پیروزی بی ارزش#It was a pyrrhic victory.#costly, ruinous#C2#ˈpɪrɪk#این یک پیروزی بی ارزش بود.
+neurodevelopmental#عصب تکاملی#Autism is a neurodevelopmental disorder.#brain development#C2#ˌnʊroʊdɪˌveləpˈmentəl#اوتیسم یک اختلال عصب تکاملی است.
+insolation#تابش خورشیدی#The house gets a lot of insolation in the morning.#sunlight, solar radiation#C2#ˌɪnsəˈleɪʃən#خانه در صبح تابش خورشیدی زیادی دریافت می کند.
+supercar#ابرخودرو#He dreams of owning a supercar.#sports car#B1#ˈsuːpərˌkɑːr#او رویای داشتن یک ابرخودرو را دارد.
+flycatcher#مگس گیر#A flycatcher is a type of bird.#bird#C1#ˈflaɪˌkætʃər#مگس گیر نوعی پرنده است.
+precedential#دارای سابقه#The ruling was precedential.#setting a precedent#C2#ˌpresəˈdenʃəl#این حکم دارای سابقه بود.
+pastoralist#چوپان#The pastoralist moved his flock to new pastures.#shepherd, herder#C2#ˈpæstərəlɪst#چوپان گله خود را به چراگاه های جدید منتقل کرد.
+intersubjective#بین ذهنی#Intersubjective agreement is key to science.#mutually agreed#C2#ˌɪntərsəbˈdʒektɪv#توافق بین ذهنی برای علم کلیدی است.
+flummox#گیج کردن#The question flummoxed him.#confuse, bewilder#C1#ˈflʌməks#سوال او را گیج کرد.
+tiotropium#تیوتروپیوم#Tiotropium is used to treat COPD.#medication#C2#ˌtaɪoʊˈtroʊpiəm#تیوتروپیوم برای درمان بیماری مزمن انسدادی ریه استفاده می شود.
+bratwurst#براتورست#We ate bratwurst at the German festival.#sausage#B1#ˈbrɑːtwɜːrst#ما در جشنواره آلمانی براتورست خوردیم.
+etruscan#اتروسکانی#The Etruscan civilization predates the Roman Empire.#from Etruria#C2#ɪˈtrʌskən#تمدن اتروسکانی قبل از امپراتوری روم وجود داشت.
+deerskin#پوست گوزن#He wore a jacket made of deerskin.#deer hide#C1#ˈdɪərˌskɪn#او یک ژاکت ساخته شده از پوست گوزن پوشیده بود.
+posttreatment#پس از درمان#The patient's posttreatment care is important.#after treatment#C1#ˌpoʊstˈtriːtmənt#مراقبت پس از درمان بیمار مهم است.
+baller#بازیکن حرفه ای#He's a baller on the basketball court.#skilled player#B1#ˈbɔːlər#او یک بازیکن حرفه ای در زمین بسکتبال است.
+lockean#لاکانی#Lockean philosophy influenced the Declaration of Independence.#of John Locke#C2#ˈlɑːkiən#فلسفه لاکانی بر اعلامیه استقلال تاثیر گذاشت.
+feminazi#فمینازی#She was called a feminazi for her strong views.#extreme feminist#B2#ˌfeməˈnɑːtsi#او به دلیل دیدگاه های قوی خود فمینازی نامیده شد.
+unalloy#خالص کردن#He tried to unalloy the gold.#purify, refine#C2#ʌnəˈlɔɪ#او سعی کرد طلا را خالص کند.
+norepinephrine#نوراپی نفرین#Norepinephrine is a stress hormone.#hormone#C2#ˌnɔːrˌepɪˈnefrən#نوراپی نفرین یک هورمون استرس است.
+cotillion#رقص گروهی#The debutantes attended the cotillion.#formal dance#C2#kəˈtɪljən#دختران تازه وارد به جامعه در رقص گروهی شرکت کردند.
+xylitol#زایلیتول#Xylitol is a sugar substitute.#sugar alcohol#C2#ˈzaɪlɪtɔːl#زایلیتول یک جایگزین قند است.
+shifting#جابجایی#The shifting of the tectonic plates caused an earthquake.#moving, changing#B2#ˈʃɪftɪŋ#جابجایی صفحات تکتونیکی باعث زلزله شد.
+postsurgical#پس از جراحی#She needs postsurgical care.#after surgery#C1#ˌpoʊstˈsɜːrdʒɪkəl#او به مراقبت پس از جراحی نیاز دارد.
+intersex#بین جنسی#An intersex person is born with variations in sex characteristics.#hermaphrodite#C2#ˈɪntərseks#یک فرد بین جنسی با تنوع در ویژگی های جنسی متولد می شود.
+ldc#کشور در حال توسعه#LDC stands for Least Developed Country.#developing country#B2#el di si#ال دی سی مخفف کشور در حال توسعه است.
+titty#پستان#He was staring at her titties.#breast, boob#B2#ˈtɪti#او به پستان های او خیره شده بود.
+labor#کار#She was in labor for 12 hours.#childbirth, work#B1#ˈleɪbər#او ۱۲ ساعت در حال زایمان بود.
+birdseed#دانه پرندگان#He put out some birdseed for the birds.#bird food#B1#ˈbɜːrdsiːd#او مقداری دانه پرندگان برای پرندگان بیرون گذاشت.
+anticoagulation#ضد انعقاد#Anticoagulation therapy is used to prevent blood clots.#blood thinning#C2#ænˌtaɪkoʊˌæɡjəˈleɪʃən#درمان ضد انعقاد برای جلوگیری از لخته شدن خون استفاده می شود.
+watercooler#آبسردکن#They gathered around the watercooler to gossip.#water dispenser#B1#ˈwɔːtərˌkuːlər#آنها برای غیبت کردن دور آبسردکن جمع شدند.
+ungrease#چربی زدایی کردن#He tried to ungrease the pan.#degrease, clean#C1#ʌnˈɡriːs#او سعی کرد ماهیتابه را چربی زدایی کند.
+airfoil#بال هواپیما#The airfoil generates lift for the plane.#wing#C2#ˈerfɔɪl#بال هواپیما برای هواپیما نیروی بالابر تولید می کند.
+oxidize#اکسید شدن#The metal will oxidize over time.#rust, corrode#C1#ˈɑːksɪdaɪz#فلز به مرور زمان اکسید می شود.
+thiamine#تیامین#Thiamine is also known as Vitamin B1.#vitamin B1#C2#ˈθaɪəmiːn#تیامین به عنوان ویتامین ب۱ نیز شناخته می شود.
+elastomer#الاستومر#Rubber is a type of elastomer.#polymer#C2#ɪˈlæstəmər#لاستیک نوعی الاستومر است.
+unexcite#خسته کننده#The movie was unexcite.#boring, unexciting#B2#ˌʌnɪkˈsaɪt#فیلم خسته کننده بود.
+botulinum#بوتولینوم#Botulinum toxin is used in cosmetic procedures.#toxin#C2#ˈbɑːtʃəlɪnəm#سم بوتولینوم در اقدامات زیبایی استفاده می شود.
+color#رنگ#The color of her dress is blue.#hue, tint#A1#ˈkʌlər#رنگ لباس او آبی است.
+teakettle#کتری چای#She put the teakettle on the stove to boil water.#kettle#B1#ˈtiːˌketl#او کتری چای را روی اجاق گذاشت تا آب بجوشد.
+carseat#صندلی ماشین#You need a carseat for your baby.#child seat#B1#ˈkɑːrsiːt#برای نوزادتان به یک صندلی ماشین نیاز دارید.
+corpsman#پزشک یار#The corpsman gave him first aid.#medic, corps member#C1#ˈkɔːrzmən#پزشک یار به او کمک های اولیه داد.
+sockeye#ماهی سالمون#Sockeye salmon is a type of fish.#salmon#C1#ˈsɑːkaɪ#ماهی سالمون ساکی یک نوع ماهی است.
+dovish#صلح طلب#He is known for his dovish views.#peaceful, pacifist#C2#ˈdʌvɪʃ#او به خاطر دیدگاه های صلح طلبانه اش شناخته شده است.
+rhinoplasty#جراحی بینی#She had rhinoplasty to change the shape of her nose.#nose job#C2#ˈraɪnəˌplæsti#او برای تغییر شکل بینی اش جراحی بینی انجام داد.
+cartoony#کارتونی#The drawing was very cartoony.#cartoon-like#B2#kɑːrˈtuːni#نقاشی بسیار کارتونی بود.
+shyster#حقه‌باز#He's a shyster lawyer.#unethical lawyer#C2#ˈʃaɪstər#او یک وکیل حقه‌باز است.
+subhead#زیرنویس#The article has a main title and several subheads.#subtitle, sub-heading#B1#ˈsʌbˌhed#مقاله دارای یک عنوان اصلی و چندین زیرنویس است.
+papillomavirus#پاپیلوما ویروس#Papillomavirus can cause warts.#HPV#C2#ˌpæpɪˌloʊməˈvaɪrəs#پاپیلوما ویروس می تواند باعث زگیل شود.
+pyro#آتش دوست#He's a pyro and loves to play with fire.#pyromaniac#B2#ˈpaɪroʊ#او یک آتش دوست است و دوست دارد با آتش بازی کند.
+kabob#کباب#We had chicken kabob for dinner.#skewer, kebab#B1#kəˈbɑːb#ما برای شام کباب مرغ خوردیم.
+spectatorship#تماشاگری#Spectatorship at the event was high.#audience, crowd#C2#ˈspektətɔːrʃɪp#تماشاگری در این رویداد بالا بود.
+intranasal#داخل بینی#The medicine is administered intranasally.#within the nose#C2#ˌɪntrəˈneɪzəl#دارو به صورت داخل بینی تجویز می شود.
+moonscape#منظر ماه#The desert looked like a moonscape.#lunar landscape#C1#ˈmuːnskeɪp#بیابان شبیه به یک منظر ماه بود.
+bearcat#خرس گربه#A bearcat is a powerful person.#strong person#B2#ˈberkæt#خرس گربه یک فرد قدرتمند است.
+reseed#دوباره کاشتن#We need to reseed the lawn.#replant, sow again#B1#riːˈsiːd#ما باید چمن را دوباره بکاریم.
+recommit#دوباره متعهد شدن#He had to recommit to his goals.#rededicate, renew#C1#ˌriːkəˈmɪt#او باید دوباره به اهدافش متعهد می شد.
+sideswipe#کنار زدن#He sideswiped the other car.#hit from the side#C1#ˈsaɪdˌswaɪp#او ماشین دیگر را کنار زد.
+guaranty#ضمانت#The store offers a guaranty on its products.#guarantee, warranty#C1#ˈɡærənti#فروشگاه برای محصولات خود ضمانت ارائه می دهد.
+gluteus#ماهیچه سرینی#He was doing squats to strengthen his gluteus.#buttocks muscle#C2#ˈɡluːtiəs#او برای تقویت ماهیچه سرینی خود اسکات انجام می داد.
+oake#بلوطی#He had oake eyes.#oak-colored#B2#oʊk#او چشمان بلوطی داشت.
+provencal#پروونسالی#She cooked a provencal stew.#from Provence#C1#proʊvənˈsɑːl#او یک خورشت پروونسالی پخت.
+neurobiological#عصب زیست شناسی#Neurobiological research is advancing.#brain biology#C2#ˌnʊroʊbaɪəˈlɑːdʒɪkəl#تحقیقات عصب زیست شناسی در حال پیشرفت است.
+arborist#درخت کار#An arborist takes care of trees.#tree surgeon#C1#ˈɑːrbərɪst#یک درخت کار از درختان مراقبت می کند.
+synecdoche#مجاز جزء به کل#He used synecdoche when he said "all hands on deck".#figure of speech#C2#sɪˈnekdəki#او از مجاز جزء به کل استفاده کرد وقتی گفت "همه دست ها روی عرشه".
+gam#گروه#The gam of whales was a sight to see.#group of whales#C2#ɡæm#گروه نهنگ ها دیدنی بود.
+calabash#کدوی قلیانی#He smoked a pipe made from a calabash.#gourd#C1#ˈkæləˌbæʃ#او یک پیپ ساخته شده از یک کدوی قلیانی دود می کرد.
+accommodationist#سازشکار#He was an accommodationist on the issue.#compromiser#C2#əˌkɑːməˈdeɪʃənɪst#او در این مورد یک سازشکار بود.
+washingtonian#واشنگتنی#The Washingtonian lifestyle is fast-paced.#from Washington D.C.#C1#ˌwɑːʃɪŋˈtoʊniən#سبک زندگی واشنگتنی پر سرعت است.
+flunky#پاچه خوار#He's just a flunky for the CEO.#lackey, sycophant#C1#ˈflʌŋki#او فقط یک پاچه خوار برای مدیر عامل است.
+interlink#به هم مرتبط کردن#The two systems are interlinked.#connect, link#B2#ˌɪntərˈlɪŋk#این دو سیستم به هم مرتبط هستند.
+prereferral#قبل از ارجاع#The student needed a prereferral assessment.#before referral#C1#ˌpriːrɪˈfɜːrəl#دانش آموز به یک ارزیابی قبل از ارجاع نیاز داشت.
+racketeer#باجگیر#The racketeer was arrested for extortion.#extortionist, gangster#C2#ˌrækəˈtɪər#باجگیر به دلیل اخاذی دستگیر شد.
+immunocompromise#ضعف سیستم ایمنی#He is immunocompromise due to his illness.#weak immune system#C2#ˌɪmjunoʊˈkɑːmprəmaɪz#او به دلیل بیماری اش ضعف سیستم ایمنی دارد.
+unask#پس گرفتن#He tried to unask the question.#retract, withdraw#C1#ʌnˈæsk#او سعی کرد سوال را پس بگیرد.
+multivariable#چند متغیره#The problem involves a multivariable equation.#many variables#C2#ˌmʌltiˈveriəbəl#این مسئله شامل یک معادله چند متغیره است.
+deictic#اشاره ای#The word "here" is a deictic.#pointing word#C2#daɪkˈtɪk#کلمه "اینجا" یک کلمه اشاره ای است.
+overfish#صید بی رویه کردن#The lake was overfished and now has few fish.#catch too many fish#C1#ˌoʊvərˈfɪʃ#از دریاچه صید بی رویه شد و اکنون ماهی کمی دارد.
+amaryllis#گل آماریلیس#She planted an amaryllis bulb.#flower#C1#ˌæməˈrɪlɪs#او یک پیاز گل آماریلیس کاشت.
+mumbo#مزخرف#He was speaking a bunch of mumbo jumbo.#nonsense, gibberish#B2#ˈmʌmboʊ#او داشت یک عالمه مزخرف می گفت.
+bacteremia#باکتریمی#Bacteremia can lead to sepsis.#bacteria in blood#C2#ˌbæktərɪˈmiːə#باکتریمی می تواند منجر به سپسیس شود.
+launchpad#سکو پرتاب#The rocket was on the launchpad.#launching pad#B1#ˈlɔːntʃpæd#موشک روی سکو پرتاب بود.
+years#سال ها#I haven't seen you in years.#a long time#A1#jɪərz#سال هاست که شما را ندیده ام.
+sensitization#حساس سازی#Sensitization to the allergen can cause a reaction.#making sensitive#C2#ˌsensətaɪˈzeɪʃən#حساس سازی به آلرژن می تواند باعث واکنش شود.
+thymu#تیموس#The thymus gland is part of the immune system.#gland#C2#ˈθaɪməs#غده تیموس بخشی از سیستم ایمنی است.
+druther#ترجیح#If I had my druthers, I would stay home.#preference#B2#ˈdrʌðər#اگر ترجیح من بود، در خانه می ماندم.
+schmaltz#احساساتی گری#The movie was full of schmaltz.#sentimentality#C2#ʃmɑːlts#فیلم پر از احساساتی گری بود.
+dexamethasone#دگزامتازون#Dexamethasone is a type of steroid.#steroid#C2#ˌdeksəˌmeθəˈsoʊn#دگزامتازون نوعی استروئید است.
+rasa#لوح سفید#The mind is a tabula rasa at birth.#blank slate#C2#ˈrɑːsə#ذهن در هنگام تولد یک لوح سفید است.
+backstretch#مسیر مستقیم عقب#The horses are on the backstretch of the track.#straight part of a track#C1#ˈbækˌstrɛtʃ#اسب ها در مسیر مستقیم عقب پیست هستند.
+nucleon#هسته ای#A nucleon is a proton or a neutron.#subatomic particle#C2#ˈnuːkliɑːn#یک نوکلئون یک پروتون یا یک نوترون است.
+prog#راک پیشرو#He loves prog rock.#progressive rock#B2#prɑːɡ#او عاشق راک پیشرو است.
+curmudgeonly#بدخلق#He has a curmudgeonly attitude.#grumpy, ill-tempered#C2#kərˈmʌdʒənli#او یک نگرش بدخلق دارد.
+stopping#توقف#The stopping of the car was sudden.#halt, cease#A2#ˈstɑːpɪŋ#توقف ماشین ناگهانی بود.
+whoopee#شادی و هیجان (به ویژه در هنگام جشن و پایکوبی)#They let out a whoopee of delight when they saw the cake.#shout of joy, cheer#C2#wʊˈpiː#آنها وقتی کیک را دیدند، از خوشحالی فریاد کشیدند.
+heatproof#مقاوم در برابر گرما#Use a heatproof glove to take the dish out of the oven.#heat-resistant, fireproof#B2#ˈhiːtpruːf#از یک دستکش مقاوم به حرارت برای بیرون آوردن ظرف از فر استفاده کن.
+chiaroscuro#سایه‌روشن (استفاده از تضاد شدید بین نور و سایه در نقاشی یا عکس)#The artist used chiaroscuro to create a dramatic effect in the portrait.#light-dark, shading#C2#kjɑːrəˈskʊəroʊ#نقاش از سایه‌روشن برای ایجاد یک جلوه دراماتیک در پرتره استفاده کرد.
+attainder#محرومیت از حقوق مدنی (مجازات قانونی که فرد را از ارث و حقوق دیگر محروم می‌کند)#He was a victim of attainder, losing all his property and titles.#disqualification, forfeiture#C2#əˈteɪndər#او قربانی محرومیت از حقوق مدنی بود و تمام اموال و عناوین خود را از دست داد.
+whispery#مثل زمزمه، آرام و آهسته#Her voice was soft and whispery as she told the secret.#muffled, faint#C1#ˈwɪspəri#صدایش نرم و زمزمه‌مانند بود وقتی راز را تعریف کرد.
+gameday#روز مسابقه (روز برگزاری یک رویداد ورزشی مهم)#The city is buzzing with excitement on gameday.#match day, competition day#B1#ˈɡeɪmdeɪ#شهر در روز مسابقه از هیجان سرشار است.
+argentinean#اهل آرژانتین، آرژانتینی#The restaurant serves traditional Argentinean food.#Argentinian#B1#ˌɑːrdʒənˈtiːniən#این رستوران غذای سنتی آرژانتینی سرو می‌کند.
+orientalist#شرق‌شناس (متخصص در فرهنگ و زبان کشورهای شرق)#He is a renowned orientalist, specializing in ancient Chinese texts.#scholar of the East, expert on Eastern cultures#C2#ˌɔːriənˈtɑːlɪst#او یک شرق‌شناس برجسته است که در متون باستانی چینی تخصص دارد.
+dehydrator#دستگاه خشک‌کن (دستگاهی برای از بین بردن آب از مواد غذایی)#I use a dehydrator to make dried fruit for hiking.#food dryer#B2#ˈdiːhaɪdreɪtər#من از دستگاه خشک‌کن برای درست کردن میوه خشک برای پیاده‌روی استفاده می‌کنم.
+gunplay#تیراندازی (استفاده از اسلحه در یک فیلم یا موقعیت)#The movie was full of violent gunplay.#shootout, armed conflict#C1#ˈɡʌnpleɪ#فیلم پر از تیراندازی‌های خشونت‌آمیز بود.
+kielbasa#نوعی سوسیس دودی لهستانی#We grilled some kielbasa for dinner.#Polish sausage#B1#kɪlˈbɑːsə#برای شام مقداری سوسیس لهستانی کباب کردیم.
+fuckhead#احمق، نادان (یک کلمه توهین‌آمیز)#He's a complete fuckhead for what he did.#idiot, moron#C2#ˈfʌkˌhɛd#او به خاطر کاری که کرد یک احمق تمام‌عیار است.
+postmodernity#پست‌مدرنیته (دوره زمانی یا شرایط فرهنگی پس از مدرنیته)#The concepts of postmodernity can be hard to grasp.#postmodernism, late modernity#C2#ˌpoʊstmoʊˈdɜːrnɪti#مفاهیم پست‌مدرنیته می‌توانند دشوار باشند.
+crabapple#سیب زمینی (یک نوع سیب کوچک و ترش)#We made jelly from the crabapples in our yard.#small tart apple#B1#ˈkræbˌæpl#ما از سیب‌های زمینی حیاطمان ژله درست کردیم.
+guff#حرف پوچ، مزخرف#Don't listen to his guff; he doesn't know what he's talking about.#nonsense, rubbish#C1#ɡʌf#به حرف‌های پوچش گوش نده؛ او نمی‌داند چه می‌گوید.
+limiting#محدودکننده#The lack of funding was a limiting factor in our project.#restricting, confining#B2#ˈlɪmɪtɪŋ#کمبود بودجه یک عامل محدودکننده در پروژه ما بود.
+headspace#فضای ذهنی، آرامش ذهنی#I need some headspace to think about this problem.#mental clarity, quiet mind#C1#ˈhɛdˌspeɪs#من به مقداری فضای ذهنی نیاز دارم تا به این مشکل فکر کنم.
+codger#پیرمرد (کلمه‌ای غیررسمی برای اشاره به پیرمرد)#The old codger sat on the bench watching the world go by.#old man, geezer#B2#ˈkɑːdʒər#پیرمرد روی نیمکت نشسته بود و دنیا را تماشا می‌کرد.
+preceptor#استاد، مربی (کسی که به دانشجو یا کارآموز آموزش می‌دهد)#The preceptor guided the students through their first clinical experience.#mentor, instructor#C2#prɪˈseptər#استاد دانشجویان را در اولین تجربه بالینی‌شان راهنمایی کرد.
+kart#کارتینگ، ماشین کوچک مسابقه‌ای#We went go-kart racing at the amusement park.#go-kart, race car#B1#kɑːrt#برای مسابقه کارتینگ به شهربازی رفتیم.
+nonmusical#غیرموسیقایی#He has a great voice but is completely nonmusical.#unmusical, tone-deaf#B2#ˌnɑːnˈmjuːzɪkl#او صدای فوق‌العاده‌ای دارد اما کاملاً غیرموسیقایی است.
+showboat#خودنمایی کردن، خودنما#He's a real showboat who loves being the center of attention.#show-off, braggart#C1#ˈʃoʊboʊt#او یک خودنمای واقعی است که دوست دارد مرکز توجه باشد.
+horsemanship#سوارکاری (مهارت در سوارکاری و تربیت اسب)#He demonstrated his excellent horsemanship at the rodeo.#equestrianism, riding skill#B2#ˈhɔːrsəmˌʃɪp#او مهارت سوارکاری عالی خود را در مسابقه سوارکاری نشان داد.
+alphabetize#بر اساس حروف الفبا مرتب کردن#Please alphabetize the names on this list.#arrange alphabetically, order by letter#B1#ˈælfəbəˌtaɪz#لطفاً اسم‌های این لیست را بر اساس حروف الفبا مرتب کن.
+stromal#مربوط به استروما (بافت همبند پشتیبان در یک اندام)#The disease affects the stromal cells of the organ.#connective tissue, supportive#C2#ˈstroʊməl#این بیماری سلول‌های بافت همبند اندام را تحت تأثیر قرار می‌دهد.
+hypermedia#هایپرمدیا (ترکیبی از متن، تصویر، صدا، ویدیوی مرتبط با هم)#The educational software uses hypermedia to present information.#multimedia, interactive media#C2#ˌhaɪpərˈmiːdiə#این نرم‌افزار آموزشی از هایپرمدیا برای ارائه اطلاعات استفاده می‌کند.
+squirrelly#عجیب و غریب، عصبی#He's a little squirrelly today; I wonder what's wrong.#unpredictable, erratic#C1#ˈskwɜːrəli#او امروز کمی عجیب و غریب است؛ نمی‌دانم چه مشکلی دارد.
+afrikaan#آفریکان، زبان آفریکان#He speaks both English and Afrikaans.#a language spoken in South Africa#C1#ˌæfrɪˈkɑːn#او هم انگلیسی و هم آفریکان صحبت می‌کند.
+oligopoly#انحصار چندجانبه (بازاری که توسط تعداد کمی شرکت کنترل می‌شود)#The software industry is often described as an oligopoly.#market dominance by a few firms#C2#ˌɑːlɪˈɡɑːpəli#صنعت نرم‌افزار اغلب به عنوان یک انحصار چندجانبه توصیف می‌شود.
+examinee#آزمون‌شونده، داوطلب آزمون#The examinee waited nervously for the test to begin.#candidate, test-taker#B2#ɪɡˌzæmɪˈniː#آزمون‌شونده با اضطراب منتظر شروع آزمون بود.
+studied#برنامه‌ریزی‌شده، عمدی#She gave the matter a studied consideration before answering.#deliberate, thoughtful#C2#ˈstʌdid#او قبل از پاسخ دادن، با دقت و عمدی در مورد مسئله تأمل کرد.
+hellcat#زن خشمگین، زن بدخلق#She's a real hellcat when she gets angry.#shrew, vixen#C1#ˈhɛlkæt#وقتی عصبانی می‌شود، یک زن خشمگین واقعی است.
+hitter#ضربه زننده (در ورزش، کسی که ضربه می‌زند)#He is a powerful hitter, known for his home runs.#batter, slugger#B1#ˈhɪtər#او یک ضربه‌زننده قدرتمند است که به خاطر هوم ران‌هایش شناخته می‌شود.
+ewer#آفتابه، پارچ (پارچ قدیمی برای آب)#The silver ewer was filled with fresh water.#jug, pitcher#C2#ˈjuːər#آفتابه نقره‌ای با آب تازه پر شده بود.
+coleus#گل شمعدانی (یک نوع گیاه آپارتمانی با برگ‌های رنگی)#The coleus plant has beautiful, multicolored leaves.#a type of plant with colored leaves#B1#ˈkoʊliəs#گیاه شمعدانی برگ‌های زیبا و چندرنگی دارد.
+bejesus#جهنم (در عبارت‌هایی مثل 'beat the bejesus out of someone')#He scared the bejesus out of me with that sudden noise.#daylights, living daylights#C1#bɪˈdʒiːzəs#با آن صدای ناگهانی، ترس را به جان من انداخت.
+hollyhock#گل ختمی (یک نوع گیاه بلند با گل‌های بزرگ)#The hollyhocks grew tall against the fence.#a tall plant with large flowers#B1#ˈhɑːliˌhɑːk#گل‌های ختمی در کنار نرده بلند شدند.
+polyimide#پلی‌آمید (نوعی پلیمر مقاوم در برابر حرارت)#Polyimide is used in high-temperature applications.#a heat-resistant polymer#C2#ˌpɑːliˈɪmaɪd#پلی‌آمید در کاربردهای با دمای بالا استفاده می‌شود.
+showboate#خودنمایی کردن، خودنما#He likes to showboat on the field to impress the fans.#show off, grandstand#C1#ˈʃoʊboʊt#او دوست دارد در زمین خودنمایی کند تا طرفداران را تحت تأثیر قرار دهد.
+mook#آدم ساده، آدم بی‌خاصیت (کلمه‌ای عامیانه و توهین‌آمیز)#Don't be a mook and just follow the rules.#fool, loser#C2#muːk#یک آدم بی‌خاصیت نباش و فقط از قوانین پیروی کن.
+gearshift#اهرم دنده#He had to push the gearshift to change gears.#gear lever, shifter#B1#ˈɡɪərʃɪft#او برای عوض کردن دنده مجبور بود اهرم دنده را فشار دهد.
+nonrespondent#فرد بی‌تفاوت، فردی که پاسخ نمی‌دهد#The survey had a high number of nonrespondents.#non-participant, non-answerer#C2#ˌnɑːnrɪˈspɑːndənt#این نظرسنجی تعداد زیادی فرد بی‌تفاوت داشت.
+naptime#وقت چرت زدن (وقت استراحت کوتاه در طول روز)#It's naptime for the toddlers now.#siesta time, rest period#B1#ˈnæptaɪm#الان وقت چرت زدن برای بچه‌های کوچک است.
+simmering#در حال جوشیدن، پخته شدن با حرارت ملایم#The soup was simmering on the stove for an hour.#gently boiling, stewing#B2#ˈsɪmərɪŋ#سوپ یک ساعت روی اجاق گاز در حال جوشیدن بود.
+roundworm#کرم گرد (نوعی انگل روده‌ای)#Roundworms can infect both humans and animals.#a type of parasitic worm#B2#ˈraʊndwɜːrm#کرم‌های گرد می‌توانند هم انسان و هم حیوانات را آلوده کنند.
+rubberize#کشسان کردن، پوشش لاستیکی دادن#We need to rubberize the surface to make it non-slip.#coat with rubber, make elastic#C1#ˈrʌbəraɪz#باید سطح را کشسان کنیم تا ضد لغزش شود.
+babesiosis#بابزیوز (یک بیماری انگلی که توسط کنه منتقل می‌شود)#Babesiosis is a disease caused by a tick bite.#a parasitic disease#C2#ˌbeɪbiˈoʊsiəs#بابزیوز یک بیماری انگلی است که توسط نیش کنه ایجاد می‌شود.
+intercessor#شفاعت‌کننده، میانجی#The priest acted as an intercessor between the two families.#mediator, go-between#C2#ˌɪntərˈsesər#کشیش به عنوان یک میانجی بین دو خانواده عمل کرد.
+voluntariness#ارادی بودن، داوطلبانه بودن#The voluntariness of the confession was questioned by the judge.#willingness, spontaneity#C2#ˌvɑːlənˈtɛrɪnəs#ارادی بودن اعتراف توسط قاضی مورد سؤال قرار گرفت.
+androgyny#دوجنسه بودن، ویژگی‌های هر دو جنس را داشتن#The model's androgyny made her a popular choice for fashion designers.#unisex, gender fluidity#C2#ænˈdrɑːdʒɪni#دوجنسه بودن مدل، او را به یک انتخاب محبوب برای طراحان مد تبدیل کرد.
+colored#رنگ شده، رنگین‌پوست (کلمه‌ای که در گذشته برای اشاره به افراد غیرسفیدپوست استفاده می‌شد و اکنون توهین‌آمیز است)#She wore a beautiful colored dress to the party.#having color, dyed#B1#ˈkʌlərd#او یک لباس رنگی زیبا در مهمانی پوشیده بود.
+sherd#تکه سفال (تکه شکسته از یک ظرف سفالی)#Archaeologists found many pottery sherds at the dig site.#pottery fragment, broken piece of pottery#C2#ʃɜːrd#باستان‌شناسان در محل حفاری تکه‌های سفال زیادی پیدا کردند.
+uninvite#دعوت را پس گرفتن، لغو دعوت#I had to uninvite him from the party after our argument.#withdraw an invitation, cancel a request#B2#ˌʌnɪnˈvaɪt#بعد از دعوایمان مجبور شدم دعوتش را از مهمانی پس بگیرم.
+cultish#شبیه به فرقه، فرقه‌ای#The group's behavior was described as cultish.#sectarian, fanatical#C1#ˈkʌltɪʃ#رفتار گروه به عنوان فرقه‌ای توصیف شد.
+experientially#از طریق تجربه#He learned about leadership experientially, not from a textbook.#from experience, empirically#C2#ɪkˌspɪriˈenʃəli#او رهبری را از طریق تجربه یاد گرفت، نه از روی کتاب.
+multitouch#چند لمسی (قابلیت تشخیص چندین لمس به طور همزمان)#The tablet's multitouch screen is very responsive.#multi-finger, multiple touch#B2#ˌmʌltiˈtʌtʃ#صفحه نمایش چند لمسی تبلت بسیار حساس است.
+cava#کاوا (یک نوع شراب گازدار اسپانیایی)#We celebrated with a bottle of cava.#a type of Spanish sparkling wine#B1#ˈkɑːvə#ما با یک بطری کاوا جشن گرفتیم.
+unbaked#نپخته، خام#The unbaked pie crust is ready for the filling.#uncooked, raw#B1#ˌʌnˈbeɪkt#خمیر پای نپخته برای پر کردن آماده است.
+syriac#سریانی (یک زبان باستانی آرامی)#He is studying ancient Syriac texts.#an ancient Aramaic language#C2#ˈsɪriæk#او در حال مطالعه متون باستانی سریانی است.
+witchy#جادوگرانه، مرموز#She had a witchy vibe with her long black dress and dark makeup.#magical, mystical#C1#ˈwɪtʃi#او با لباس سیاه بلند و آرایش تیره خود، یک حس جادوگرانه داشت.
+cloche#کلاوش (کلاه زنانه زنگوله‌ای شکل یا سرپوش شیشه‌ای برای غذا)#She wore a fashionable cloche hat to the event.#a bell-shaped hat or glass cover#C2#klɑːʃ#او یک کلاه کلاوش شیک در رویداد پوشیده بود.
+nightcrawler#کرم خاکی بزرگ، کرم شب‌گرد#He went out at night to collect nightcrawlers for fishing bait.#earthworm, dew worm#B1#ˈnaɪtkrɔːlər#او شب بیرون رفت تا برای طعمه ماهیگیری کرم‌های شب‌گرد جمع کند.
+philander#عشق‌بازی کردن (به صورت سطحی و غیروفادارانه)#He was known to philander with different women.#womanize, flirt#C2#fɪˈlændər#او به عشق‌بازی با زنان مختلف معروف بود.
+hematite#هماتیت (یک نوع سنگ معدن آهن)#Hematite is a common iron oxide mineral.#iron ore#B2#ˈhiːmətaɪt#هماتیت یک کانی اکسید آهن رایج است.
+guideway#مسیر راهنما، مسیر هدایت#The monorail runs on a single guideway.#track, rail#B2#ˈɡaɪdweɪ#مونوریل روی یک مسیر راهنما حرکت می‌کند.
+unconfine#آزاد کردن، رها کردن#The animal was unconfined and wandered into the neighborhood.#release, set free#C2#ˌʌnkənˈfaɪn#حیوان آزاد شد و به داخل محله پرسه زد.
+audiometric#مربوط به شنوایی‌سنجی#The test was an audiometric examination to check his hearing.#hearing test, auditory#C2#ˌɔːdiəˈmetrɪk#این آزمایش یک معاینه شنوایی‌سنجی برای بررسی شنوایی او بود.
+maharajah#مهاراجه (لقب پادشاهان هندی)#The maharajah ruled over a vast and wealthy kingdom.#Indian prince, king#C1#ˌmɑːhəˈrɑːdʒə#مهاراجه بر یک پادشاهی بزرگ و ثروتمند حکومت می‌کرد.
+dron#به معنی صدای وزوز یا غرغر کردن#The drone of the lawnmower was very loud.#hum, buzz#B2#drɑːn#صدای وزوز ماشین چمن‌زنی بسیار بلند بود.
+carney#کارنی (کسی که در کارناوال کار می‌کند)#The carney was in charge of the Ferris wheel.#carnival worker, showman#C1#ˈkɑːrni#کارنی مسئول چرخ و فلک بود.
+telekinetic#وابسته به توانایی حرکت دادن اجسام با ذهن#The movie character had incredible telekinetic powers.#mind-moving, psychokinetic#C2#ˌtɛləkɪˈnɛtɪk#شخصیت فیلم قدرت‌های تله‌کینتیک فوق‌العاده‌ای داشت.
+kumbaya#کومبایا (کلمه‌ای برای اشاره به یک توافق یا هماهنگی غیرواقعی)#They tried to have a kumbaya moment but just ended up arguing.#harmonious, peaceful#C2#ˌkʊmbəˈjɑː#آنها سعی کردند یک لحظه هماهنگ داشته باشند اما در نهایت فقط دعوا کردند.
+gratefulness#قدردانی، سپاسگزاری#She expressed her gratefulness for all the support she received.#gratitude, thankfulness#B1#ˈɡreɪtfəlnəs#او قدردانی خود را برای تمام حمایتی که دریافت کرد ابراز کرد.
+tippy#بی‌ثبات، لق#The table was a little tippy, so we put a book under one leg.#unstable, wobbly#B1#ˈtɪpi#میز کمی لق بود، بنابراین یک کتاب زیر یکی از پاهایش گذاشتیم.
+twentysometh#حدود بیست ساله، در دهه بیست زندگی#He was a twentysomething, full of energy and new ideas.#in their twenties#B1#ˈtwɛntiˌsʌmθɪŋ#او حدود بیست ساله بود، پر از انرژی و ایده‌های جدید.
+endolymphatic#مربوط به سیستم لنفاوی داخلی گوش#The disease affects the endolymphatic sac in the inner ear.#inner ear, lymphatic#C2#ˌɛndoʊlɪmˈfætɪk#این بیماری کیسه لنفاوی داخلی در گوش درونی را تحت تأثیر قرار می‌دهد.
+illuminance#شدت روشنایی#The illuminance of the room was too low for reading.#brightness, light level#C2#ɪˈluːmɪnəns#شدت روشنایی اتاق برای خواندن خیلی کم بود.
+catfight#دعوای زنانه، درگیری بین دو زن#The movie features a dramatic catfight between the two main characters.#female quarrel, fight#C1#ˈkætfaɪt#فیلم یک دعوای زنانه دراماتیک بین دو شخصیت اصلی را نشان می‌دهد.
+mell#به معنی ترکیب کردن یا مخلوط کردن (کلمه‌ای منسوخ شده)#He did not mell with the other students, preferring to be alone.#mingle, mix#C2#mɛl#او با دانش‌آموزان دیگر ترکیب نشد و ترجیح داد تنها باشد.
+dobsonian#نوعی تلسکوپ بازتابی#A dobsonian telescope is great for amateur astronomy.#a type of reflecting telescope#C2#ˈdɑːbsəniən#یک تلسکوپ دابسونی برای نجوم آماتور عالی است.
+hokum#حرف پوچ، مزخرف#The movie was filled with hokum and unbelievable plot twists.#nonsense, balderdash#C1#ˈhoʊkəm#فیلم پر از حرف‌های پوچ و پیچش‌های داستانی غیرقابل باور بود.
+glassblower#شیشه‌گر#The glassblower created a beautiful sculpture from molten glass.#glass artist, artisan#B2#ˈɡlæsˌbloʊər#شیشه‌گر یک مجسمه زیبا از شیشه مذاب ساخت.
+dishrag#دستمال ظرفشویی#She used a dishrag to wipe the counter.#dishcloth, rag#B1#ˈdɪʃræɡ#او از یک دستمال ظرفشویی برای پاک کردن پیشخوان استفاده کرد.
+filmgoer#تماشاچی فیلم#Filmgoers were excited about the new release.#moviegoer, cinema-goer#B1#ˈfɪlmˌɡoʊər#تماشاچیان فیلم از اکران جدید هیجان‌زده بودند.
+nightshade#شابیزک (یک نوع گیاه سمی)#Deadly nightshade is a highly poisonous plant.#a poisonous plant#B2#ˈnaɪtʃeɪd#شابیزک کشنده یک گیاه بسیار سمی است.
+stereotypic#قالبی، کلیشه‌ای#His characters were often stereotypic and lacked depth.#clichéd, stereotypical#B2#ˌstɛriəˈtɪpɪk#شخصیت‌های او اغلب قالبی بودند و عمق نداشتند.
+fucken#لعنتی (کلمه‌ای عامیانه و توهین‌آمیز)#He's a fucken idiot.#damned, fucking#C2#ˈfʌkən#او یک احمق لعنتی است.
+ampicillin#آمپی‌سیلین (نوعی آنتی‌بیوتیک)#The doctor prescribed ampicillin for the infection.#a type of antibiotic#B2#ˌæmpəˈsɪlɪn#دکتر برای عفونت آمپی‌سیلین تجویز کرد.
+nubby#نقطه نقطه، دارای گره‌های کوچک#The sweater had a nubby texture that felt rough to the touch.#bumpy, lumpy#B2#ˈnʌbi#ژاکت یک بافت نقطه نقطه داشت که در لمس زبر بود.
+carabiner#کارابین (قلاب فلزی برای کوهنوردی)#He attached the rope to the carabiner for safety.#locking clip, hook#B2#ˌkærəˈbiːnər#او طناب را برای ایمنی به کارابین وصل کرد.
+msec#میلی‌ثانیه (مخفف)#The reaction happened in less than a msec.#millisecond, a thousandth of a second#B2#ˈɛmˌsɛk#واکنش در کمتر از یک میلی‌ثانیه اتفاق افتاد.
+fraternization#برادرانه رفتار کردن، رفیق شدن#Fraternization between officers and enlisted personnel is often discouraged.#socializing, mingling#C2#ˌfrætərnɪˈzeɪʃən#رفیق شدن بین افسران و پرسنل نظامی اغلب توصیه نمی‌شود.
+honed#صیقل‌یافته، تقویت‌شده#His skills were honed through years of practice.#sharpened, refined#B2#hoʊnd#مهارت‌های او طی سال‌ها تمرین تقویت شد.
+nasopharynx#حلق و بینی#The nasopharynx is a part of the upper respiratory tract.#nasal cavity, pharynx#C2#ˌneɪsoʊˈfærɪŋks#حلق و بینی بخشی از مجرای تنفسی بالایی است.
+echocardiogram#اکوکاردیوگرام (تصویربرداری از قلب با امواج صوتی)#The doctor ordered an echocardiogram to check her heart function.#ultrasound of the heart#C2#ˌɛkoʊˈkɑːrdiəˌɡræm#دکتر برای بررسی عملکرد قلب او، اکوکاردیوگرام تجویز کرد.
+doggone#لعنتی (کلمه‌ای که به جای کلمات توهین‌آمیز استفاده می‌شود)#Doggone it, I forgot my keys again!#darn, confounded#B2#ˌdɔːˈɡɔːn#لعنتی، دوباره کلیدهایم را فراموش کردم!
+unreflective#بی‌فکر، بدون تأمل#He made an unreflective decision that he later regretted.#thoughtless, impulsive#C1#ˌʌnrɪˈflɛktɪv#او یک تصمیم بی‌فکر گرفت که بعداً پشیمان شد.
+klansman#عضو کوکلوس‌کلان#The documentary showed the history of the Ku Klux Klan and its klansmen.#a member of the Ku Klux Klan#C2#ˈklænzmən#مستند تاریخ کوکلوس‌کلان و اعضای آن را نشان داد.
+folkway#هنجار اجتماعی، آداب و رسوم#Shaking hands is a common folkway in many cultures.#social custom, tradition#C2#ˈfoʊkˌweɪ#دست دادن یک هنجار اجتماعی رایج در بسیاری از فرهنگ‌ها است.
+intergenic#بین ژنی (مربوط به ناحیه بین ژن‌ها در DNA)#Scientists are studying the intergenic regions of the genome.#between genes, non-coding#C2#ˌɪntərˈdʒɛnɪk#دانشمندان در حال مطالعه نواحی بین ژنی در ژنوم هستند.
+overbite#اپن بایت (حالتی که دندان‌های بالایی بیشتر از حد معمول روی دندان‌های پایینی قرار می‌گیرند)#She had a noticeable overbite that required braces.#malocclusion, dental condition#B2#ˈoʊvərbait#او یک اپن بایت قابل توجه داشت که نیاز به ارتودنسی داشت.
+beatable#قابل شکست، شکست‌پذیر#The team is strong but they are definitely beatable.#vulnerable, conquerable#B1#ˈbiːtəbl#تیم قوی است اما قطعاً شکست‌پذیر هستند.
+stipple#نقاط نقطه گذاشتن#The artist used stipple to create a sense of texture in the drawing.#dot, spot#C2#ˈstɪpl#نقاش از نقاط نقطه برای ایجاد حس بافت در نقاشی استفاده کرد.
+kaddish#کادیش (دعای یهودی برای عزاداری)#He recited the Kaddish at his father's funeral.#a Jewish prayer for the dead#C2#ˈkɑːdɪʃ#او در مراسم تشییع جنازه پدرش، دعای کادیش را خواند.
+tweaker#معتاد، کسی که مواد مخدر مصرف می‌کند (کلمه‌ای عامیانه)#He was a tweaker, always looking for his next fix.#drug addict, user#C2#ˈtwiːkər#او یک معتاد بود و همیشه به دنبال مصرف بعدی بود.
+distractibility#حواس‌پرتی، عدم تمرکز#The student's high distractibility made it difficult for him to study.#inattentiveness, lack of focus#C2#dɪˌstræktəˈbɪlɪti#حواس‌پرتی زیاد دانش‌آموز مطالعه را برایش دشوار می‌کرد.
+ebonic#ابونیک (یک اصطلاح بحث‌برانگیز برای زبان انگلیسی آفریقایی‌تبار آمریکایی)#Some linguists refer to this dialect as Ebonics.#African American Vernacular English#C2#ɪˈbɑːnɪk#برخی زبان‌شناسان این لهجه را به عنوان ابونیک می‌شناسند.
+sanctimony#تقدس‌گرایی، ریاکاری#His sanctimony was annoying to everyone around him.#hypocrisy, self-righteousness#C2#ˈsæŋktəˌmoʊni#تقدس‌گرایی او برای همه اطرافیانش آزاردهنده بود.
+gunny#گونی (کیسه ساخته شده از گونی)#The potatoes were sold in large gunny sacks.#burlap, hessian#B1#ˈɡʌni#سیب‌زمینی‌ها در کیسه‌های گونی بزرگ فروخته می‌شدند.
+surimi#سوری‌می (گوشت فرآوری‌شده ماهی)#The crab sticks are made from surimi.#imitation seafood#B2#sʊˈriːmi#چوب‌های خرچنگ از سوری‌می ساخته شده‌اند.
+toucan#توکان (نوعی پرنده با منقار بزرگ)#The toucan has a long, brightly colored beak.#a tropical bird#B1#ˈtuːkæn#توکان یک منقار بلند و رنگارنگ دارد.
+trackball#ترک‌بال (توپک غلتان که به جای ماوس استفاده می‌شود)#He uses a trackball instead of a mouse to control his computer.#pointing device, rollerball#B2#ˈtrækbɔːl#او از ترک‌بال به جای ماوس برای کنترل کامپیوترش استفاده می‌کند.
+channeler#کانال‌کننده (کسی که ادعا می‌کند با ارواح ارتباط برقرار می‌کند)#She claimed to be a channeler who could speak with the dead.#medium, spiritualist#C2#ˈtʃænələr#او ادعا می‌کرد یک کانال‌کننده است که می‌تواند با مردگان صحبت کند.
+nanostructure#ریزساختار (ساختار در مقیاس نانو)#Scientists are developing new materials with unique nanostructures.#nanoscale structure, tiny structure#C2#ˈnænoʊˌstrʌktʃər#دانشمندان در حال توسعه مواد جدید با ریزساختارهای منحصر به فرد هستند.
+gop#مخفف حزب جمهوری‌خواه در آمریکا#The GOP is the main opposition party.#Grand Old Party, Republican Party#B2#dʒiː oʊ piː#حزب جمهوری‌خواه حزب مخالف اصلی است.
+ropy#نخ‌دار، کشدار#The syrup was thick and ropy.#stringy, viscous#B2#ˈroʊpi#شربت غلیظ و کشدار بود.
+programmatically#به صورت برنامه‌ریزی‌شده، به صورت خودکار#The ads are placed programmatically based on user data.#automatically, by a program#C2#ˌproʊɡrəˈmætɪkəli#تبلیغات بر اساس داده‌های کاربر به صورت خودکار قرار داده می‌شوند.
+geordie#جرودی (لهجه مردم نیوکاسل در انگلیس)#She has a very strong Geordie accent.#a person from Newcastle, a dialect#C1#ˈdʒɔːrdi#او لهجه جرودی بسیار قوی‌ای دارد.
+intercessory#شفاعتی، مربوط به میانجیگری#He offered an intercessory prayer on behalf of the sick.#mediating, prayerful#C2#ˌɪntərˈsesəri#او یک دعای شفاعتی به نمایندگی از بیماران خواند.
+transoceanic#فرا اقیانوسی، بین اقیانوسی#The transoceanic flight took twelve hours.#across the ocean, transatlantic#B2#ˌtrænsoʊʃiˈænɪk#پرواز فرا اقیانوسی دوازده ساعت طول کشید.
+vampirism#خون‌آشامی (اعتقاد به خون‌آشام بودن یا شبیه به آن)#The novel explores the themes of vampirism and immortality.#blood-sucking, parasitism#C2#ˈvæmpaɪrɪzəm#رمان به بررسی مضامین خون‌آشامی و جاودانگی می‌پردازد.
+tam#نوعی کلاه اسکاتلندی بدون لبه#He wore a tam and a kilt to the festival.#beret, cap#B1#tæm#او یک کلاه بدون لبه و یک دامن اسکاتلندی در جشنواره پوشیده بود.
+corporeality#جسمانیت، مادیت#The artist explored the concept of corporeality in her sculptures.#physicality, embodiment#C2#ˌkɔːrpəˈriːəlɪti#هنرمند مفهوم جسمانیت را در مجسمه‌هایش بررسی کرد.
+dago#داگو (کلمه‌ای توهین‌آمیز برای ایتالیایی‌ها یا اسپانیایی‌ها)#The term "dago" is an offensive slur.#a slur for people of Italian or Spanish descent#C2#ˈdeɪɡoʊ#اصطلاح "داگو" یک کلمه توهین‌آمیز است.
+nearsightedness#نزدیک‌بینی#Nearsightedness is a common vision problem.#myopia#B2#ˈnɪərˌsaɪtɪdnəs#نزدیک‌بینی یک مشکل بینایی رایج است.
+closeout#حراجی، تسویه#They are having a closeout sale to get rid of old inventory.#liquidation, clearance sale#B2#ˈkloʊsˌaʊt#آنها یک حراجی برای خلاص شدن از موجودی قدیمی دارند.
+antimicrobial#ضدمیکروبی#This soap has antimicrobial properties to kill germs.#antibacterial, germ-killing#B2#ˌæntaɪmaɪˈkroʊbiəl#این صابون خواص ضدمیکروبی برای از بین بردن میکروب‌ها دارد.
+hinky#مشکوک، عجیب و غریب (کلمه‌ای عامیانه)#Something about his story seemed a little hinky.#suspicious, odd#C1#ˈhɪŋki#چیزی در مورد داستان او کمی مشکوک به نظر می‌رسید.
+noblewoman#بانوی نجیب‌زاده#She was a noblewoman of great wealth and influence.#aristocrat, lady#B2#ˈnoʊblˌwʊmən#او یک بانوی نجیب‌زاده با ثروت و نفوذ زیاد بود.
+amaretto#آمارِتو (یک نوع لیکور ایتالیایی با طعم بادام)#I added a splash of amaretto to my coffee.#an almond-flavored liqueur#B1#ˌæməˈrɛtoʊ#مقداری آمارِتو به قهوه‌ام اضافه کردم.
+clack#صدای تق‌تق#The clack of her heels echoed in the hallway.#clicking sound, rattle#B2#klæk#صدای تق‌تق پاشنه‌های او در راهرو منعکس می‌شد.
+missional#تبلیغی، رسالتی#The church has a strong missional focus on helping the community.#evangelistic, outreach-oriented#C2#ˈmɪʃənəl#این کلیسا یک تمرکز رسالتی قوی بر کمک به جامعه دارد.
+prokaryote#پروکاریوت (موجود تک‌سلولی که هسته ندارد)#Bacteria are examples of prokaryotes.#a single-celled organism without a nucleus#C2#proʊˈkærioʊt#باکتری‌ها نمونه‌هایی از پروکاریوت‌ها هستند.
+affectively#به صورت عاطفی، از نظر عاطفی#He was affectively detached from the situation.#emotionally, feeling-wise#C2#əˈfɛktɪvli#او از نظر عاطفی از موقعیت جدا شده بود.
+binaural#دوطرفه، دوگوشی (مربوط به شنیدن با هر دو گوش)#Binaural recordings give a more realistic sound.#two-eared, stereophonic#C2#baɪˈnɔːrəl#ضبط‌های دوگوشی صدای واقعی‌تری می‌دهند.
+advised#آگاهانه، سنجیده#He made an advised decision after consulting with experts.#well-considered, thoughtful#C2#ədˈvaɪzd#او پس از مشورت با کارشناسان یک تصمیم سنجیده گرفت.
+intersectional#تقاطعی (مربوط به تلاقی هویت‌های اجتماعی و تبعیض‌های مرتبط)#The study took an intersectional approach to poverty.#overlapping, multi-layered#C2#ˌɪntərˈsɛkʃənəl#این مطالعه یک رویکرد تقاطعی به فقر داشت.
+corkboard#تخته چوب‌پنبه‌ای#She pinned the notes to the corkboard.#bulletin board, pinboard#B1#ˈkɔːrkˌbɔːrd#او یادداشت‌ها را به تخته چوب‌پنبه‌ای چسباند.
+performativity#کارایی، اجراگری#The performativity of gender is a key concept in sociology.#action, enactment#C2#pərˌfɔːrməˈtɪvɪti#اجراگری جنسیت یک مفهوم کلیدی در جامعه‌شناسی است.
+bostonian#اهل بوستون#He has a strong Bostonian accent.#a person from Boston#B1#bɔːˈstoʊniən#او لهجه بوستونی قوی‌ای دارد.
+crawlspace#فضای خزیدن، فضای زیرزمین کم‌ارتفاع#The pipes are located in the crawlspace under the house.#subfloor space, utility space#B2#ˈkrɔːlˌspeɪs#لوله‌ها در فضای خزیدن زیر خانه قرار دارند.
+biogenic#زیست‌زا (تولیدشده توسط موجودات زنده)#Biogenic gases are released by microorganisms.#produced by living organisms, organic#C2#ˌbaɪoʊˈdʒenɪk#گازهای زیست‌زا توسط میکروارگانیسم‌ها آزاد می‌شوند.
+grabby#حریص، پولکی#He's a very grabby person who always wants more.#greedy, acquisitive#C1#ˈɡræbi#او یک فرد بسیار حریص است که همیشه بیشتر می‌خواهد.
+swashbuckle#دلاوری کردن، شمشیربازی کردن#The hero of the story was a daring pirate who loved to swashbuckle.#act with bravado, fight with a sword#C2#ˈswɑːʃˌbʌkl#قهرمان داستان یک دزد دریایی جسور بود که عاشق دلاوری کردن بود.
+stalinist#استالینیستی، مربوط به استالینیسم#The novel satirizes a stalinist regime.#authoritarian, totalitarian#C2#ˈstɑːlɪnɪst#رمان یک رژیم استالینیستی را به طنز می‌کشد.
+allopathic#آلوپاتی (مربوط به طب سنتی غرب)#She prefers allopathic medicine to alternative treatments.#conventional medicine, Western medicine#C2#ˌæləˈpæθɪk#او طب آلوپاتی را به درمان‌های جایگزین ترجیح می‌دهد.
+nephropathy#نوروپاتی کلیه (بیماری کلیوی)#Diabetic nephropathy is a serious complication of diabetes.#kidney disease, renal disease#C2#nefˈrɑːpəθi#نوروپاتی کلیه دیابتی یک عارضه جدی دیابت است.
+streamside#کنار نهر، کنار رودخانه#We had a picnic streamside, enjoying the peaceful sound of the water.#next to a stream, riverside#B1#ˈstriːmˌsaɪd#ما در کنار نهر پیک‌نیک داشتیم و از صدای آرامش‌بخش آب لذت می‌بردیم.
+playbill#برنامه تئاتر#The playbill listed the cast and crew of the show.#program, theatrical program#B1#ˈpleɪˌbɪl#برنامه تئاتر، بازیگران و عوامل نمایش را فهرست کرده بود.
+postprandial#پس از غذا، پس از ناهار یا شام#Postprandial sleepiness is a common experience after a big meal.#after a meal, post-meal#C2#ˌpoʊstˈprændiəl#خواب‌آلودگی پس از غذا یک تجربه رایج پس از یک وعده غذایی بزرگ است.
+weaponization#تسلیحاتی کردن، تبدیل به سلاح کردن#The weaponization of drones has changed modern warfare.#arming, militarization#C2#ˌwɛpənəˈzeɪʃən#تسلیحاتی کردن پهپادها جنگ مدرن را تغییر داده است.
+taoist#تائوئیسم (مربوط به فلسفه تائو)#He studies Taoist philosophy and practices meditation.#a follower of Taoism#C2#ˈtaʊɪst#او فلسفه تائو را مطالعه می‌کند و مدیتیشن انجام می‌دهد.
+megalopolis#شهر بزرگ، کلان‌شهر#Tokyo is a vast megalopolis.#metropolis, huge city#C1#ˌmeɡəˈlɑːpəlɪs#توکیو یک کلان‌شهر بزرگ است.
+signboard#تابلو، علامت#The signboard for the restaurant was brightly lit.#sign, notice board#B1#ˈsaɪnˌbɔːrd#تابلوی رستوران به شدت روشن بود.
+retractor#رترکتور (ابزار جراحی برای کنار کشیدن بافت‌ها)#The surgeon used a retractor to hold the tissue aside.#surgical instrument#C2#rɪˈtræktər#جراح از رترکتور برای نگه داشتن بافت به کنار استفاده کرد.
+pretest#پیش‌آزمون#The students took a pretest to gauge their knowledge.#initial test, preliminary exam#B1#ˈpriːˌtɛst#دانش‌آموزان یک پیش‌آزمون دادند تا دانش خود را ارزیابی کنند.
+posttest#پس‌آزمون#A posttest was administered after the training program.#final test, follow-up exam#B1#ˈpoʊstˌtɛst#یک پس‌آزمون پس از برنامه آموزشی انجام شد.
+bookmobile#کتابخانه سیار#The bookmobile visits our neighborhood once a week.#mobile library, library on wheels#B2#ˈbʊkmoʊˌbiːl#کتابخانه سیار هفته‌ای یک بار به محله ما می‌آید.
+contretemp#برخورد ناخوشایند، حادثه ناگوار#A minor contretemps delayed the start of the meeting.#unfortunate incident, disagreement#C2#ˌkɑːntrəˈtɑː#یک برخورد ناخوشایند کوچک شروع جلسه را به تأخیر انداخت.
+lariat#کمند، طناب بلند برای بستن حیوانات#He threw the lariat with perfect aim to catch the steer.#lasso, rope#B2#ˈlæriət#او کمند را با هدف‌گیری عالی پرتاب کرد تا گاو را بگیرد.
+kleptocracy#دزدی‌سالاری (حکومتی که توسط سارقان اداره می‌شود)#The nation suffered under a kleptocracy for many years.#rule by thieves, corrupt government#C2#klɛpˈtɑːkrəsi#ملت برای سال‌ها تحت یک دزدی‌سالاری رنج کشید.
+rockabilly#راکابیلی (نوعی موسیقی راک اند رول اولیه)#She loves to dance to rockabilly music.#a style of early rock and roll#B2#ˈrɑːkəˌbɪli#او عاشق رقصیدن با موسیقی راکابیلی است.
+commentariat#جمعی از مفسران#The commentariat was divided on the issue.#group of commentators, pundits#C2#ˌkɑːməntəˈrɪæt#جمعی از مفسران در مورد این مسئله اختلاف نظر داشتند.
+reacquire#دوباره به دست آوردن، دوباره خریدن#The company plans to reacquire its shares from the market.#regain, repurchase#B2#ˌriəˈkwaɪər#شرکت قصد دارد سهام خود را از بازار دوباره به دست آورد.
+pickax#کلنگ (ابزار حفاری)#He used a pickax to break up the hard ground.#pickaxe, digging tool#B1#ˈpɪkæks#او از یک کلنگ برای شکستن زمین سخت استفاده کرد.
+chieftaincy#ریاست قبیله#He inherited the chieftaincy after his father's death.#chieftainship, leadership#C2#ˈtʃiːftənˌsi#او پس از مرگ پدرش، ریاست قبیله را به ارث برد.
+untranslate#غیرقابل ترجمه#Some poems are practically untranslatable.#not translatable, cannot be translated#C2#ˌʌntrænˈsleɪtəbl#برخی از اشعار عملاً غیرقابل ترجمه هستند.
+fraktur#فرکتور (نوعی خط شکسته آلمانی قدیمی)#The old book was printed in Fraktur script.#a type of German script#C2#ˈfrɑːktʊr#کتاب قدیمی با خط فرکتور چاپ شده بود.
+wiggly#لرزان، تکان‌دهنده#He has a wiggly tooth that needs to be pulled.#wobbly, shaky#B1#ˈwɪɡli#او یک دندان لق دارد که باید کشیده شود.
+magnetize#مغناطیسی کردن#You can magnetize a paperclip by rubbing it with a magnet.#make magnetic, attract#B2#ˈmæɡnəˌtaɪz#می‌توانی یک گیره کاغذ را با مالیدن آن به آهن‌ربا، مغناطیسی کنی.
+advisee#مشاوره گیرنده، دانشجو یا کارآموزی که مشاوره می‌گیرد#The professor met with his advisees once a month.#mentee, student#B2#ˌædvaɪˈziː#استاد ماهی یک بار با مشاوره گیرندگان خود ملاقات می‌کرد.
+subcortical#زیر قشری (مربوط به ناحیه زیر قشر مغز)#The study focused on subcortical brain structures.#below the cerebral cortex#C2#ˌsʌbkɔːrˈtɪkl#این مطالعه بر روی ساختارهای زیر قشری مغز تمرکز داشت.
+conjuncture#تقاطع، نقطه هم‌زمانی#The events happened at a strange conjuncture of history.#confluence, coincidence#C2#kənˈdʒʌŋktʃər#رویدادها در یک تقاطع عجیب تاریخی اتفاق افتادند.
+phytonutrient#فیتونوترینت (ماده مغذی گیاهی)#Berries are rich in phytonutrients.#plant nutrient, phytochemical#C2#ˌfaɪtoʊˈnuːtriənt#توت‌ها سرشار از فیتونوترینت هستند.
+chlorpyrifo#کلرپیریفوس (نوعی حشره‌کش)#Chlorpyrifos is a common pesticide.#a type of pesticide#C2#ˌklɔːrpəˈraɪfɑːs#کلرپیریفوس یک نوع آفت‌کش رایج است.
+ludic#بازیگوشانه، سرگرم‌کننده#The artist's work has a playful, ludic quality.#playful, sportive#C2#ˈluːdɪk#کار هنرمند یک کیفیت بازیگوشانه و سرگرم‌کننده دارد.
+melaleuca#ملالوکا (یک نوع درخت استرالیایی که از آن روغن چای درخت گرفته می‌شود)#Tea tree oil comes from the melaleuca tree.#a type of Australian tree#C2#ˌmɛləˈluːkə#روغن درخت چای از درخت ملالوکا می‌آید.
+ejaculate#انزال کردن، ناگهان فریاد زدن#He ejaculated a cry of surprise.#to emit suddenly, to shout#C2#ɪˈdʒækjəˌleɪt#او یک فریاد ناگهانی از تعجب بیرون داد.
+undrained#تخلیه نشده، خشک نشده#The undrained pasta was too watery.#not drained, wet#B1#ˌʌnˈdreɪnd#پاستای تخلیه نشده خیلی آبکی بود.
+analyte#آنالیت (ماده‌ای که در آزمایش شیمیایی مورد تجزیه و تحلیل قرار می‌گیرد)#The chemist measured the concentration of the analyte.#a substance being analyzed#C2#ˈænəlaɪt#شیمیدان غلظت آنالیت را اندازه‌گیری کرد.
+aetiology#علت‌شناسی (مطالعه علل بیماری‌ها)#The aetiology of the disease is still unknown.#causation, origin#C2#ˌiːtiˈɒlədʒi#علت‌شناسی بیماری هنوز ناشناخته است.
+cuatro#کوآترو (نوعی گیتار کوچک از آمریکای جنوبی)#He played a traditional song on his cuatro.#a small guitar-like instrument#B1#ˈkwɑːtroʊ#او یک آهنگ سنتی با کوآتروی خود نواخت.
+stutterer#لکنت‌زبان#The stutterer struggled to say his name.#one who stutters, stammerer#B2#ˈstʌtərər#فرد لکنت‌زبان در گفتن نام خود مشکل داشت.
+mezzo#متزو (صدای متوسط زنانه در اپرا)#She is a mezzo-soprano.#a female singing voice#C2#ˈmɛtsoʊ#او یک سوپرانوی متزو است.
+narcissus#نرگس (یک نوع گل)#A narcissus blooms in the early spring.#daffodil, flower#B1#nɑːrˈsɪsəs#گل نرگس در اوایل بهار شکوفا می‌شود.
+nonverbally#غیرکلامی#He communicated nonverbally through gestures.#without words, with body language#B2#ˌnɑːnˈvɜːrbəli#او به صورت غیرکلامی از طریق اشاره‌ها ارتباط برقرار می‌کرد.
+kidder#شوخی‌کننده، آدم شوخ#Don't take him seriously; he's just a kidder.#joker, prankster#B1#ˈkɪdər#او را جدی نگیر؛ او فقط یک شوخی‌کننده است.
+voluntarism#داوطلب‌گرایی (اعتقاد به فعالیت داوطلبانه)#She advocates for voluntarism as a way to solve social problems.#volunteer work, self-help#C2#ˈvɑːləntəˌrɪzəm#او از داوطلب‌گرایی به عنوان راهی برای حل مشکلات اجتماعی دفاع می‌کند.
+chapstick#چپستیک (نرم‌کننده لب)#I need to put on some Chapstick; my lips are chapped.#lip balm, lip moisturizer#B1#ˈtʃæpstɪk#باید مقداری چپستیک بزنم؛ لب‌هایم ترک خورده است.
+cohosh#کوهوش (نوعی گیاه دارویی)#Black cohosh is often used for medicinal purposes.#a type of herb#C2#ˈkoʊˌhɔːʃ#کوهوش سیاه اغلب برای مقاصد دارویی استفاده می‌شود.
+popover#پاپ‌اوور (نوعی نان پوک)#We had popovers with butter and jam for breakfast.#a light, hollow roll#B1#ˈpɑːpˌoʊvər#ما برای صبحانه پاپ‌اوور با کره و مربا خوردیم.
+preprogramme#پیش‌برنامه‌ریزی کردن#The robot was preprogrammed to follow a specific path.#predetermined, preset#B2#ˌpriːˈproʊɡræm#ربات برای دنبال کردن یک مسیر مشخص پیش‌برنامه‌ریزی شده بود.
+bullshitter#دروغ‌گو، خالی‌بند (کلمه‌ای توهین‌آمیز)#Don't believe him; he's a total bullshitter.#liar, exaggerator#C2#ˈbʊlʃɪtər#او را باور نکن؛ او یک خالی‌بند تمام‌عیار است.
+cowpea#لوبیا چشم‌بلبلی#She cooked a delicious dish with cowpeas and rice.#a type of bean#B1#ˈkaʊˌpiː#او یک غذای خوشمزه با لوبیا چشم‌بلبلی و برنج پخت.
+simian#میمونی، شبیه به میمون#The statue had simian features.#monkey-like, apelike#C2#ˈsɪmiən#مجسمه ویژگی‌های میمونی داشت.
+nosocomial#بیمارستانی (مربوط به بیماری‌های کسب‌شده در بیمارستان)#Nosocomial infections are a serious problem in hospitals.#hospital-acquired, healthcare-associated#C2#ˌnɑːsoʊˈkoʊmiəl#عفونت‌های بیمارستانی یک مشکل جدی در بیمارستان‌ها هستند.
+puja#پوجا (آیینی در هندوئیسم)#The family performed a puja to honor the gods.#a Hindu worship ritual#B2#ˈpuːdʒɑː#خانواده یک پوجا برای گرامی‌داشت خدایان انجام دادند.
+autoloader#بارگذار خودکار#The truck has an autoloader that makes unloading much faster.#a device that loads something automatically#C1#ˈɔːtoʊˌloʊdər#کامیون یک بارگذار خودکار دارد که تخلیه را بسیار سریع‌تر می‌کند.
+globalize#جهانی کردن#The company aims to globalize its brand to reach a wider audience.#internationalize#B2#ˈɡloʊbəlaɪz#شرکت قصد دارد برند خود را جهانی کند تا به مخاطبان گسترده‌تری دست یابد.
+dumbwaiter#آسانسور کوچک غذا#We used a dumbwaiter to send the food from the kitchen to the dining room on the second floor.#service elevator#C1#ˈdʌmˌweɪtər#ما از یک آسانسور کوچک برای ارسال غذا از آشپزخانه به اتاق غذاخوری در طبقه دوم استفاده کردیم.
+plowshare#تیغه گاوآهن#The farmer replaced the old plowshare with a new, sharper one.#ploughshare#C2#ˈplaʊˌʃɛr#کشاورز تیغه گاوآهن قدیمی را با یک تیغه جدید و تیزتر جایگزین کرد.
+defibrillation#شوک الکتریکی قلب#Defibrillation was used to restart the patient's heart.#cardioversion#C2#dɪˌfɪbrəˈleɪʃən#از شوک الکتریکی برای راه‌اندازی مجدد قلب بیمار استفاده شد.
+recordkeepe#نگهدارنده سوابق#The new system is a much more efficient recordkeeper.#archivist#C1#ˈrɛkərdˌkipər#سیستم جدید یک نگهدارنده سوابق بسیار کارآمدتر است.
+codebase#پایگاه کد#We need to update the entire codebase to fix the security issue.#source code#C1#ˈkoʊdˌbeɪs#ما باید کل پایگاه کد را به‌روزرسانی کنیم تا مشکل امنیتی را برطرف کنیم.
+intra#درون، داخلی#The word "intranasal" uses the prefix "intra" to mean "within the nose."#within#C2#ˈɪntrə#کلمه "intranasal" از پیشوند "intra" به معنی "درون بینی" استفاده می‌کند.
+highchair#صندلی غذاخوری کودک#The toddler sat in her highchair to eat her lunch.#booster seat#A2#ˈhaɪˌtʃɛr#کودک نوپا در صندلی غذاخوری خود نشست تا ناهارش را بخورد.
+franco#مربوط به فرانسه#The document was written in a Franco-German style.#French#C2#ˈfræŋkoʊ#سند به سبک فرانسوی-آلمانی نوشته شده بود.
+bisphosphonate#بیس‌فسفونات#Bisphosphonate drugs are commonly used to treat osteoporosis.#bone density medication#C2#bɪsˈfɒsfəneɪt#داروهای بیس‌فسفونات معمولاً برای درمان پوکی استخوان استفاده می‌شوند.
+adiponectin#آدیپونکتین#Low levels of adiponectin are associated with an increased risk of heart disease.#protein hormone#C2#ˌædəpoʊˈnɛktɪn#سطوح پایین آدیپونکتین با افزایش خطر بیماری قلبی مرتبط است.
+deciliter#دسی‌لیتر#The patient was given a deciliter of the medication.#a tenth of a liter#C1#ˈdɛsəˌliːtər#به بیمار یک دسی‌لیتر از دارو داده شد.
+snakehead#ماهی سرماری#The snakehead fish is an invasive species in some areas.#fish species#C2#ˈsneɪkˌhɛd#ماهی سرماری یک گونه مهاجم در برخی مناطق است.
+structured#ساختاریافته#The company has a very structured training program for new employees.#organized#B2#ˈstrʌktʃərd#شرکت یک برنامه آموزشی بسیار ساختاریافته برای کارمندان جدید دارد.
+isoscele#متساوی‌الساقین#An isosceles triangle has two sides of equal length.#equal-sided#C1#aɪˈsɒsəliːz#یک مثلث متساوی‌الساقین دو ضلع با طول برابر دارد.
+mouthpart#اندام دهانی#The bee's mouthparts are used to collect nectar from flowers.#oral appendage#C2#ˈmaʊθˌpɑrt#اندام‌های دهانی زنبور برای جمع‌آوری شهد از گل‌ها استفاده می‌شود.
+coeliac#سلیاک#She has to eat a gluten-free diet because she has celiac disease.#gluten intolerance#C1#ˈsiːliæk#او باید رژیم غذایی بدون گلوتن داشته باشد زیرا به بیماری سلیاک مبتلا است.
+panfish#ماهی‌های تابه#We went fishing for panfish in the local lake this weekend.#small edible fish#C2#ˈpænˌfɪʃ#این آخر هفته برای صید ماهی‌های کوچک در تابه به دریاچه محلی رفتیم.
+gobsmack#حیرت‌زده کردن#I was gobsmacked when I heard the news that he had won the lottery.#astound#C1#ˈɡɒbsmæk#وقتی شنیدم او در قرعه‌کشی برنده شده، حیرت‌زده شدم.
+arsenate#آرسنات#Arsenate is a salt of arsenic acid.#arsenic compound#C2#ˈɑrsəneɪt#آرسنات یک نمک اسید آرسنیک است.
+waterslide#سرسره آبی#The kids had a great time going down the waterslide at the park.#water chute#A2#ˈwɔtərˌslaɪd#بچه‌ها از سرسره آبی پارک پایین آمدند و خیلی بهشان خوش گذشت.
+redefin#تعریف مجدد#The company needs to redefine its mission statement.#reconceptualize#C1#ˌriːdɪˈfaɪn#شرکت باید بیانیه مأموریت خود را دوباره تعریف کند.
+vietnamese#ویتنامی#He is learning to speak Vietnamese.#of or relating to Vietnam#A2#ˌviːətnəˈmiːz#او در حال یادگیری زبان ویتنامی است.
+tidally#به صورت جزر و مدی#The bay is tidally influenced, with the water level changing throughout the day.#in a tidal manner#C2#ˈtaɪdəli#خلیج تحت تأثیر جزر و مد است و سطح آب در طول روز تغییر می‌کند.
+icehouse#یخ‌خانه#In the past, people used an icehouse to store ice for a long time.#ice storage building#C1#ˈaɪsˌhaʊs#در گذشته، مردم از یخ‌خانه برای نگهداری طولانی‌مدت یخ استفاده می‌کردند.
+apolipoprotein#آپولیپوپروتئین#Apolipoprotein is an important component of lipoproteins.#protein component of lipids#C2#ˌæpoʊlɪpoʊˈproʊtiːn#آپولیپوپروتئین یک جزء مهم لیپوپروتئین‌ها است.
+newswire#سیم خبری#The news was released on the newswire this morning.#press agency#C1#ˈnuːzˌwaɪər#این خبر صبح امروز در سیم خبری منتشر شد.
+slimeball#آدم پست و خائن#I can't believe he lied to me; he's such a slimeball.#a morally repulsive person#C2#ˈslaɪmˌbɔːl#باورم نمی‌شود که به من دروغ گفت؛ او یک آدم پست است.
+etic#از بیرون، بیرونی#The etic perspective of a culture is the view of an outsider.#external#C2#ˈɛtɪk#دیدگاه بیرونی یک فرهنگ، دیدگاه یک فرد خارجی است.
+chocolatier#شکلات‌ساز#The chocolatier created a new line of gourmet chocolates.#chocolate maker#C1#ʃɔːkəlæˈtɪər#شکلات‌ساز یک خط جدید از شکلات‌های لذیذ ایجاد کرد.
+innovativeness#خلاقیت#The company's success is due to its innovativeness in product design.#originality#C1#ˈɪnəˌveɪtɪvnəs#موفقیت شرکت به دلیل خلاقیت آن در طراحی محصول است.
+twinkly#چشمک‌زن#The children looked up at the twinkly stars in the night sky.#sparkling#B2#ˈtwɪŋkli#بچه‌ها به ستاره‌های چشمک‌زن در آسمان شب نگاه کردند.
+seaway#آبراه#The St. Lawrence Seaway connects the Great Lakes to the Atlantic Ocean.#waterway#C1#ˈsiːˌweɪ#آبراه سنت لورنس دریاچه‌های بزرگ را به اقیانوس اطلس متصل می‌کند.
+greenbrier#پیچک سبز#Greenbrier is a common thorny vine found in the woods.#smilax#C2#ˈɡriːnˌbraɪər#پیچک سبز یک تاک خاردار رایج است که در جنگل‌ها یافت می‌شود.
+underclothe#لباس زیر پوشیدن#He had to underclothe for the cold weather.#dress lightly#C1#ˌʌndərˈkloʊð#او مجبور بود برای هوای سرد لباس زیر بپوشد.
+bast#پوست داخلی درخت#Bast fiber is used to make ropes and textiles.#inner bark#C2#bæst#از فیبر پوست داخلی درخت برای ساخت طناب و منسوجات استفاده می‌شود.
+odorant#ماده بودار#The gas company adds an odorant to natural gas so people can detect leaks.#fragrant substance#C1#ˈoʊdərənt#شرکت گاز یک ماده بودار به گاز طبیعی اضافه می‌کند تا مردم بتوانند نشت را تشخیص دهند.
+misandry#مردستیزی#The term "misandry" refers to a hatred of men.#hatred of men#C2#mɪˈsændri#اصطلاح "مردستیزی" به نفرت از مردان اشاره دارد.
+consolidator#تجمیع‌کننده#The travel consolidator combines flights from different airlines.#aggregator#C1#kənˈsɒləˌdeɪtər#تجمیع‌کننده سفر، پروازهای خطوط هوایی مختلف را ترکیب می‌کند.
+edelweiss#گل اِدِلوایس#Edelweiss is a small white flower that grows in the mountains.#alpine flower#C2#ˈeɪdəlˌvaɪs#اِدِلوایس یک گل سفید کوچک است که در کوه‌ها رشد می‌کند.
+cellulitis#سلولیت#Cellulitis is a bacterial skin infection that can be very serious.#skin infection#C2#ˌsɛljəˈlaɪtɪs#سلولیت یک عفونت باکتریایی پوستی است که می‌تواند بسیار جدی باشد.
+nonviolently#به طور مسالمت‌آمیز#They protested nonviolently against the new law.#peacefully#C1#ˌnɒnˈvaɪələntli#آنها به طور مسالمت‌آمیز علیه قانون جدید اعتراض کردند.
+gray#خاکستری#The sky was a dull gray color before the storm.#ash-colored#A1#ɡreɪ#آسمان قبل از طوفان به رنگ خاکستری کدر بود.
+reframing#بازنگری#Reframing the problem helped us find a new solution.#rethinking#C1#ˌriːˈfreɪmɪŋ#بازنگری در مسئله به ما کمک کرد تا راه‌حل جدیدی پیدا کنیم.
+heterogenous#ناهمگون#The group was heterogeneous, with people from many different backgrounds.#diverse#C2#ˌhɛtərəˈdʒiːnəs#این گروه ناهمگون بود و افرادی از پیشینه‌های بسیار متفاوت در آن حضور داشتند.
+spymaster#رئیس سازمان جاسوسی#The spymaster was responsible for all intelligence operations.#head of intelligence#C2#ˈspaɪˌmæstər#رئیس سازمان جاسوسی مسئول تمام عملیات‌های اطلاعاتی بود.
+weekender#مسافر آخر هفته#She packed a bag for a quick weekender trip to the mountains.#short vacationer#B2#ˈwiːkˌɛndər#او یک کیف برای یک سفر کوتاه آخر هفته به کوهستان بست.
+hydrocephalus#هیدروسفالی#Hydrocephalus is a condition where there is an excess of cerebrospinal fluid in the brain.#water on the brain#C2#ˌhaɪdroʊˈsɛfələs#هیدروسفالی وضعیتی است که در آن مایع مغزی نخاعی اضافی در مغز وجود دارد.
+medevac#آمبولانس هوایی#The injured hiker was taken to the hospital by medevac.#medical evacuation#C1#ˈmɛdəˌvæk#کوهنورد مصدوم با آمبولانس هوایی به بیمارستان منتقل شد.
+madrasa#مدرسه دینی#He studied theology at a madrasa in the city.#religious school#C2#məˈdræsə#او الهیات را در یک مدرسه دینی در شهر تحصیل کرد.
+okie#اهل اوکلاهما#The term "Okie" was used for a migrant from Oklahoma during the Great Depression.#person from Oklahoma#C2#ˈoʊki#اصطلاح "اوکی" برای مهاجران از اوکلاهما در دوران رکود بزرگ استفاده می‌شد.
+sculpin#نوعی ماهی#We saw a sculpin hiding under a rock in the stream.#freshwater fish#C2#ˈskʌlpɪn#ما یک نوع ماهی را دیدیم که زیر سنگی در رودخانه پنهان شده بود.
+parmigiana#پارمیجانا#Eggplant parmigiana is a traditional Italian dish.#cheese and eggplant dish#C2#ˌpɑrmɪˈdʒɑːnə#بادمجان پارمیجانا یک غذای سنتی ایتالیایی است.
+pinewood#چوب کاج#The cabin was built from pinewood, giving it a rustic look.#pine lumber#B2#ˈpaɪnˌwʊd#کلبه از چوب کاج ساخته شده بود که به آن ظاهری روستایی می‌داد.
+upcountry#به سمت داخل کشور#We drove upcountry to visit the small village.#inland#C1#ˈʌpˌkʌntri#ما به سمت داخل کشور رانندگی کردیم تا از روستای کوچک دیدن کنیم.
+turbolift#آسانسور سریع#The turbolift took us to the top floor in seconds.#fast elevator#C2#ˈtɜrboʊˌlɪft#آسانسور سریع ما را در چند ثانیه به طبقه بالا رساند.
+tole#طرح رنگ‌آمیزی روی فلز#The tole tray was decorated with beautiful flowers.#painted tinware#C2#toʊl#سینی با طرح رنگ‌آمیزی روی فلز با گل‌های زیبایی تزیین شده بود.
+galleria#گالری#The galleria was filled with shops and cafes.#arcade#C1#ɡæləˈriːə#گالری پر از مغازه‌ها و کافه‌ها بود.
+hirel#مربوط به دین#The king made a hirel decree about the new church.#religious#C2#ˈhaɪrəl#پادشاه یک فرمان دینی در مورد کلیسای جدید صادر کرد.
+rupiah#روپیه#The price of the item was 50,000 rupiah.#Indonesian currency#B1#ˈruːpiə#قیمت کالا ۵۰,۰۰۰ روپیه بود.
+pothol#چاله#I had to swerve to avoid the large pothole in the road.#a deep hole in a road#A2#ˈpɑtˌhoʊl#من مجبور شدم برای جلوگیری از چاله بزرگ در جاده، منحرف شوم.
+pedaling#رکاب زدن#He was pedaling his bicycle very fast to get to school on time.#cycling#B1#ˈpɛdəlɪŋ#او دوچرخه‌اش را خیلی سریع رکاب می‌زد تا به موقع به مدرسه برسد.
+pneumothorax#پنوموتوراکس#Pneumothorax is a collapsed lung due to air in the chest cavity.#collapsed lung#C2#ˌnuːmoʊˈθɔːræks#پنوموتوراکس یک ریه فروپاشیده به دلیل وجود هوا در حفره سینه است.
+sumbitch#کلمه توهین آمیز#That sumbitch stole my parking spot!#a rude person#C2#ˈsʌmˌbɪtʃ#اون آدم احمق جای پارک منو دزدید!
+center#مرکز#The town center is where most of the shops and restaurants are.#middle#A1#ˈsɛntər#مرکز شهر جایی است که بیشتر مغازه‌ها و رستوران‌ها در آن قرار دارند.
+immobilize#بی‌حرکت کردن#The doctor had to immobilize his leg after the accident.#to make immobile#B2#ɪˈmoʊbəlaɪz#پزشک مجبور شد پای او را پس از تصادف بی‌حرکت کند.
+blooming#شکوفا شدن#The roses are blooming beautifully in the garden this spring.#flowering#B1#ˈbluːmɪŋ#گل‌های رز در این بهار به زیبایی در باغ شکوفا شده‌اند.
+grossing#درآمد ناخالص#The new movie is grossing millions of dollars at the box office.#earning#B2#ˈɡroʊsɪŋ#فیلم جدید میلیون‌ها دلار در گیشه درآمد ناخالص دارد.
+blackfish#ماهی سیاه#We went fishing for blackfish in the bay this morning.#type of fish#C1#ˈblækˌfɪʃ#ما صبح امروز در خلیج برای صید ماهی سیاه رفتیم.
+patellofemoral#پاتلوفمورال#Patellofemoral pain syndrome is a common knee condition.#relating to the kneecap and thighbone#C2#pəˌtɛloʊˈfɛmərəl#سندرم درد پاتلوفمورال یک وضعیت رایج زانو است.
+stygian#جهنمی#The stygian darkness of the cave was terrifying.#gloomy#C2#ˈstɪdʒiən#تاریکی جهنمی غار وحشتناک بود.
+rappel#فرود با طناب#The climbers will rappel down the side of the cliff.#abseil#C1#ræˈpɛl#کوهنوردان با طناب از کنار صخره پایین خواهند آمد.
+downshift#دنده معکوس#I had to downshift to climb the steep hill.#change to a lower gear#C1#ˈdaʊnˌʃɪft#من مجبور شدم دنده معکوس بکشم تا از تپه شیب‌دار بالا بروم.
+cottonseed#پنبه دانه#Cottonseed oil is a common cooking oil.#seed of the cotton plant#C1#ˈkɑtənˌsiːd#روغن پنبه دانه یک روغن آشپزی رایج است.
+cline#شیب#There is a noticeable cline in the species' size from north to south.#a gradient#C2#klaɪn#یک شیب قابل توجه در اندازه گونه از شمال به جنوب وجود دارد.
+sirree#واقعاً#He's not going to do that, no sirree!#emphatic 'sir'#C2#səˈriː#او قرار نیست این کار را بکند، واقعاً نه!
+backlist#لیست کتاب‌های قدیمی#The publisher decided to re-release some titles from their backlist.#older books still in print#C1#ˈbækˌlɪst#ناشر تصمیم گرفت برخی از عناوین از لیست کتاب‌های قدیمی خود را دوباره منتشر کند.
+biopharmaceutical#بیودارویی#The biopharmaceutical company is developing a new cancer treatment.#related to biological pharmaceuticals#C2#ˌbaɪoʊˌfɑrməˈsuːtɪkəl#شرکت بیودارویی در حال توسعه یک درمان جدید سرطان است.
+sharehold#سهامداری#She has a major shareholding in the company.#stock ownership#C1#ˈʃɛrˌhoʊldɪŋ#او سهامداری عمده‌ای در این شرکت دارد.
+supergiant#ابرغول#Supergiant stars are much larger and brighter than our sun.#a very large and bright star#C2#ˈsuːpərˌdʒaɪənt#ستاره‌های ابرغول بسیار بزرگ‌تر و درخشان‌تر از خورشید ما هستند.
+ketosis#کتوزیس#Ketosis is a metabolic state where the body burns fat for fuel.#metabolic state#C2#kiːˈtoʊsɪs#کتوزیس یک حالت متابولیکی است که در آن بدن چربی را برای سوخت می‌سوزاند.
+thornless#بی‌خار#The gardener was happy to find a new type of thornless rose.#without thorns#B2#ˈθɔrnˌləs#باغبان خوشحال بود که نوع جدیدی از رز بی‌خار را پیدا کرد.
+altiplano#فلات بلند#The altiplano is a high plateau in the Andes mountains.#high plateau#C2#ˌæltəˈplɑːnoʊ#فلات بلند یک فلات مرتفع در کوه‌های آند است.
+scoring#امتیازدهی#The scoring for the gymnastics competition was very strict.#tallying#B1#ˈskɔrɪŋ#امتیازدهی برای مسابقات ژیمناستیک بسیار سخت‌گیرانه بود.
+nitpicky#نکته‌سنج#He is too nitpicky and always finds small flaws in everything.#fussy#C1#ˈnɪtˌpɪki#او بیش از حد نکته‌سنج است و همیشه عیوب کوچک را در همه چیز پیدا می‌کند.
+extrasensory#فراحسی#Some people claim to have extrasensory perception, or ESP.#paranormal#C2#ˌɛkstrəˈsɛnsəri#برخی افراد ادعا می‌کنند که دارای درک فراحسی یا ESP هستند.
+watching#تماشا کردن#I am watching a movie on TV right now.#observing#A1#ˈwɑtʃɪŋ#من الان دارم یک فیلم در تلویزیون تماشا می‌کنم.
+brigantine#نوعی کشتی#The brigantine sailed across the sea, its two masts full of sail.#a two-masted sailing ship#C2#ˈbrɪɡənˌtiːn#کشتی دو دکلی با بادبان‌های کامل از دریا عبور کرد.
+cozily#به راحتی#She sat cozily by the fireplace with a cup of tea.#comfortably#B2#ˈkoʊzɪli#او به راحتی کنار شومینه با یک فنجان چای نشست.
+manhattanite#اهل منهتن#As a Manhattanite, he is used to the fast pace of city life.#a person from Manhattan#C1#ˌmænhætəˈnaɪt#به عنوان یک اهل منهتن، او به ریتم سریع زندگی شهری عادت دارد.
+ceteris#سایر عوامل ثابت#Ceteris paribus, an increase in demand will lead to a price increase.#other things being equal#C2#ˈsɛtərɪs#با فرض ثابت بودن سایر عوامل، افزایش تقاضا منجر به افزایش قیمت خواهد شد.
+syrah#نوعی انگور#Syrah is a dark-skinned grape variety used to make red wine.#a variety of grape#C2#ˈsɪrɑː#سیرا یک نوع انگور با پوست تیره است که برای تولید شراب قرمز استفاده می‌شود.
+shiksa#غیر یهودی#In a derogatory sense, the term "shiksa" refers to a non-Jewish woman.#a non-Jewish woman#C2#ˈʃɪksə#به معنای توهین‌آمیز، اصطلاح "شیکسا" به یک زن غیر یهودی اشاره دارد.
+tenderfoot#تازه وارد#He's just a tenderfoot, so he's still learning the ropes.#novice#C1#ˈtɛndərˌfʊt#او فقط یک تازه وارد است، بنابراین هنوز در حال یادگیری کارهاست.
+atlatl#کمان پرتاب نیزه#The atlatl was a tool used by ancient hunters to throw spears.#a spear-throwing device#C2#ˈɑtlɑtl#کمان پرتاب نیزه ابزاری بود که توسط شکارچیان باستان برای پرتاب نیزه استفاده می‌شد.
+skiwear#لباس اسکی#You need to buy special skiwear for your trip to the mountains.#clothing for skiing#B2#ˈskiːˌwɛər#برای سفر به کوهستان باید لباس اسکی مخصوص بخری.
+succotash#ساکوتاش#Succotash is a dish of corn and lima beans.#a dish of corn and beans#C1#ˈsʌkəˌtæʃ#ساکوتاش یک غذای متشکل از ذرت و لوبیا لیما است.
+realizable#قابل تحقق#The plan is ambitious, but it is entirely realizable.#achievable#C1#ˈriːəˌlaɪzəbəl#این طرح جاه‌طلبانه است، اما کاملاً قابل تحقق است.
+micropayment#پرداخت خرد#The app allows users to make micropayments for small digital items.#a very small payment#C1#ˈmaɪkroʊˌpeɪmənt#این برنامه به کاربران اجازه می‌دهد برای اقلام دیجیتال کوچک پرداخت‌های خرد انجام دهند.
+offside#آفساید#The player was called offside by the referee.#in an illegal position#B2#ˈɔːfˌsaɪd#بازیکن توسط داور آفساید اعلام شد.
+moonshiner#سازنده مشروبات الکلی غیرقانونی#The moonshiner was caught by the police in the woods.#illicit distiller#C2#ˈmuːnˌʃaɪnər#سازنده مشروبات الکلی غیرقانونی در جنگل توسط پلیس دستگیر شد.
+jessamine#یاسمن#The sweet scent of jessamine filled the air in the garden.#a type of jasmine#C2#ˈdʒɛsəmɪn#بوی شیرین یاسمن فضای باغ را پر کرده بود.
+intellective#عقلانی#The intellective process of problem-solving can be difficult.#intellectual#C2#ˌɪntəˈlɛktɪv#فرایند عقلانی حل مسئله می‌تواند دشوار باشد.
+grisaille#گریزای#The painting was done in a grisaille style, using only shades of gray.#monochromatic painting#C2#ɡrɪˈzaɪ#نقاشی به سبک گریزای، با استفاده از تنها سایه‌های خاکستری، کشیده شده بود.
+hust#تکان دادن#He hust the box to see what was inside.#to shake or jolt#C2#hʌst#او جعبه را تکان داد تا ببیند داخلش چیست.
+nonbias#بی‌طرفی#The journalist was praised for his nonbias reporting.#impartiality#C1#ˌnɒnˈbaɪəs#روزنامه‌نگار به خاطر گزارش بی‌طرفانه‌اش مورد ستایش قرار گرفت.
+overclock#افزایش سرعت پردازنده#He decided to overclock his computer's CPU to get better performance.#to increase the clock rate of a computer processor#C1#ˌoʊvərˈklɑk#او تصمیم گرفت سرعت پردازنده کامپیوترش را افزایش دهد تا عملکرد بهتری داشته باشد.
+sharing#به اشتراک گذاشتن#Sharing is a good way to save money and resources.#distribution#A1#ˈʃɛrɪŋ#به اشتراک گذاشتن یک راه خوب برای صرفه‌جویی در پول و منابع است.
+snorkeler#غواص با لوله تنفس#The snorkeler saw many colorful fish in the coral reef.#a person who snorkels#B2#ˈsnɔrkələr#غواص با لوله تنفس ماهی‌های رنگارنگ زیادی را در صخره مرجانی دید.
+potentiation#تقویت#The drug's effect is due to the potentiation of another substance.#enhancement#C2#pəˌtɛnʃiˈeɪʃən#اثر دارو به دلیل تقویت یک ماده دیگر است.
+dosa#دوزا#Dosa is a type of thin pancake from South India.#a South Indian dish#C2#ˈdoʊsə#دوزا یک نوع پنکیک نازک از جنوب هند است.
+crabber#خرچنگ‌گیر#The crabber spent all day out on the boat, catching crabs.#a person who catches crabs#C1#ˈkræbər#خرچنگ‌گیر تمام روز را در قایق به گرفتن خرچنگ گذراند.
+naff#بدمزه#That new show is a bit naff, don't you think?#tacky#C1#næf#آن نمایش جدید کمی بدمزه است، اینطور فکر نمی‌کنی؟
+hiv#اچ‌آی‌وی#HIV is a virus that can lead to AIDS if left untreated.#human immunodeficiency virus#C1#ˌeɪtʃˌaɪˈviː#اچ‌آی‌وی یک ویروس است که در صورت عدم درمان می‌تواند به ایدز منجر شود.
+hypercompetitive#فوق رقابتی#The market for new tech products is hypercompetitive.#extremely competitive#C2#ˌhaɪpərkəmˈpɛtɪtɪv#بازار محصولات فناوری جدید فوق رقابتی است.
+hoo#صدا#The owl made a low "hoo" sound in the night.#a sound made by an owl#C2#huː#جغد در شب یک صدای "هو" آرام ایجاد کرد.
+gracilis#عضله گراسیلیس#The gracilis muscle is a long, thin muscle in the thigh.#a thigh muscle#C2#ˈɡræsɪlɪs#عضله گراسیلیس یک عضله بلند و نازک در ران است.
+heeler#نوعی سگ#He has a blue heeler, which is a very active dog breed.#a breed of dog#C2#ˈhiːlər#او یک سگ از نژاد هیلر آبی دارد که یک نژاد سگ بسیار فعال است.
+jiu#جو#Jiu-jitsu is a form of martial arts.#a type of martial arts#C1#dʒuː#جوجیتسو یک فرم از هنرهای رزمی است.
+jitsu#جیتسو#He trains in Brazilian jiu-jitsu to stay in shape.#a form of martial arts#C1#ˈdʒɪtsuː#او برای حفظ تناسب اندام در جیتسو برزیلی تمرین می‌کند.
+exfoliator#لایه بردار#She uses a gentle exfoliator to keep her skin smooth.#a substance or tool used for exfoliation#C1#ɛksˈfoʊliˌeɪtər#او از یک لایه‌بردار ملایم برای صاف نگه داشتن پوستش استفاده می‌کند.
+faro#فارو#Faro was a popular card game in the 19th century.#a card game#C2#ˈfɛroʊ#فارو یک بازی کارتی محبوب در قرن نوزدهم بود.
+delish#خوشمزه#This cake is absolutely delish!#delicious#B2#dəˈlɪʃ#این کیک کاملاً خوشمزه است!
+nettlesome#مشکل‌ساز#The nettlesome problem was difficult to solve.#annoying#C1#ˈnɛtəlsəm#مشکل مشکل‌ساز به سختی حل شد.
+dorsum#پشت#The dorsum of the hand is the top part.#the back of a body part#C2#ˈdɔrsəm#پشت دست قسمت بالایی آن است.
+cryopreservation#انجماد زیستی#The research facility specializes in cryopreservation of biological samples.#freezing for preservation#C2#ˌkraɪoʊˌprɛzərˈveɪʃən#مرکز تحقیقات در انجماد زیستی نمونه‌های بیولوژیکی تخصص دارد.
+ojibway#اوجیبوا#He is studying the history of the Ojibway people.#a North American indigenous people#C2#oʊˈdʒɪbweɪ#او در حال مطالعه تاریخ مردم اوجیبوا است.
+absorbent#جاذب#A sponge is an absorbent material that soaks up water.#able to soak up liquids#B2#əbˈzɔrbənt#اسفنج یک ماده جاذب است که آب را جذب می‌کند.
+unframed#بدون قاب#The artist sold his unframed paintings for a lower price.#without a frame#B2#ˌʌnˈfreɪmd#هنرمند نقاشی‌های بدون قاب خود را با قیمت پایین‌تری فروخت.
+guyanese#اهل گویان#She is a Guyanese writer who lives in London.#of or relating to Guyana#B2#ˌɡaɪəˈniːz#او یک نویسنده اهل گویان است که در لندن زندگی می‌کند.
+transmissibility#قابلیت انتقال#The transmissibility of the new virus is a major concern.#the ability to be transmitted#C2#ˌtrænsmɪsəˈbɪlɪti#قابلیت انتقال ویروس جدید یک نگرانی عمده است.
+indentor#دندانه‌ساز#The machine uses an indentor to create small marks on the metal.#a tool for making indentations#C2#ɪnˈdɛntər#این دستگاه از یک دندانه‌ساز برای ایجاد علامت‌های کوچک روی فلز استفاده می‌کند.
+lawbreak#قانون‌شکنی#The lawbreaker was arrested for a series of crimes.#a person who breaks the law#C1#ˈlɔːˌbreɪkər#قانون‌شکن به دلیل یک سری از جرایم دستگیر شد.
+idiosyncracy#ویژگی فردی#His one idiosyncrasy is that he always wears two different socks.#a peculiar habit or feature#C1#ˌɪdioʊˈsɪŋkrəsi#ویژگی فردی او این است که همیشه دو جوراب متفاوت می‌پوشد.
+downhiller#اسکی‌باز سراشیبی#The downhiller raced at incredible speeds down the mountain.#a person who skies downhill#C1#ˈdaʊnˌhɪlər#اسکی‌باز سراشیبی با سرعت‌های باورنکردنی از کوه پایین آمد.
+navaho#ناواهو#The Navajo people are a large Native American tribe.#a Native American people#C2#ˈnævəˌhoʊ#مردم ناواهو یک قبیله بزرگ بومی آمریکایی هستند.
+streusel#اشترایزل#The coffee cake has a delicious streusel topping.#a crumbly topping#C2#ˈstruːsəl#کیک قهوه یک روکش اشترایزل خوشمزه دارد.
+concensus#اجماع#The group reached a consensus on the new proposal.#general agreement#B2#kənˈsɛnsəs#گروه در مورد پیشنهاد جدید به اجماع رسید.
+buse#اندازه#He had a bused look on his face after hearing the news.#to be perplexed#C2#bjuːz#بعد از شنیدن خبر، چهره‌ای حیرت‌زده داشت.
+undernutrition#سوءتغذیه#The report highlighted the issue of undernutrition in the developing world.#insufficient nutrition#C1#ˌʌndərnuːˈtrɪʃən#این گزارش بر مسئله سوءتغذیه در جهان در حال توسعه تأکید کرد.
+thermophilic#گرمادوست#Thermophilic bacteria thrive in hot environments like hot springs.#heat-loving#C2#ˌθɜrməˈfɪlɪk#باکتری‌های گرمادوست در محیط‌های گرم مانند چشمه‌های آب گرم رشد می‌کنند.
+sphericity#کرویت#The perfect sphericity of the billiard ball makes it roll smoothly.#the state of being spherical#C2#sfɛˈrɪsɪti#کرویت کامل توپ بیلیارد باعث می‌شود به نرمی غلت بزند.
+remodeler#نوسازی‌کننده#We hired a remodeler to update our kitchen and bathroom.#a person who remodels#B2#ˌriːˈmɒdələr#ما یک نوسازی‌کننده را استخدام کردیم تا آشپزخانه و حماممان را به‌روز کند.
+keratinocyte#سلول کراتینوسیت#Keratinocytes are the main type of cell in the epidermis.#a cell that produces keratin#C2#ˌkɛrətɪnəˈsaɪt#کراتینوسیت‌ها نوع اصلی سلول در لایه خارجی پوست هستند.
+kneepad#زانوبند#The volleyball players wore kneepads to protect their knees.#a pad worn to protect the knee#B1#ˈniːˌpæd#بازیکنان والیبال برای محافظت از زانوهایشان، زانوبند پوشیدند.
+watersport#ورزش آبی#I love doing watersports like swimming and surfing.#an activity done in or on water#A2#ˈwɔtərˌspɔrt#من عاشق ورزش‌های آبی مانند شنا و موج‌سواری هستم.
+tastebud#جوانه چشایی#My tastebuds were excited by the spicy flavors of the food.#a sensory organ on the tongue#B1#ˈteɪstˌbʌd#جوانه‌های چشایی من با طعم‌های تند غذا هیجان‌زده شدند.
+interoffice#بین دفتری#He sent the memo via interoffice mail.#between offices#B2#ˌɪntərˈɔːfɪs#او یادداشت را از طریق پست بین دفتری ارسال کرد.
+myoelectric#میوالکتریک#The prosthetic hand uses a myoelectric signal to move.#relating to electric signals from muscles#C2#ˌmaɪoʊɪˈlɛktrɪk#دست مصنوعی از یک سیگنال میوالکتریک برای حرکت استفاده می‌کند.
+depressurize#کاهش فشار#The crew had to depressurize the cabin after the emergency.#to reduce pressure#C1#diːˈprɛʃəˌraɪz#خدمه مجبور شدند پس از اورژانس فشار کابین را کاهش دهند.
+hah#آهنگ#I heard a hah of surprise from the other room.#a sound of surprise or laughter#A2#hɑː#من صدای "آه" شگفتی از اتاق دیگر شنیدم.
+arthralgia#درد مفاصل#Arthralgia is a common symptom of many different diseases.#joint pain#C2#ˌɑrθrəlˈdʒiːə#درد مفاصل یک علامت رایج در بسیاری از بیماری‌های مختلف است.
+puffery#لاف‌زنی#The advertisement was full of puffery and exaggerated claims.#exaggerated praise or promotion#C1#ˈpʌfəri#آگهی پر از لاف‌زنی و ادعاهای اغراق‌آمیز بود.
+hypogonadism#هیپوگنادیسم#Hypogonadism can cause a variety of symptoms in both men and women.#a condition in which the sex glands produce little or no hormones#C2#ˌhaɪpoʊˈɡoʊnəˌdɪzəm#هیپوگنادیسم می‌تواند علائم مختلفی را در مردان و زنان ایجاد کند.
+instinctually#غریزی#He knew instinctually that something was wrong.#by instinct#C1#ɪnˈstɪŋktʃuəli#او به طور غریزی می‌دانست که چیزی اشتباه است.
+renderer#رندرکننده#The renderer is the software that turns 3D models into images.#a program that creates images from 3D models#C2#ˈrɛndərər#رندرکننده نرم‌افزاری است که مدل‌های سه‌بعدی را به تصاویر تبدیل می‌کند.
+translocate#جابجا کردن#Scientists are trying to translocate the endangered species to a new habitat.#to move from one place to another#C2#ˌtrænsˈloʊkeɪt#دانشمندان در حال تلاش برای جابجایی گونه‌های در معرض خطر به یک زیستگاه جدید هستند.
+symbolization#نمادین‌سازی#The symbolization of the dove as peace is universal.#the act of symbolizing#C1#ˌsɪmbələˈzeɪʃən#نمادین‌سازی کبوتر به عنوان صلح جهانی است.
+huggy#بغل کردن#He's a very huggy person and loves to give everyone a hug.#inclined to hug#B2#ˈhʌɡi#او یک فرد بسیار بغل‌کننده است و دوست دارد همه را بغل کند.
+unreward#بی‌پاداش#His efforts were unrewarded, despite all his hard work.#without reward#C1#ˌʌnrɪˈwɔrdɪd#تلاش‌های او، با وجود تمام سخت‌کوشی‌اش، بی‌پاداش ماند.
+noncom#افسر غیرمأمور#The sergeant is a noncom with a lot of experience.#noncommissioned officer#C2#ˈnɑnˌkɑm#گروهبان یک افسر غیرمأمور با تجربه زیاد است.
+axel#چرخش به جلو با پریدن#She performed a perfect axel on the ice.#a type of jump in figure skating#C1#ˈæksəl#او یک چرخش به جلو با پریدن کامل روی یخ انجام داد.
+mycologist#قارچ‌شناس#The mycologist identified the mushroom as a rare species.#a person who studies fungi#C2#maɪˈkɒlədʒɪst#قارچ‌شناس قارچ را به عنوان یک گونه نادر شناسایی کرد.
+denature#از حالت طبیعی خارج کردن#Heat can denature proteins, changing their structure.#to destroy the natural qualities of#C1#diːˈneɪtʃər#گرما می‌تواند پروتئین‌ها را از حالت طبیعی خارج کرده و ساختار آن‌ها را تغییر دهد.
+particularist#جزءنگر#The particularist focused on the specific details of the case.#one who focuses on specific details#C2#pərˈtɪkjələˌrɪst#جزءنگر بر جزئیات خاص پرونده تمرکز کرد.
+dramaturgy#درام‌شناسی#The film's dramaturgy was praised for its clever plot.#the theory of dramatic composition#C2#ˈdræmətɜrdʒi#درام‌شناسی فیلم به خاطر داستان هوشمندانه‌اش مورد ستایش قرار گرفت.
+oligodendrocyte#الیگودندروسیت#Oligodendrocytes are a type of glial cell in the central nervous system.#a type of brain cell#C2#ˌɒlɪɡoʊˈdɛndroʊˌsaɪt#الیگودندروسیت‌ها یک نوع سلول گلیال در سیستم عصبی مرکزی هستند.
+otolaryngologic#گوش و حلق و بینی#The doctor specialized in otolaryngologic surgery.#relating to the study of the ear, nose, and throat#C2#ˌoʊtəʊˌlærɪnɡəˈlɒdʒɪk#پزشک در جراحی گوش و حلق و بینی تخصص داشت.
+manumission#آزادی از بردگی#The manumission of slaves was a long and difficult process.#the act of freeing from slavery#C2#ˌmænjəˈmɪʃən#آزادی از بردگی یک فرآیند طولانی و دشوار بود.
+jamesian#جیمزی#His novels are known for their Jamesian style and psychological depth.#in the style of Henry James#C2#ˈdʒeɪmziən#رمان‌های او به خاطر سبک جیمزی و عمق روان‌شناختی‌شان شناخته شده‌اند.
+honor#احترام#It is an honor to meet you in person.#respect#B1#ˈɒnər#دیدار حضوری با شما یک افتخار است.
+ventilatory#تهویه‌ای#The patient required ventilatory support to breathe.#related to ventilation#C2#ˈvɛntələˌtɔːri#بیمار برای تنفس به حمایت تهویه‌ای نیاز داشت.
+absorbing#جذاب#It was an absorbing story that kept me reading all night.#very interesting#B2#əbˈzɔrbɪŋ#یک داستان جذاب بود که تمام شب مرا به خواندن واداشت.
+supermom#سوپرمادر#She's a supermom, balancing a career and raising three kids.#an exceptionally good mother#C1#ˈsuːpərˌmɒm#او یک سوپرمادر است که شغل و بزرگ کردن سه فرزند را با هم مدیریت می‌کند.
+toff#آدم باکلاس و ثروتمند#He's a bit of a toff, with his expensive clothes and fancy car.#a rich and well-dressed person#C2#tɒf#او با لباس‌های گران‌قیمت و ماشین شیکش، کمی آدم باکلاس و ثروتمند است.
+headstart#پیشی گرفتن#She got a headstart on her project by starting early.#an advantage#B2#ˈhɛdˌstɑrt#او با شروع زودهنگام، در پروژه‌اش پیشی گرفت.
+sunchoke#کنگر اورشلیم#I used sunchokes to make a creamy soup for dinner.#Jerusalem artichoke#C2#ˈsʌnˌtʃoʊk#من از کنگر اورشلیم برای درست کردن یک سوپ خامه‌ای برای شام استفاده کردم.
+harissa#هریسا#Harissa is a hot chili paste from North Africa.#a chili paste#C2#həˈriːsə#هریسا یک خمیر فلفل تند از شمال آفریقا است.
+underbar#زیر میله#The bartender placed the glass on the underbar to dry.#the area under a bar#C2#ˈʌndərˌbɑr#بارمن لیوان را روی زیر میله قرار داد تا خشک شود.
+monstrance#شمعدان#The priest held the monstrance during the procession.#a vessel for the Host#C2#ˈmɒnstrəns#کشیش در طول مراسم شمعدان را نگه داشت.
+sigmoidoscopy#سیگموئیدوسکوپی#The doctor performed a sigmoidoscopy to examine the lower part of the colon.#a medical procedure to examine the colon#C2#ˌsɪɡmɔɪˈdɒskəpi#پزشک برای معاینه بخش پایینی روده بزرگ، سیگموئیدوسکوپی انجام داد.
+okinawan#اهل اوکیناوا#He practices Okinawan karate, a traditional martial art.#of or relating to Okinawa#C2#ˌoʊkɪˈnɑːwən#او کاراته اوکیناوا، یک هنر رزمی سنتی را تمرین می‌کند.
+raptly#با دقت#The children listened raptly to the storyteller.#with complete attention#C1#ˈræptli#بچه‌ها با دقت کامل به قصه‌گو گوش دادند.
+smeary#لکه دار#The window was smeary and difficult to see through.#smudged#B2#ˈsmɪəri#پنجره لکه‌دار بود و دیدن از آن دشوار بود.
+subtopic#زیرموضوع#The presentation was divided into three main topics and several subtopics.#a topic that is part of a larger topic#B2#ˈsʌbˌtɑpɪk#ارائه به سه موضوع اصلی و چندین زیرموضوع تقسیم شد.
+bluejay#کوکه‌آبی#The bluejay's loud call echoed through the forest.#a type of bird#B2#ˈbluːˌdʒeɪ#آواز بلند کوکه‌آبی در جنگل طنین‌انداز شد.
+ribboned#روبان‌دار#The gift was beautifully ribboned with a red bow.#tied with a ribbon#B1#ˈrɪbənd#هدیه به زیبایی با یک روبان قرمز تزیین شده بود.
+anoxia#بی‌اکسیژنی#The brain damage was caused by anoxia during the accident.#lack of oxygen#C2#əˈnɒksiə#آسیب مغزی به دلیل بی‌اکسیژنی در طول تصادف رخ داد.
+unheal#ناقابل درمان#The unhealed wound was still causing him a lot of pain.#not healed#C1#ˌʌnˈhiːld#زخم ناگوار هنوز درد زیادی برای او ایجاد می‌کرد.
+interprofessional#بین‌حرفه‌ای#The project required interprofessional collaboration from various fields.#involving two or more professions#C2#ˌɪntərprəˈfɛʃənl#این پروژه به همکاری بین‌حرفه‌ای از رشته‌های مختلف نیاز داشت.
+haply#شاید#Haply, we may meet again in the future.#perhaps#C2#ˈhæpli#شاید، ما در آینده دوباره ملاقات کنیم.
+whacked#خسته#I'm completely whacked after working all day.#exhausted#B2#wækt#من بعد از تمام روز کار کردن کاملاً خسته هستم.
+immunosorbent#جاذب ایمنی#The test uses an immunosorbent assay to detect antibodies.#relating to the absorption of antibodies#C2#ɪˌmjuːnoʊˈsɔrbənt#این آزمایش از یک سنجش جاذب ایمنی برای تشخیص آنتی‌بادی‌ها استفاده می‌کند.
+motorman#راننده#The motorman drove the train through the tunnel.#a person who operates a motor vehicle#C1#ˈmoʊtərˌmæn#راننده قطار را از میان تونل راند.
+multipart#چندبخشی#The book is a multipart series, with three volumes released so far.#consisting of several parts#B2#ˈmʌltiˌpɑrt#این کتاب یک مجموعه چندبخشی است که تاکنون سه جلد آن منتشر شده است.
+oysterman#صیدکننده صدف#The oysterman hauled his boat in, his face weathered by the sea.#oyster fisher#B2#ˈɔɪstərˌmæn#صیدکننده صدف قایقش را کشید، صورتش از دریا آب دیده بود
+pitter#صدای ریزش یا ضربه های سریع#I heard the pitter of rain on the roof.#patter#C1#ˈpɪtər#صدای ریزش باران را روی سقف شنیدم
+deontological#وظیفه گرا#His ethical framework was strictly deontological, focused on duty.#duty-based#C2#ˌdiːˌɒntəˈlɒdʒɪkl#چارچوب اخلاقی او کاملاً وظیفه گرا و متمرکز بر وظیفه بود
+dystopic#ویران شهری#The film portrays a dystopic future where technology controls everything.#dystopian#C1#dɪsˈtɒpɪk#فیلم آینده‌ای ویران شهری را به تصویر می‌کشد که در آن فناوری همه چیز را کنترل می‌کند
+rockslide#سقوط سنگ#The hikers were warned about a recent rockslide on the trail.#landslide#B2#ˈrɒkˌslaɪd#به کوهنوردان در مورد سقوط اخیر سنگ در مسیر هشدار داده شد
+overtreatment#درمان بیش از حد#Overtreatment in medicine can lead to unnecessary side effects.#excessive treatment#C2#ˌoʊvərˈtriːtmənt#درمان بیش از حد در پزشکی می تواند به عوارض جانبی غیرضروری منجر شود
+footer#پاورقی#I need to add a page number to the footer of this document.#page bottom#B1#ˈfʊtər#باید یک شماره صفحه به پاورقی این سند اضافه کنم
+mycobacteria#مایکوباکتری#Tuberculosis is caused by a type of mycobacteria.#bacterium#C2#ˌmaɪkoʊbækˈtɪəriə#سل توسط نوعی مایکوباکتری ایجاد می شود
+wringing#فشردن برای خارج کردن مایع#She was wringing the water out of the wet cloth.#squeezing#B2#ˈrɪŋɪŋ#او داشت آب پارچه خیس را می فشرد
+endogamous#درون همسری#The tribe was endogamous, marrying only within their own group.#in-marrying#C2#ɛnˈdɒɡəməs#قبیله درون همسر بود و فقط در گروه خود ازدواج می کرد
+locavore#طرفدار غذای محلی#As a locavore, she buys all her produce from local farms.#local eater#C1#ˈloʊkəˌvɔːr#به عنوان یک طرفدار غذای محلی، او تمام محصولاتش را از مزارع محلی می خرد
+downforce#نیروی رو به پایین#The car's spoiler creates downforce, keeping it stable at high speeds.#downward force#C1#ˈdaʊnˌfɔːrs#اسپویلر خودرو نیروی رو به پایین ایجاد می کند و آن را در سرعت های بالا پایدار نگه می دارد
+neodymium#نئودیمیم#The magnet is made of a powerful neodymium alloy.#rare earth metal#C2#ˌniːoʊˈdɪmiəm#آهنربا از یک آلیاژ نئودیمیم قدرتمند ساخته شده است
+ecophysiological#بوم فیزیولوژیک#The study examined the ecophysiological adaptations of plants to drought.#eco-biological#C2#ˌiːkoʊˌfɪzioʊˈlɒdʒɪkl#این مطالعه سازگاری های بوم فیزیولوژیک گیاهان با خشکسالی را بررسی کرد
+sealable#قابل آب بندی#Make sure the container is sealable to keep the food fresh.#airtight#B2#ˈsiːləbl#مطمئن شوید ظرف قابل آب بندی است تا غذا تازه بماند
+carob#خرنوب#Carob is often used as a chocolate substitute.#locust bean#C1#ˈkærəb#خرنوب اغلب به عنوان جایگزین شکلات استفاده می شود
+obliviously#غافلانه#He walked by obliviously, not noticing the commotion.#unconsciously#B2#əˈblɪviəsli#او غافلانه از کنار ما رد شد و متوجه هیاهو نشد
+coevolutionary#هم تکاملی#The relationship between the bee and the flower is coevolutionary.#interdependent evolution#C2#ˌkoʊˌiːvəˈluːʃəˌnɛri#رابطه بین زنبور و گل هم تکاملی است
+terrorize#وحشت زده کردن#A gang of thugs was terrorizing the neighborhood.#intimidate#C1#ˈtɛrəˌraɪz#یک باند اوباش محله را وحشت زده کرده بودند
+trailblaze#پیشگام بودن#She was determined to trailblaze a new path for women in science.#pioneer#B2#ˈtreɪlˌbleɪz#او مصمم بود که مسیری جدید برای زنان در علم پیشگام باشد
+tony#شیک و مجلل#They live in a tony part of the city, full of expensive houses.#posh#C1#ˈtoʊni#آنها در یک قسمت شیک و مجلل از شهر زندگی می کنند، پر از خانه های گران قیمت
+nonnarrative#غیر روایی#The artist's work is nonnarrative, focusing on abstract forms.#abstract#C2#ˌnɒnˈnærətɪv#کار هنرمند غیر روایی است و بر اشکال انتزاعی تمرکز دارد
+caudate#دم دار#The biologist was studying the caudate nucleus in the brain.#tailed#C2#ˈkɔːdeɪt#زیست شناس هسته دم دار در مغز را مطالعه می کرد
+barberry#زرشک#The dish was garnished with dried barberry.#shrub fruit#C1#ˈbɑːrˌbɛri#غذا با زرشک خشک تزیین شده بود
+campion#گل کمپین#Wild campion grew by the side of the road.#wildflower#C1#ˈkæmpiən#گل کمپین وحشی در کنار جاده رشد می کرد
+bricolage#کلاژ از قطعات مختلف#Her art is a bricolage of found objects and different materials.#collage#C2#ˌbrɪkoʊˈlɑːʒ#هنر او کلاژی از اشیاء یافت شده و مواد مختلف است
+bloggy#وبلاگی#His writing style is very bloggy, casual and personal.#informal#C1#ˈblɒɡi#سبک نوشتاری او بسیار وبلاگی، غیررسمی و شخصی است
+pectoralis#ماهیچه سینه ای#He was doing exercises to strengthen his pectoralis muscles.#chest muscle#C2#ˌpɛktəˈreɪlɪs#او برای تقویت ماهیچه های سینه ای خود ورزش می کرد
+plasmacytoma#پلاسموسیتوم#The patient was diagnosed with a plasmacytoma, a type of tumor.#plasma cell tumor#C2#ˌplæzməsaɪˈtoʊmə#بیمار به پلاسموسیتوم، نوعی تومور، مبتلا شد
+enduringly#ماندگار#The classic novel has enduringly captivated readers for generations.#lastingly#C1#ɪnˈdʊrɪŋli#رمان کلاسیک برای نسل ها به طور ماندگاری خوانندگان را مجذوب خود کرده است
+knowingness#آگاهی زیرکانه#There was a hint of knowingness in her smile.#shrewdness#C2#ˈnoʊɪŋnəs#در لبخند او نشانه ای از آگاهی زیرکانه بود
+looking#ظاهر#The painting has a very modern looking aesthetic.#appearance#A2#ˈlʊkɪŋ#این نقاشی ظاهری بسیار مدرن دارد
+variegation#رنگارنگی#The plant's leaves showed beautiful variegation.#mottling#C1#ˌvɛərɪˈɡeɪʃən#برگ های گیاه رنگارنگی زیبایی را نشان می دادند
+unreturn#بازگشت نکردن#His unreturn from the trip worried his family.#non-return#C2#ˌʌnrɪˈtɜːrn#بازگشت نکردن او از سفر خانواده اش را نگران کرد
+motorize#موتور دار کردن#They plan to motorize the old bicycle.#mechanize#C1#ˈmoʊtəraɪz#آنها قصد دارند دوچرخه قدیمی را موتور دار کنند
+asana#آسانا#She began her yoga practice with a simple asana.#yoga pose#C1#ˈɑːsənə#او تمرین یوگای خود را با یک آسانا ساده شروع کرد
+outthink#باهوش تر از کسی عمل کردن#He tried to outthink his opponent in the chess match.#outsmart#B2#ˌaʊtˈθɪŋk#او سعی کرد در مسابقه شطرنج باهوش تر از حریف خود عمل کند
+microwavable#قابل استفاده در مایکروویو#This dish is microwavable, so it's easy to heat up.#microwave-safe#B1#ˌmaɪkroʊˈweɪvəbl#این ظرف قابل استفاده در مایکروویو است، بنابراین گرم کردن آن آسان است
+neocortical#مربوط به نئوکورتکس#The study focuses on the neocortical activity during learning.#cerebral cortex#C2#ˌniːoʊˈkɔːrtɪkl#این مطالعه بر فعالیت نئوکورتکس در طول یادگیری تمرکز دارد
+duelist#مبارز با شمشیر#The two duelists faced each other at dawn.#fighter#C1#ˈduːəlɪst#دو مبارز با شمشیر در سحرگاه با هم روبرو شدند
+dashiki#داشیکی#He wore a colorful dashiki to the cultural festival.#traditional garment#C1#dəˈʃiːki#او یک داشیکی رنگارنگ به جشنواره فرهنگی پوشید
+dateless#بی تاریخ#The letter was dateless, so we don't know when it was written.#undated#B2#ˈdeɪtləs#نامه بی تاریخ بود، بنابراین ما نمی دانیم چه زمانی نوشته شده است
+disgorgement#پس دادن پول#The company was ordered to make a disgorgement of its illegal profits.#repayment#C2#dɪsˈɡɔːrdʒmənt#به شرکت دستور داده شد که سودهای غیرقانونی خود را پس دهد
+dollarization#دلاری شدن#The country's dollarization of its economy led to some stability.#currency adoption#C2#ˌdɒləraɪˈzeɪʃən#دلاری شدن اقتصاد کشور به برخی ثبات منجر شد
+cozy#راحت و دنج#The small cottage was very cozy with a fireplace.#comfortable#B1#ˈkoʊzi#کلبه کوچک با شومینه بسیار راحت و دنج بود
+siltation#گل و لای#Siltation of the river is a major environmental problem.#silting#C1#sɪlˈteɪʃən#گل و لای رودخانه یک مشکل عمده محیطی است
+mustach#سبیل#He decided to grow a thick mustach for the winter.#mustache#A2#ˈmʌstæʃ#او تصمیم گرفت برای زمستان یک سبیل ضخیم بگذارد
+zoster#زونا#He was diagnosed with herpes zoster, or shingles.#herpes#C2#ˈzɒstər#او به زونا یا تبخال زونا مبتلا شد
+unbundle#از هم جدا کردن#The company decided to unbundle its services and sell them separately.#separate#C1#ʌnˈbʌndl#شرکت تصمیم گرفت خدمات خود را از هم جدا کند و آنها را به صورت جداگانه بفروشد
+hypomania#هیپومانیا#She was experiencing a period of hypomania, characterized by high energy.#mood disorder#C2#ˌhaɪpoʊˈmeɪniə#او دوره ای از هیپومانیا را تجربه می کرد که با انرژی بالا مشخص می شد
+emplace#در جایی قرار دادن#The soldiers will emplace the new equipment this afternoon.#position#C1#ɪmˈpleɪs#سربازان تجهیزات جدید را بعد از ظهر در جای خود قرار خواهند داد
+trophoblast#تروفوبلاست#The trophoblast is a layer of cells that forms the outer part of a blastocyst.#embryonic cell layer#C2#ˈtrɒfoʊˌblæst#تروفوبلاست لایه ای از سلول ها است که قسمت بیرونی یک بلاستوسیست را تشکیل می دهد
+worrywart#آدم نگران#Don't be such a worrywart; everything will be fine.#anxious person#B2#ˈwʌriˌwɔːrt#اینقدر آدم نگران نباش؛ همه چیز خوب خواهد شد
+gallerist#صاحب گالری#The gallerist was preparing the new exhibition.#gallery owner#C1#ˈɡælərist#صاحب گالری در حال آماده سازی نمایشگاه جدید بود
+vandalize#خرابکاری کردن#Someone had vandalized the public park at night.#destroy#B2#ˈvændəlaɪz#کسی در شب در پارک عمومی خرابکاری کرده بود
+checking#بررسی کردن#He was checking the contents of the box.#inspecting#A2#ˈtʃɛkɪŋ#او محتویات جعبه را بررسی می کرد
+eyeblink#پلک زدن#It happened in an eyeblink, too fast to see.#instant#C1#ˈaɪˌblɪŋk#در یک پلک زدن اتفاق افتاد، خیلی سریع بود که دیده شود
+euthyroid#دارای عملکرد طبیعی تیروئید#The patient was euthyroid after the treatment.#normal thyroid function#C2#ˌjuːˈθaɪrɔɪd#بیمار پس از درمان عملکرد طبیعی تیروئید داشت
+dicker#چانه زدن#They spent an hour trying to dicker on the price.#haggle#C1#ˈdɪkər#آنها یک ساعت برای چانه زدن بر سر قیمت صرف کردند
+abstinent#پرهیزکار#He remained abstinent from alcohol for a year.#self-restrained#B2#ˈæbstənənt#او به مدت یک سال از الکل پرهیزکار ماند
+macrophyte#ماکروفیت#Macrophytes are important for the health of the lake.#aquatic plant#C2#ˈmækroʊˌfaɪt#ماکروفیت ها برای سلامت دریاچه مهم هستند
+anesthetize#بیهوش کردن#The doctor will anesthetize the patient before the surgery.#numb#C1#əˈnɛsθətaɪz#دکتر بیمار را قبل از جراحی بیهوش خواهد کرد
+quasiparticle#شبه ذره#The physicists are studying the behavior of quasiparticles.#particle-like entity#C2#ˌkwɑːziˈpɑːrtɪkl#فیزیکدانان رفتار شبه ذره ها را مطالعه می کنند
+tomographic#مربوط به توموگرافی#The doctor used a tomographic scan to view the brain.#imaging scan#C2#ˌtɒməˈɡræfɪk#پزشک از اسکن توموگرافی برای مشاهده مغز استفاده کرد
+grumpiness#کج خلقی#Her grumpiness was a result of not getting enough sleep.#bad mood#B2#ˈɡrʌmpiˌnɛs#کج خلقی او نتیجه کافی نخوابیدن بود
+kundalini#کوندالینی#She practices kundalini yoga to awaken her spiritual energy.#spiritual energy#C2#ˌkʊndəˈliːni#او برای بیدار کردن انرژی معنوی خود یوگای کوندالینی تمرین می کند
+underqualified#فاقد صلاحیت کافی#He felt underqualified for the managerial position.#unqualified#B2#ˌʌndərˈkwɒləfaɪd#او احساس می کرد برای موقعیت مدیریتی فاقد صلاحیت کافی است
+catabolism#کاتابولیسم#Catabolism is the metabolic process that breaks down molecules.#breakdown#C2#kəˈtæbəlɪzəm#کاتابولیسم فرآیند متابولیکی است که مولکول ها را تجزیه می کند
+matcha#ماچا#She drank a cup of matcha green tea every morning.#green tea powder#C1#ˈmætʃə#او هر روز صبح یک فنجان چای سبز ماچا می نوشید
+mamluk#مملوک#The Mamluk dynasty ruled Egypt for centuries.#slave soldier#C2#ˈmæmluːk#سلسله مملوک برای قرن ها بر مصر حکومت کرد
+microsite#میکروسایت#The company created a microsite for the new product launch.#mini-website#C1#ˈmaɪkroʊˌsaɪt#شرکت برای عرضه محصول جدید یک میکروسایت ایجاد کرد
+disfavor#عدم تایید#The proposal met with disfavor from the board of directors.#disapproval#B2#dɪsˈfeɪvər#این پیشنهاد با عدم تایید هیئت مدیره روبرو شد
+extraterritoriality#فراسرزمینی#The law does not have extraterritoriality, it only applies within the country.#beyond a territory#C2#ˌɛkstrətɛrɪtɔːriˈæləti#این قانون فراسرزمینی نیست، فقط در داخل کشور اعمال می شود
+pederast#همجنس باز با نوجوانان#The criminal was identified as a pederast.#child molester#C2#ˈpɛdəræst#جنایتکار به عنوان یک همجنس باز با نوجوانان شناسایی شد
+schlocky#بی ارزش و بی کیفیت#The film was a schlocky horror movie with terrible acting.#trashy#C1#ˈʃlɒki#این فیلم یک فیلم ترسناک بی ارزش و بی کیفیت با بازیگری وحشتناک بود
+pastorate#مقام کشیش#He was offered the pastorate of the local church.#ministry#C1#ˈpæstərɪt#به او مقام کشیش کلیسای محلی پیشنهاد شد
+mineworker#کارگر معدن#The mineworker emerged from the deep tunnel, covered in dust.#miner#B1#ˈmaɪnwɜːrkər#کارگر معدن از تونل عمیق بیرون آمد، پوشیده از گرد و غبار
+magus#مغ#The three magi brought gifts to the baby.#wise man#C1#ˈmeɪɡəs#سه مغ برای نوزاد هدایایی آوردند
+undervaluation#ارزیابی کمتر از ارزش واقعی#The undervaluation of the company's stock was a surprise.#underestimation#C2#ˌʌndərvæljuˈeɪʃən#ارزیابی کمتر از ارزش واقعی سهام شرکت تعجب آور بود
+leary#محتاط#He was leary of the new technology's promises.#wary#B2#ˈlɪəri#او نسبت به وعده های تکنولوژی جدید محتاط بود
+financing#تامین مالی#The company is looking for financing for its new project.#funding#B1#ˈfaɪnənsɪŋ#شرکت به دنبال تامین مالی برای پروژه جدید خود است
+elute#شستشو دادن#The scientist needed to elute the compound from the column.#wash out#C2#ɪˈluːt#دانشمند نیاز داشت ترکیب را از ستون شستشو دهد
+hamartoma#هامارتوما#A hamartoma is a benign tumor-like growth.#benign tumor#C2#ˌhæmɑːrˈtoʊmə#هامارتوما یک تومور خوش خیم شبیه به رشد است
+wetware#سخت افزار بیولوژیکی#The term "wetware" is sometimes used to refer to the human brain.#biological hardware#C2#ˈwɛtˌwɛər#اصطلاح "سخت افزار بیولوژیکی" گاهی اوقات برای اشاره به مغز انسان استفاده می شود
+johnboat#قایق پهن و تخت#He used a johnboat to fish in the shallow river.#flat-bottomed boat#C2#ˈdʒɒnˌboʊt#او از یک قایق پهن و تخت برای ماهیگیری در رودخانه کم عمق استفاده کرد
+petiole#دمبرگ#The petiole connects the leaf blade to the stem.#leafstalk#C2#ˈpɛtiˌoʊl#دمبرگ تیغه برگ را به ساقه متصل می کند
+destructor#نابود کننده#The machine acted as a destructor, breaking down waste materials.#destroyer#C2#dɪˈstrʌktər#دستگاه به عنوان یک نابود کننده عمل می کرد و مواد زائد را تجزیه می کرد
+manichaean#مانوی#The novel presents a simple Manichaean view of good versus evil.#dualistic#C2#ˌmænɪˈkiːən#رمان یک دیدگاه ساده مانوی از خیر در برابر شر را ارائه می دهد
+biophysicist#زیست فیزیکدان#The biophysicist was studying the physical principles of living organisms.#bio-physicist#C1#ˌbaɪoʊˈfɪzɪsɪst#زیست فیزیکدان در حال مطالعه اصول فیزیکی ارگانیسم های زنده بود
+inoculant#ماده تلقیح کننده#The farmer applied a nitrogen-fixing inoculant to the soil.#inoculum#C2#ɪˈnɒkjʊlənt#کشاورز یک ماده تلقیح کننده تثبیت کننده نیتروژن را به خاک زد
+whump#صدای سنگین افتادن#I heard a loud whump as the box fell.#thud#C1#hwʌmp#با افتادن جعبه صدای سنگین "وامپ" را شنیدم
+hidey#مخفی گاه#The squirrel had a hidey of nuts in the tree.#hiding place#C1#ˈhaɪdi#سنجاب درختی یک مخفی گاه از آجیل داشت
+toile#پارچه کتان#The dress was made from a beautiful toile fabric.#linen fabric#C1#twɑːl#لباس از پارچه کتان زیبا ساخته شده بود
+interactionist#تعامل گرا#The sociologist took an interactionist perspective.#interaction-focused#C2#ˌɪntərˈækʃənɪst#جامعه شناس دیدگاه تعامل گرا را در پیش گرفت
+unsettlingly#به طور ناراحت کننده#The doll's eyes were unsettlingly realistic.#disturbingly#C1#ʌnˈsɛtlɪŋli#چشمان عروسک به طور ناراحت کننده ای واقع گرایانه بودند
+binoc#دوربین دوچشمی#He looked through his binocs to see the bird better.#binoculars#B2#ˈbaɪnɒk#او از طریق دوربین دوچشمی خود نگاه کرد تا پرنده را بهتر ببیند
+bargainer#چانه زن#He's a tough bargainer, always getting the lowest price.#negotiator#B2#ˈbɑːrɡənər#او یک چانه زن سرسخت است، همیشه پایین ترین قیمت را می گیرد
+phosphatidylserine#فسفاتیدیل سرین#Phosphatidylserine is a type of lipid found in cell membranes.#lipid#C2#ˌfɒsfətaɪdɪlˈsɛrɪn#فسفاتیدیل سرین نوعی لیپید است که در غشای سلولی یافت می شود
+ditz#آدم حواس پرت#Don't be such a ditz and remember your keys.#silly person#B2#dɪts#اینقدر آدم حواس پرت نباش و کلیدهایت را به خاطر بسپار
+ped#پایه یا ستون#The statue rested on a stone ped.#pedestal#C1#pɛd#مجسمه بر روی یک پایه سنگی قرار داشت
+derivational#اشتقاقی#The study looked at derivational morphology.#derivation-related#C2#ˌdɛrɪˈveɪʃənəl#این مطالعه به ریخت شناسی اشتقاقی نگاه کرد
+edutainment#آموزش سرگرمی#The museum provides edutainment for children with its interactive exhibits.#educational entertainment#C1#ˌɛdʒuˈteɪnmənt#موزه با نمایشگاه های تعاملی خود آموزش سرگرمی برای کودکان فراهم می کند
+photodetector#آشکارساز نور#A photodetector converts light into an electrical signal.#light sensor#C2#ˌfoʊtoʊdɪˈtɛktər#یک آشکارساز نور، نور را به سیگنال الکتریکی تبدیل می کند
+muddler#مخلوط کن#She used a muddler to crush the mint for the cocktail.#crushing tool#C1#ˈmʌdlər#او از یک مخلوط کن برای له کردن نعناع برای کوکتل استفاده کرد
+thready#نخی#The old fabric was thready and worn thin.#threadbare#C1#ˈθrɛdi#پارچه قدیمی نخی و نازک شده بود
+lamarckian#لامارکی#His theories were based on Lamarckian principles of evolution.#Lamarck's theory#C2#ləˈmɑːrkiən#تئوری های او بر اساس اصول تکاملی لامارکی بود
+waspy#نژادپرست و متعصب#He was known for his waspy remarks about minorities.#prejudiced#C2#ˈwɑːspi#او به خاطر اظهارات نژادپرست و متعصب خود در مورد اقلیت ها شناخته شده بود
+reimportation#واردات مجدد#The reimportation of the goods was a logistical nightmare.#re-entry#C2#ˌriːˌɪmpɔːrˈteɪʃən#واردات مجدد کالاها یک کابوس لجستیکی بود
+knuckleballer#بازیکن بیسبال#The knuckleballer threw a pitch that was hard to hit.#baseball pitcher#C1#ˈnʌklbɔːlər#بازیکن بیسبال یک پرتاب سخت برای ضربه زدن کرد
+tricuspid#سه لتی#The doctor listened to the sounds of the tricuspid valve.#three-cusped#C2#traɪˈkʌspɪd#دکتر به صدای دریچه سه لتی گوش داد
+unalign#ناهماهنگ کردن#The new policy will unalign the team's goals.#misalign#C2#ˌʌnəˈlaɪn#سیاست جدید اهداف تیم را ناهماهنگ خواهد کرد
+mouseketeer#عضو باشگاه میکی ماوس#She was a fan of the show when she was a Mouseketeer.#Mickey Mouse Club member#C1#ˌmaʊskɪˈtɪər#او زمانی که عضو باشگاه میکی ماوس بود، طرفدار این نمایش بود
+myelination#میلین سازی#Myelination is a process crucial for nerve function.#sheath formation#C2#ˌmaɪəlɪˈneɪʃən#میلین سازی فرآیندی است که برای عملکرد عصب حیاتی است
+parameterization#پارامترسازی#The model's parameterization was key to its accuracy.#setting parameters#C2#ˌpærəmətəraɪˈzeɪʃən#پارامترسازی مدل برای دقت آن کلیدی بود
+docosahexaenoic#دوکوزاهگزانوئیک#Docosahexaenoic acid is an important omega-3 fatty acid.#DHA#C2#ˌdoʊkoʊsəˌhɛksəˌiːˈnoʊɪk#اسید دوکوزاهگزانوئیک یک اسید چرب امگا-۳ مهم است
+expungement#پاکسازی#He applied for the expungement of his criminal record.#erasure#C1#ɪkˈspʌndʒmənt#او برای پاکسازی سابقه کیفری خود درخواست داد
+plasticizer#نرم کننده پلاستیک#Plasticizers are added to plastics to make them more flexible.#flexibility agent#C2#ˈplæstɪsaɪzər#نرم کننده های پلاستیک برای انعطاف پذیری بیشتر به پلاستیک اضافه می شوند
+conclusory#نتیجه گیری#The report was criticized for being conclusory without enough evidence.#concluding#C1#kənˈkluːsəri#گزارش به دلیل نتیجه گیری بودن بدون شواهد کافی مورد انتقاد قرار گرفت
+dieldrin#ديلدرين#Dieldrin is a persistent organic pollutant.#pesticide#C2#ˈdɪəldrɪn#ديلدرين یک آلاینده آلی پایدار است
+burnet#برنت#The garden was full of red burnet flowers.#flowering plant#C1#ˈbɜːrnət#باغ پر از گل های برنت قرمز بود
+sacrality#قداست#The ancient temple was a place of great sacrality.#holiness#C2#səˈkrælɪti#معبد باستانی مکانی با قداست بزرگ بود
+ribavirin#ریباویرین#Ribavirin is an antiviral medication used to treat certain viruses.#antiviral drug#C2#ˌraɪbəˈvaɪrɪn#ریباویرین یک داروی ضد ویروسی است که برای درمان ویروس های خاصی استفاده می شود
+adjudicatory#قضایی#The court has adjudicatory power to resolve disputes.#judicial#C2#əˈdʒuːdɪkətɔːri#دادگاه قدرت قضایی برای حل و فصل اختلافات دارد
+nonmetropolitan#غیر کلان شهری#The study focused on nonmetropolitan areas of the country.#rural#C1#ˌnɒnˌmɛtrəˈpɒlɪtən#این مطالعه بر مناطق غیر کلان شهری کشور تمرکز داشت
+idiographic#فردی#The psychologist took an idiographic approach to each case.#individual-focused#C2#ˌɪdioʊˈɡræfɪk#روانشناس برای هر مورد یک رویکرد فردی در پیش گرفت
+technic#تکنیک#The artist's technic was admired by many.#technique#C1#ˈtɛknɪk#تکنیک هنرمند توسط بسیاری مورد تحسین قرار گرفت
+fixator#تثبیت کننده#The surgeon used a fixator to stabilize the bone.#stabilizing device#C2#fɪkˈseɪtər#جراح از یک تثبیت کننده برای تثبیت استخوان استفاده کرد
+heideggerian#هیدگری#His philosophy was influenced by Heideggerian thought.#Heidegger's philosophy#C2#ˌhaɪdəˈɡɛriən#فلسفه او تحت تأثیر تفکر هیدگری بود
+transtheoretical#فرا نظری#The transtheoretical model of change is often used in psychology.#across theories#C2#ˌtrænstəˈrɛtɪkl#مدل فرا نظری تغییر اغلب در روانشناسی استفاده می شود
+xylem#آوند چوبی#The xylem transports water from the roots to the leaves.#water vessel#C2#ˈzaɪləm#آوند چوبی آب را از ریشه به برگ ها منتقل می کند
+flam#تظاهر دروغین#His compliments were just a flam to get what he wanted.#deception#C1#flæm#تعریف و تمجید او فقط یک تظاهر دروغین برای به دست آوردن آنچه می خواست بود
+tanzanian#اهل تانزانیا#The Tanzanian flag is green, black, blue, and yellow.#from Tanzania#B1#ˌtænzəˈniːən#پرچم تانزانیا سبز، سیاه، آبی و زرد است
+hypervigilance#بیش گوش به زنگی#Hypervigilance is a symptom of post-traumatic stress disorder.#extreme alertness#C2#ˌhaɪpərˈvɪdʒələns#بیش گوش به زنگی نشانه ای از اختلال استرس پس از سانحه است
+jackfruit#جک فروت#Jackfruit is a large, spiky fruit with a sweet taste.#tropical fruit#C1#ˈdʒækˌfruːt#جک فروت یک میوه بزرگ و خاردار با طعم شیرین است
+gesso#جسو#The artist applied a layer of gesso before painting the canvas.#primer#C1#ˈdʒɛsoʊ#هنرمند قبل از نقاشی روی بوم، لایه ای از جسو را اعمال کرد
+ciliary#مژگانی#The ciliary muscles control the shape of the eye lens.#eyelash-related#C2#ˈsɪliˌɛri#ماهیچه های مژگانی شکل لنز چشم را کنترل می کنند
+divinatory#پیشگویانه#She was known for her divinatory abilities.#prophetic#C1#dɪˈvɪnətɔːri#او به خاطر توانایی های پیشگویانه اش شناخته شده بود
+rastafarian#راستافاری#He was a Rastafarian, dedicated to his faith and lifestyle.#Rasta#C2#ˌræstəˈfɛəriən#او یک راستافاری بود که به ایمان و سبک زندگی خود اختصاص داشت
+desireable#مطلوب#The new job offers a desirable salary and benefits.#desirable#B2#dɪˈzaɪərəbl#شغل جدید حقوق و مزایای مطلوبی را ارائه می دهد
+playact#تظاهر به چیزی کردن#He wasn't really hurt; he was just playacting.#pretend#C1#ˈpleɪˌækt#او واقعاً آسیب ندیده بود؛ فقط تظاهر می کرد
+aleck#آدم خودنما#He's a smart aleck who always has a clever remark.#know-it-all#B2#ˈælɪk#او یک آدم خودنما است که همیشه یک حرف هوشمندانه برای گفتن دارد
+microhabitat#زیستگاه کوچک#The puddle was a microhabitat for many tiny creatures.#small habitat#C1#ˌmaɪkroʊˈhæbɪtæt#گودال یک زیستگاه کوچک برای بسیاری از موجودات ریز بود
+dissention#مخالفت#There was dissention among the members of the committee.#disagreement#B2#dɪˈsɛnʃən#بین اعضای کمیته مخالفت وجود داشت
+philosophize#فلسفه بافی کردن#He likes to philosophize about the meaning of life.#ponder#C1#fɪˈlɒsəfaɪz#او دوست دارد در مورد معنی زندگی فلسفه بافی کند
+coccus#کوکوس#The bacteria were identified as a type of coccus.#round bacterium#C2#ˈkɒkəs#باکتری ها به عنوان نوعی کوکوس شناسایی شدند
+actualize#محقق ساختن#She was finally able to actualize her dream of becoming a doctor.#realize#C1#ˈæktʃuəlaɪz#او سرانجام توانست رویای خود را برای پزشک شدن محقق سازد
+monomaniacal#جنون تک موضوعی#His monomaniacal focus on the project was impressive.#obsessive#C2#ˌmɒnoʊməˈnaɪəkl#تمرکز جنون آمیز او بر روی پروژه چشمگیر بود
+raga#راگا#He played a beautiful raga on the sitar.#musical form#C1#ˈrɑːɡə#او یک راگای زیبا را با سیتار نواخت
+humeral#مربوط به استخوان بازو#The doctor examined the patient's humeral fracture.#arm bone#C2#ˈhjuːmərəl#دکتر شکستگی استخوان بازوی بیمار را بررسی کرد
+horsemeat#گوشت اسب#Horsemeat is not commonly eaten in this country.#meat from a horse#C1#ˈhɔːrsˌmiːt#گوشت اسب معمولاً در این کشور خورده نمی شود
+kopeck#کوپک#The old man didn't have a single kopeck to his name.#coin#C2#ˈkoʊpɛk#مرد پیر حتی یک کوپک هم به نام خود نداشت
+matched#جور و هماهنگ#The shoes were perfectly matched to her dress.#coordinated#B1#mætʃt#کفش ها کاملاً با لباس او جور بودند
+unpresidential#غیر ریاست جمهوری#His unpresidential behavior shocked many people.#unbefitting a president#C1#ˌʌnˌprɛzɪˈdɛnʃəl#رفتار غیر ریاست جمهوری او بسیاری از مردم را شوکه کرد
+agonistic#ستیزه جو#The two sides had an agonistic relationship.#combative#C2#ˌæɡəˈnɪstɪk#دو طرف یک رابطه ستیزه جویانه داشتند
+riprap#سنگچین#They built a riprap to protect the shoreline from erosion.#stone barrier#C1#ˈrɪpˌræp#آنها یک سنگچین برای محافظت از خط ساحلی در برابر فرسایش ساختند
+newshound#خبرنگار مشتاق#The newshound was always first on the scene.#reporter#B2#ˈnuːzˌhaʊnd#خبرنگار مشتاق همیشه اولین نفری بود که در صحنه حاضر می شد
+pedicab#کالسکه سه چرخه#We took a pedicab to tour the city center.#rickshaw#C1#ˈpɛdɪˌkæb#ما یک کالسکه سه چرخه برای گشت و گذار در مرکز شهر گرفتیم
+pocketable#قابل حمل در جیب#The new device is small and pocketable.#small and portable#B1#ˈpɒkɪtəbl#دستگاه جدید کوچک و قابل حمل در جیب است
+sapsucker#دارکوب#A sapsucker was pecking at the tree trunk.#woodpecker#C1#ˈsæpˌsʌkər#یک دارکوب در حال نوک زدن به تنه درخت بود
+decomposer#تجزیه کننده#Mushrooms are a type of decomposer in the forest.#rotter#B2#ˌdiːkəmˈpoʊzər#قارچ ها نوعی تجزیه کننده در جنگل هستند
+razzle#جشن پر سر و صدا#They had a big razzle to celebrate their victory.#party#C1#ˈræzl#آنها یک جشن پر سر و صدا برای جشن گرفتن پیروزی خود داشتند
+micronesian#اهل میکرونزی#The Micronesian islands are in the Pacific Ocean.#from Micronesia#B2#ˌmaɪkroʊˈniːʒən#جزایر میکرونزی در اقیانوس آرام هستند
+dissolvable#قابل حل#The pill is dissolvable in water.#soluble#B1#dɪˈzɒlvəbl#قرص در آب قابل حل است
+orthose#ارتوز#He was fitted with an orthose to support his foot.#orthotic device#C2#ˈɔːrˌθoʊz#او به یک ارتوز مجهز شد تا از پایش حمایت کند
+unshave#تراشیده نشده#His face was unshave and a little rough.#unshaven#C1#ˌʌnˈʃeɪv#صورت او تراشیده نشده و کمی زبر بود
+sorption#جذب سطحی#Sorption is the process of a substance adhering to a surface.#adsorption#C2#ˈsɔːrpʃən#جذب سطحی فرآیند چسبیدن یک ماده به سطح است
+tridentine#مربوط به شورای ترنت#The Tridentine Mass was the standard Catholic Mass for centuries.#related to Council of Trent#C2#ˈtraɪdɪntaɪn#مراسم مذهبی ترنتین برای قرن ها مراسم استاندارد کاتولیک بود
+inexpressive#بی حالت#His face was inexpressive as he listened to the news.#blank#B2#ˌɪnɪkˈsprɛsɪv#صورت او در حالی که به اخبار گوش می داد بی حالت بود
+imaginal#تصوری#The child's imaginal world was full of magical creatures.#imaginary#C1#ɪˈmædʒɪnəl#دنیای تصوری کودک پر از موجودات جادویی بود
+rabbinate#خاخامی#He studied for years to join the rabbinate.#rabbis' office#C2#ˈræbɪneɪt#او سال ها برای پیوستن به خاخامی درس خواند
+madrassah#مدرسه دینی#He attended a madrassah to study Islamic theology.#religious school#C1#məˈdrɑːsə#او برای مطالعه الهیات اسلامی به یک مدرسه دینی رفت
+albopictu#مربوط به پشه آئدس آلبوپیکتوس#The lab was studying the albopictu mosquito.#Aedes albopictus#C2#ˌælbəʊˈpɪktjuː#آزمایشگاه در حال مطالعه پشه آئدس آلبوپیکتوس بود
+giveback#بازپرداخت#The company is offering a giveback to its loyal customers.#refund#C1#ˈɡɪvˌbæk#شرکت در حال ارائه یک بازپرداخت به مشتریان وفادار خود است
+salish#سالیش#The Salish people have a rich cultural history.#Native American tribe#C1#ˈseɪlɪʃ#مردم سالیش تاریخ فرهنگی غنی دارند
+braless#بدون سوتین#She was comfortable walking around braless.#without a bra#C1#ˈbrɑːlɪs#او با راه رفتن بدون سوتین راحت بود
+raggy#کهنه#He was wearing a raggy old coat.#ragged#B2#ˈræɡi#او یک کت قدیمی کهنه پوشیده بود
+eyewall#دیواره چشم طوفان#The eyewall is the most dangerous part of a hurricane.#hurricane wall#C2#ˈaɪˌwɔːl#دیواره چشم طوفان خطرناک ترین بخش یک طوفان است
+porkpie#کلاه پاپ کیک#He wore a stylish porkpie hat.#type of hat#C1#ˈpɔːrkˌpaɪ#او یک کلاه پاپ کیک شیک پوشید
+saracen#سارازن#The Saracens were a group of nomadic people in the Middle East.#medieval term#C2#ˈsærəsən#سارازن ها گروهی از مردم کوچ نشین در خاورمیانه بودند
+politico#سیاستمدار#The politico was giving a speech about his new policy.#politician#B2#pəˈlɪtɪkoʊ#سیاستمدار در حال سخنرانی در مورد سیاست جدید خود بود
+bupropion#بوپروپیون#Bupropion is an antidepressant medication.#medication#C2#ˌbjuːproʊˈpioʊn#بوپروپیون یک داروی ضد افسردگی است
+abstractionist#آبستره کار#The artist was a renowned abstractionist.#abstract artist#C1#ˌæbstrækʃənɪst#این هنرمند یک آبستره کار مشهور بود
+moldovan#اهل مولداوی#She is a Moldovan citizen.#from Moldova#B1#mɒlˈdoʊvən#او یک شهروند مولداویایی است
+ufologist#یوفولوژیست#The ufologist believed in the existence of alien life.#UFO expert#C1#juːˈfoʊlədʒɪst#یوفولوژیست به وجود حیات بیگانه اعتقاد داشت
+fluorescently#به صورت فلورسنت#The markings on the clothes shone fluorescently in the dark.#glowing#C1#ˌflʊərɛsəntli#علامت ها روی لباس به صورت فلورسنت در تاریکی می درخشیدند
+sunni#سنی#The majority of Muslims in the world are Sunni.#branch of Islam#B1#ˈsuːni#اکثریت مسلمانان جهان سنی هستند
+shiite#شیعه#He is a Shiite Muslim from Iran.#branch of Islam#B1#ˈʃiːaɪt#او یک مسلمان شیعه از ایران است
+tuberose#گل مریم#The tuberose has a strong, sweet fragrance.#flower#C1#ˈtuːbəroʊs#گل مریم بوی قوی و شیرینی دارد
+symbionese#همزیست#The symbionese relationship between the two species was unique.#symbiotic#C2#ˌsɪmbaɪəˈniːz#رابطه همزیست بین دو گونه منحصر به فرد بود
+fluorosis#فلوروز#Dental fluorosis is caused by excessive fluoride intake.#condition caused by fluoride#C2#ˌflʊəˈroʊsɪs#فلوروز دندانی توسط مصرف بیش از حد فلوراید ایجاد می شود
+iodize#ید دار کردن#They decided to iodize the salt to prevent iodine deficiency.#add iodine#C1#ˈaɪədaɪz#آنها تصمیم گرفتند نمک را ید دار کنند تا از کمبود ید جلوگیری کنند
+nomadism#کوچ نشینی#Nomadism is a way of life for some people in the desert.#wandering lifestyle#C1#ˈnoʊmədɪzəm#کوچ نشینی یک سبک زندگی برای برخی از مردم در کویر است
+cenozoic#سنوزوئیک#The Cenozoic Era is the current geological era.#geological era#C2#ˌsiːnəˈzoʊɪk#دوران سنوزوئیک دوران زمین شناسی کنونی است
+meteoroid#شهاب واره#A meteoroid entered the Earth's atmosphere.#space rock#C1#ˈmiːtiəˌrɔɪd#یک شهاب واره وارد جو زمین شد
+adrenergic#آدرنژیک#The drug has an adrenergic effect on the body.#related to adrenaline#C2#ˌædrəˈnɜːrdʒɪk#این دارو یک اثر آدرنژیک بر بدن دارد
+cordgrass#علف شور#Cordgrass is a type of coastal grass that helps stabilize salt marshes.#Spartina#C2#ˈkɔrdˌɡræs#علف شور نوعی علف ساحلی است که به تثبیت تالاب‌های نمکی کمک می‌کند.
+bronchoscopy#برونکوسکوپی#The doctor performed a bronchoscopy to examine the patient's airways.#endoscopy#C2#brɑŋˈkɑskəpi#پزشک برای معاینه مجاری تنفسی بیمار، برونکوسکوپی انجام داد.
+crushing#بسیار سخت و ناامیدکننده#The team's defeat was a crushing blow.#devastating#C1#ˈkrʌʃɪŋ#شکست تیم یک ضربه بسیار سخت و ناامیدکننده بود.
+ethnomusicology#قوم‌موسیقی‌شناسی#Ethnomusicology is the study of music from different cultures.#anthropology of music#C2#ˌɛθnoʊmjuˌzɪˈkɑlədʒi#قوم‌موسیقی‌شناسی، مطالعه موسیقی فرهنگ‌های مختلف است.
+pietism#پارساگرایی#Pietism emphasizes personal religious devotion and piety.#devotionalism#C2#ˈpaɪətɪzəm#پارساگرایی بر تقوای شخصی و فداکاری مذهبی تأکید دارد.
+lister#فهرست‌کننده#The lister compiled a detailed inventory of all the books.#compiler#C2#ˈlɪstər#فهرست‌کننده یک موجودی دقیق از تمام کتاب‌ها تهیه کرد.
+liveaboard#قایق‌نشین#He's a liveaboard, living on his sailboat year-round.#boater#C2#ˈlɪvəˌbɔrd#او یک قایق‌نشین است که تمام سال در قایق بادبانی‌اش زندگی می‌کند.
+endovascular#درون‌عروقی#Endovascular surgery is a minimally invasive procedure.#intra-arterial#C2#ˌɛndoʊˈvæskjələr#جراحی درون‌عروقی یک روش کم تهاجمی است.
+breaking#نقطه عطف، رویداد مهم#Breaking news reported the latest developments.#momentous#B2#ˈbreɪkɪŋ#اخبار مهم آخرین تحولات را گزارش کرد.
+surah#سوره#The Imam recited a surah from the Quran.#chapter#C2#ˈsʊərə#امام یک سوره از قرآن را تلاوت کرد.
+coiffed#شانه کرده، مرتب#Her hair was perfectly coiffed for the evening.#styled#C2#kwɑft#موهای او برای شب کاملاً شانه شده و مرتب بود.
+untemper#سرد کردن یا معتدل کردن#The blacksmith had to untemper the steel to reshape it.#soften#C2#ʌnˈtɛmpər#آهنگر مجبور شد فولاد را سرد کند تا دوباره آن را شکل دهد.
+puce#رنگ قهوه‌ای مایل به ارغوانی تیره#She wore a dress in a puce color.#brownish-purple#C2#pjus#او لباسی به رنگ قهوه‌ای مایل به ارغوانی تیره پوشیده بود.
+androgenic#آندروژنیک#Androgenic hormones influence the development of male characteristics.#masculinizing#C2#ˌændroʊˈdʒɛnɪk#هورمون‌های آندروژنیک بر رشد ویژگی‌های مردانه تأثیر می‌گذارند.
+namby#بچه#He was a bit of a namby when it came to trying new things.#coward#C2#ˈnæmbi#او در مورد امتحان چیزهای جدید کمی بچه بود.
+pamby#بچه#He's such a pamby, he's afraid of everything.#wimp#C2#ˈpæmbi#او خیلی بچه است، از هر چیزی می‌ترسد.
+pinniped#پای‌باله#Seals and walruses are types of pinnipeds.#fin-footed mammal#C2#ˈpɪnəˌpɛd#فک‌ها و شیرهای دریایی انواعی از پای‌باله‌ها هستند.
+microfossil#میکروفسیل#Scientists study microfossils to understand ancient climates.#fossilized microbe#C2#ˈmaɪkroʊˌfɑsəl#دانشمندان برای درک آب و هواهای باستانی، میکروفسیل‌ها را مطالعه می‌کنند.
+dispatchable#قابل ارسال، قابل اعزام#The fire department has dispatchable resources ready to go.#deployable#C2#dɪˈspætʃəbəl#آتش‌نشانی منابع قابل اعزامی را آماده دارد.
+congee#کانجی#She had a bowl of warm congee for breakfast.#rice porridge#C2#ˈkɑnˌdʒi#او برای صبحانه یک کاسه کانجی گرم خورد.
+bowrider#قایق کمانی#They took the bowrider out for a day of fun on the lake.#motorboat#C2#ˈboʊˌraɪdər#آن‌ها برای یک روز تفریح در دریاچه، قایق کمانی را بیرون بردند.
+routinize#عادت‌مند کردن#The company is working to routinize its new procedures.#standardize#C2#ˈruˌtɪnaɪz#شرکت در حال تلاش برای عادت‌مند کردن رویه‌های جدید خود است.
+overcompensation#بیش‌جبرانی#His overcompensation for his mistakes was noticeable.#overcorrection#C2#ˌoʊvərˌkɑmpənˈseɪʃən#بیش‌جبرانی او برای اشتباهاتش قابل توجه بود.
+mariposa#پروانه#The mariposa butterfly fluttered by.#butterfly#C2#ˌmæriˈpoʊzə#پروانه مارپوزا بال زد و از کنارمان گذشت.
+checkable#قابل بررسی، قابل کنترل#The data is checkable for accuracy.#verifiable#B2#ˈtʃɛkəbəl#داده‌ها برای دقت قابل بررسی هستند.
+unvisit#سفر نکردن به جایی#I had to unvisit my favorite place for a while.#not visit#C2#ʌnˈvɪzɪt#مجبور شدم مدتی به مکان مورد علاقه‌ام سفر نکنم.
+threshhold#آستانه#The noise level exceeded the human threshhold of hearing.#limit#C1#ˈθrɛʃˌhoʊld#میزان صدا از آستانه شنوایی انسان فراتر رفت.
+titrate#تیتره کردن#The chemist will titrate the solution to determine its concentration.#analyze#C2#ˈtaɪˌtreɪt#شیمی‌دان محلول را تیتره می‌کند تا غلظت آن را تعیین کند.
+humic#هومیک#The soil was rich in humic acids, essential for plant growth.#humus-rich#C2#ˈhjuːmɪk#خاک غنی از اسیدهای هومیک بود که برای رشد گیاه ضروری است.
+irremediably#به‌طور غیرقابل جبران#The damage was irremediably extensive.#irreversibly#C2#ɪˌrɛmɪˈdiəbli#خسارت به‌طور غیرقابل جبران گسترده بود.
+bengali#بنگالی#She speaks Bengali, a language of Bangladesh and India.#Bengalese#B2#bɛŋˈɡɔli#او به زبان بنگالی صحبت می‌کند، زبانی از بنگلادش و هند.
+meninge#مننژ#The meninges are the membranes surrounding the brain and spinal cord.#membrane#C2#ˈmɛnɪnˌdʒi#مننژها غشاهایی هستند که مغز و نخاع را احاطه کرده‌اند.
+marihuana#ماری‌جوانا#Marihuana is used for both recreational and medicinal purposes.#cannabis#C1#ˌmærəˈhwɑnə#ماری‌جوانا برای اهداف تفریحی و پزشکی استفاده می‌شود.
+alpinist#کوهنورد#The alpinist successfully scaled the difficult peak.#mountaineer#C2#ˈælpɪnɪst#کوهنورد با موفقیت از قله دشوار بالا رفت.
+ragtop#خودرو سقف پارچه‌ای#He drove a vintage ragtop convertible.#soft-top#C2#ˈræɡˌtɑp#او یک خودروی کانورتیبل سقف پارچه‌ای قدیمی رانندگی می‌کرد.
+denervation#عصب‌کشی#Denervation of the muscle can cause paralysis.#nerve removal#C2#ˌdiˌnɜrˈveɪʃən#عصب‌کشی ماهیچه می‌تواند باعث فلج شود.
+deathblow#ضربه کاری، ضربه مهلک#The scandal was a deathblow to his political career.#fatal blow#C1#ˈdɛθˌbloʊ#این رسوایی یک ضربه کاری به حرفه سیاسی او بود.
+proteoglycan#پروتئوگلیکان#Proteoglycan is a key component of connective tissue.#structural molecule#C2#ˌproʊtiˈoʊˌɡlaɪkæn#پروتئوگلیکان یک جزء کلیدی از بافت همبند است.
+dehumanize#غیرانسانی کردن#War can dehumanize people, making them lose their empathy.#brutalize#C2#ˌdiˈhjuːmənaɪz#جنگ می‌تواند انسان‌ها را غیرانسانی کند و باعث شود همدلی خود را از دست بدهند.
+enuresis#شب‌ادراری#Enuresis in children is a common issue.#bedwetting#C2#ˌɛnjəˈriːsɪs#شب‌ادراری در کودکان یک مسئله رایج است.
+extruder#دستگاه اکسترودر#The extruder shaped the plastic into a long tube.#molding machine#C2#ɪkˈstruːdər#دستگاه اکسترودر پلاستیک را به شکل یک لوله بلند درآورد.
+preeminent#برجسته، ممتاز#She is a preeminent scholar in her field.#outstanding#C1#priˈɛmənənt#او یک محقق برجسته در رشته خود است.
+nisei#نیسه‌ای#The Nisei were the children of Japanese immigrants born in a new country.#second-generation Japanese-American#C2#ˈniːseɪ#نیسه‌ها فرزندان مهاجران ژاپنی بودند که در کشور جدیدی متولد شدند.
+canvasback#مرغابی پشت‌بوم#The hunter spotted a flock of canvasback ducks.#diving duck#C2#ˈkænvəsˌbæk#شکارچی یک دسته از مرغابی‌های پشت‌بوم را دید.
+obeah#اوبه#Obeah is a form of folk magic and religion.#folk magic#C2#ˈoʊbiə#اوبه نوعی از جادوی محلی و دین است.
+orthostatic#ارتواستاتیک#Orthostatic hypotension is a drop in blood pressure upon standing up.#postural#C2#ˌɔrθəˈstætɪk#افت فشار خون ارتواستاتیک، کاهش فشار خون هنگام بلند شدن است.
+nonsupportive#حمایت‌نکننده#His nonsupportive attitude made the situation worse.#unhelpful#C1#ˌnɑn səˈpɔrtɪv#رفتار حمایت‌نکننده او وضعیت را بدتر کرد.
+unpremeditate#بدون برنامه‌ریزی قبلی#His actions were unpremeditated and impulsive.#unplanned#C2#ˌʌnpriˈmɛdɪˌteɪt#اقدامات او بدون برنامه‌ریزی قبلی و تکانشی بودند.
+hissy#عصبی، عصبانی#She threw a hissy fit when she didn't get her way.#fit of temper#C2#ˈhɪsi#وقتی به خواسته‌اش نرسید، یک حمله عصبی گرفت.
+hagiographical#حاجیوگرافیک، شرح حال قدیسان#The book offered a hagiographical account of the saint's life.#eulogistic#C2#ˌhæɡiəˈɡræfɪkəl#این کتاب شرح حال حاجیوگرافیک از زندگی قدیس را ارائه می‌دهد.
+shipmaster#ناخدای کشتی#The shipmaster guided the vessel through the storm.#captain#C2#ˈʃɪpˌmæstər#ناخدای کشتی، کشتی را از میان طوفان هدایت کرد.
+supportiveness#حمایت‌کنندگی#Her supportiveness was a great comfort during the difficult time.#encouragement#C1#səˈpɔrtɪvnəs#حمایت‌کنندگی او در طول آن زمان سخت، آرامش بزرگی بود.
+hexafluoride#هگزافلورید#Uranium hexafluoride is used in nuclear fuel production.#fluorine compound#C2#ˌhɛksəˈfluəraɪd#هگزافلورید اورانیوم در تولید سوخت هسته‌ای استفاده می‌شود.
+vold#واژه ابداعی#Vold is a made-up word, it has no meaning.#neologism#C2#voʊld#واژه "vold" یک کلمه ابداعی است، هیچ معنایی ندارد.
+horniness#شهوانیت، شهوت‌انگیزی#The song's horniness was evident in its lyrics.#lustfulness#C2#ˈhɔrnɪnəs#شهوانیت ترانه در اشعار آن مشهود بود.
+unreel#باز کردن از قرقره#He began to unreel the fishing line.#unwind#C2#ˌʌnˈriːl#او شروع به باز کردن نخ ماهیگیری از قرقره کرد.
+unharvest#برداشت نکردن#The farmer chose to unharvest the crop this year.#not harvest#C2#ʌnˈhɑrvɪst#کشاورز تصمیم گرفت محصول را امسال برداشت نکند.
+mochi#موچی#Mochi is a traditional Japanese rice cake.#rice cake#C2#ˈmoʊtʃi#موچی یک کیک برنجی سنتی ژاپنی است.
+arborvita#درخت سرو#We planted a row of arborvitae to create a hedge.#evergreen tree#C2#ˌɑrbərˈvaɪti#ما یک ردیف درخت سرو کاشتیم تا یک پرچین ایجاد کنیم.
+altazimuth#آلتازیموت#The telescope has an altazimuth mount.#mounting#C2#ˌæltəˈzɪməθ#تلسکوپ یک پایه آلتازیموت دارد.
+cloze#کلوز#The cloze test required students to fill in the missing words.#fill-in-the-blank#C2#kloʊz#آزمون کلوز از دانش‌آموزان می‌خواست کلمات گمشده را پر کنند.
+paraglide#با پاراگلایدر پرواز کردن#He loves to paraglide off the mountain peaks.#fly with a paraglider#C1#ˈpɛrəˌɡlaɪd#او عاشق این است که با پاراگلایدر از قله‌های کوه پرواز کند.
+rightfield#راست#He plays in rightfield for the baseball team.#right side of the outfield#C2#ˈraɪtˌfiːld#او در سمت راست زمین برای تیم بیسبال بازی می‌کند.
+cannabinoid#کانابینوئید#Cannabinoids are compounds found in cannabis.#cannabis compound#C2#kəˈnæbɪnɔɪd#کانابینوئیدها ترکیباتی هستند که در گیاه شاهدانه یافت می‌شوند.
+sambal#سامبال#Sambal is a spicy Indonesian chili paste.#chili sauce#C2#ˈsæmbəl#سامبال یک سس فلفل تند اندونزیایی است.
+cockaded#با سنجاق سینه تزئین شده#The uniform was cockaded with a decorative badge.#decorated#C2#kɑˈkeɪdɪd#یونیفرم با یک سنجاق سینه تزئینی آراسته شده بود.
+pronation#چرخش به داخل#Pronation of the foot can affect a person's gait.#inward rotation#C2#proʊˈneɪʃən#چرخش به داخل پا می‌تواند بر راه رفتن فرد تأثیر بگذارد.
+davidic#داوودی#The priest spoke of the Davidic lineage of the king.#of David#C2#dəˈvɪdɪk#کشیش از نسب داوودی پادشاه صحبت کرد.
+blueblood#اشراف‌زاده#He was a true blueblood, born into a wealthy family.#aristocrat#C2#ˈbluːˌblʌd#او یک اشراف‌زاده واقعی بود که در خانواده‌ای ثروتمند متولد شده بود.
+pixelation#پیکسل‌سازی#The image was blurry due to pixelation.#blurring#C1#ˌpɪksəˈleɪʃən#تصویر به دلیل پیکسل‌سازی تار بود.
+overgraze#چرای بیش از حد#Overgrazing can lead to soil erosion.#excessive grazing#C2#ˌoʊvərˈɡreɪz#چرای بیش از حد می‌تواند منجر به فرسایش خاک شود.
+skitter#سریع و سبک حرکت کردن#The small stones skittered across the surface of the water.#dart#C2#ˈskɪtər#سنگ‌های کوچک به سرعت روی سطح آب حرکت کردند.
+glottis#مجرای صوتی#The vocal cords are located in the glottis.#voice box#C2#ˈɡlɑtɪs#تارهای صوتی در مجرای صوتی قرار دارند.
+lutefisk#لوتفیسک#Lutefisk is a traditional Nordic dish made from dried fish.#dried fish dish#C2#ˈluːtəˌfɪsk#لوتفیسک یک غذای سنتی نوردیک است که از ماهی خشک‌شده تهیه می‌شود.
+battlecruiser#ناو جنگی#The battlecruiser was a powerful warship.#warship#C2#ˈbætəlˌkruːzər#ناو جنگی یک کشتی جنگی قدرتمند بود.
+metanoia#توبه، تحول#He experienced a metanoia, a complete change of heart.#spiritual conversion#C2#ˌmɛtəˈnɔɪə#او یک توبه، یک تغییر کامل قلبی را تجربه کرد.
+unpatch#وصله را برداشتن#He had to unpatch the tire to fix the hole properly.#remove a patch#C2#ʌnˈpætʃ#او مجبور شد وصله تایر را بردارد تا سوراخ را به درستی تعمیر کند.
+thrombolytic#ترومبولیتیک، لخته‌شکن#Thrombolytic therapy is used to break up blood clots.#clot-dissolving#C2#ˌθrɑmboʊˈlɪtɪk#درمان ترومبولیتیک برای از بین بردن لخته‌های خون استفاده می‌شود.
+tattler#شایعه‌گو#The tattler was always spreading rumors.#gossip#B2#ˈtætlər#شایعه‌گو همیشه شایعه پخش می‌کرد.
+wholistic#جامع، کل‌نگر#A wholistic approach considers the entire person.#holistic#C2#hoʊˈlɪstɪk#یک رویکرد جامع، تمام وجود فرد را در نظر می‌گیرد.
+hammerlock#قفل بازو#The wrestler put his opponent in a hammerlock.#arm-lock#C2#ˈhæmərˌlɑk#کشتی‌گیر حریفش را در یک قفل بازو قرار داد.
+shim#واشر نازک#He used a shim to level the table.#spacer#C2#ʃɪm#او از یک واشر نازک برای تراز کردن میز استفاده کرد.
+surpassingly#به‌طور فوق‌العاده#Her talent was surpassingly great.#exceedingly#C2#sərˈpæsɪŋli#استعداد او به طور فوق‌العاده‌ای زیاد بود.
+reinvestigate#بازجویی کردن#The police decided to reinvestigate the cold case.#reopen an investigation#C1#ˌriɪnˈvɛstɪɡeɪt#پلیس تصمیم گرفت پرونده سرد را دوباره بررسی کند.
+springwater#آب چشمه#She drank a bottle of pure springwater.#fresh water#B2#ˈsprɪŋˌwɔtər#او یک بطری آب چشمه خالص نوشید.
+eicosapentaenoic#ایکوزاپنتائنوئیک#Eicosapentaenoic acid is an omega-3 fatty acid.#fatty acid#C2#ˌaɪˌkoʊzəˌpɛntəˌiˈnoʊɪk#اسید ایکوزاپنتائنوئیک یک اسید چرب امگا-۳ است.
+immodestly#بی‌شرمانه#He spoke immodestly about his accomplishments.#shamelessly#C2#ɪˈmɑdɪstli#او بی‌شرمانه درباره دستاوردهایش صحبت کرد.
+antidiabetic#ضد دیابت#Antidiabetic drugs are used to control blood sugar levels.#diabetes medication#C2#ˌæntaɪˌdaɪəˈbɛtɪk#داروهای ضد دیابت برای کنترل سطح قند خون استفاده می‌شوند.
+lusterless#کدر، بدون جلا#The old silverware was dull and lusterless.#dull#C2#ˈlʌstərləs#ظروف نقره قدیمی کدر و بدون جلا بود.
+coatroom#رختکن#Please hang your coat in the coatroom.#cloakroom#B1#ˈkoʊtˌruːm#لطفاً کت خود را در رختکن آویزان کنید.
+chloramphenicol#کلرامفنیکل#Chloramphenicol is an antibiotic used to treat bacterial infections.#antibiotic#C2#ˌklɔrəmˈfɛnɪˌkɔl#کلرامفنیکل یک آنتی‌بیوتیک است که برای درمان عفونت‌های باکتریایی استفاده می‌شود.
+pelota#پلوتا#Pelota is a traditional Basque ball game.#ball game#C2#pəˈloʊtə#پلوتا یک بازی توپی سنتی باسک است.
+cyanobacterial#سیانوباکتریایی#Cyanobacterial blooms can be harmful to aquatic life.#blue-green algal#C2#ˌsaɪənoʊˌbæktɪərɪəl#شکوفایی‌های سیانوباکتریایی می‌تواند برای حیات آبزیان مضر باشد.
+principalship#مدیریت مدرسه#She took on the principalship of the new high school.#headship#C2#ˈprɪnsəpəlˌʃɪp#او مدیریت دبیرستان جدید را بر عهده گرفت.
+developable#قابل توسعه#The land is developable for residential housing.#capable of development#C2#dɪˈvɛləpəbəl#این زمین برای ساخت و ساز مسکونی قابل توسعه است.
+rebroadcast#بازپخش کردن#The network will rebroadcast the show tomorrow night.#rescreen#B2#ˌriˈbrɔdkæst#شبکه فردا شب برنامه را بازپخش خواهد کرد.
+cardiometabolic#قلبی-متابولیک#Cardiometabolic diseases are related to heart and metabolic health.#heart and metabolism#C2#ˌkɑrdioʊˌmɛtəˈbɑlɪk#بیماری‌های قلبی-متابولیک به سلامت قلب و متابولیسم مربوط هستند.
+osteoarthritic#استئوآرتروتیک#He suffered from osteoarthritic joint pain.#arthritis-related#C2#ˌɑstioʊˌɑrˈθrɪtɪk#او از درد مفاصل استئوآرتروتیک رنج می‌برد.
+macarena#ماکارنا#Everyone got up to dance the macarena at the party.#dance#C2#ˌmækəˈreɪnə#همه در مهمانی بلند شدند تا ماکارنا برقصند.
+manis#مانی#The manicurist carefully painted her manis.#fingernails#C2#ˈmeɪnɪs#ناخن‌کار با دقت مانی او را نقاشی کرد.
+cha#چا#They drank a cup of warm cha with their meal.#tea#B2#tʃɑ#آنها با وعده غذایی خود یک فنجان چای گرم نوشیدند.
+hyperbolically#به‌طور اغراق‌آمیز#He speaks hyperbolically to emphasize his points.#exaggeratedly#C2#ˌhaɪpərˈbɑlɪkli#او برای تأکید بر نکاتش، به طور اغراق‌آمیز صحبت می‌کند.
+hormesis#هورمسیس#Hormesis is a beneficial effect of a low dose of a toxin.#stimulatory effect#C2#hɔrˈmiːsɪs#هورمسیس یک اثر مفید از دوز پایین یک سم است.
+whorish#هرزه‌وار#She was judged for her whorish behavior.#promiscuous#C2#ˈhɔrɪʃ#او به خاطر رفتار هرزه‌وارش مورد قضاوت قرار گرفت.
+sheepshead#ماهی سرخ‌ماهی#The fisherman caught a large sheepshead.#type of fish#C2#ˈʃiːpsˌhɛd#ماهیگیر یک ماهی سرخ‌ماهی بزرگ گرفت.
+sensitize#حساس کردن#The campaign aims to sensitize the public to environmental issues.#make aware#B2#ˈsɛnsətaɪz#این کمپین قصد دارد مردم را نسبت به مسائل محیطی حساس کند.
+sunyata#سونیا#In Buddhism, sunyata refers to the concept of emptiness.#emptiness#C2#ˈsuːnjətɑ#در بودیسم، سونیا به مفهوم پوچی اشاره دارد.
+transocean#از اقیانوس#The transocean voyage took several weeks.#across the ocean#C2#ˌtrænsˈoʊʃən#سفر از اقیانوس چندین هفته طول کشید.
+torero#توررو#The torero faced the bull in the arena.#bullfighter#C2#təˈrɛroʊ#توررو در میدان با گاو نر روبرو شد.
+graspable#قابل درک، قابل فهم#The complex idea was presented in a graspable way.#comprehensible#C1#ˈɡræspəbəl#ایده پیچیده به روشی قابل درک ارائه شد.
+haloperidol#هالوپریدول#Haloperidol is a medication used to treat certain mental disorders.#antipsychotic drug#C2#ˌhæloʊˈpɛrəˌdɔl#هالوپریدول دارویی است که برای درمان برخی اختلالات روانی استفاده می‌شود.
+telluric#تلوری#The telluric current is an electric current that flows within the earth.#of the earth#C2#təˈlʊrɪk#جریان تلوری یک جریان الکتریکی است که در داخل زمین جریان دارد.
+irishness#ایرندی#Her love of Irishness was evident in her music and art.#Irish identity#C2#ˈaɪrɪʃnəs#عشق او به ایرندی در موسیقی و هنرش مشهود بود.
+caliber#قطر دهانه، کالیبر#The rifle was of a small caliber.#diameter#C2#ˈkælɪbər#تفنگ دارای کالیبر کوچکی بود.
+zillionaire#هزار میلیاردری#He acted like a zillionaire, spending money without care.#extremely rich person#C2#ˌzɪliəˈnɛr#او مثل یک هزار میلیاردری رفتار می‌کرد و بدون هیچ ملاحظه‌ای پول خرج می‌کرد.
+mullion#چوب عمودی پنجره#The window was divided into panes by mullions.#vertical bar#C2#ˈmʌliən#پنجره توسط چوب‌های عمودی به شیشه‌های کوچک تقسیم شده بود.
+clamoring#سروصدا، خواستار#The students were clamoring for a longer recess.#shouting#C1#ˈklæmərɪŋ#دانش‌آموزان با سروصدا خواستار یک زنگ تفریح طولانی‌تر بودند.
+pedipalp#پدی‌الپ#Spiders use their pedipalps to help them sense their environment.#sensory appendage#C2#ˈpɛdəˌpælp#عنکبوت‌ها از پدی‌الپ‌های خود برای حس کردن محیط اطرافشان استفاده می‌کنند.
+fellate#عمل دهانی#He asked her to fellate him.#perform oral sex on#C2#fəˈleɪt#او از او خواست که عمل دهانی را انجام دهد.
+densification#چگال‌سازی، متراکم‌سازی#Urban densification is a key part of city planning.#increasing density#C2#ˌdɛnsəfɪˈkeɪʃən#چگال‌سازی شهری یک بخش کلیدی از برنامه‌ریزی شهری است.
+carib#کاریب#The Carib people were native to the Caribbean.#indigenous people#C2#ˈkærəb#مردم کاریب بومی منطقه کارائیب بودند.
+choc#شکلات#He had a box of chocs for dessert.#chocolate#A2#tʃɑk#او برای دسر یک جعبه شکلات داشت.
+cohabitate#همزیستی کردن#They decided to cohabitate before getting married.#live together#B2#koʊˈhæbɪˌteɪt#آن‌ها تصمیم گرفتند قبل از ازدواج با هم زندگی کنند.
+medius#میانی#The musculus medius is located in the arm.#middle#C2#ˈmiːdiəs#عضله میانی در بازو قرار دارد.
+biryani#بریانی#We ordered a delicious chicken biryani for dinner.#rice dish#C2#bɪrˈjɑːni#ما برای شام یک بریانی مرغ خوشمزه سفارش دادیم.
+vitruvian#ویتروویوسی#The Vitruvian Man is a famous drawing by Leonardo da Vinci.#related to Vitruvius#C2#vɪˈtruːviən#مرد ویتروویوسی یک نقاشی مشهور از لئوناردو داوینچی است.
+serry#نزدیک کردن#The soldiers began to serry their ranks for the attack.#crowd together#C2#ˈsɛri#سربازان برای حمله شروع به نزدیک کردن صفوف خود کردند.
+kora#کورا#She played a beautiful melody on the kora.#West African string instrument#C2#ˈkɔrə#او یک ملودی زیبا را روی کورا نواخت.
+hijra#هجرا#The hijra community is a transgender group in South Asia.#transgender group#C2#ˈhɪdʒrə#جامعه هجرا یک گروه تراجنسیتی در جنوب آسیا است.
+trine#سه گانه#The astrologer spoke of a trine alignment of planets.#triad#C2#traɪn#منجم از یک سه گانه از سیارات صحبت کرد.
+fuehrer#رهبر#The book described the rise of the fuehrer.#leader#C2#ˈfjʊərər#کتاب درباره ظهور رهبر توضیح می‌داد.
+freakshow#نمایش غیرعادی#The circus featured a bizarre freakshow.#sideshow#C2#ˈfriːkˌʃoʊ#سیرک یک نمایش غیرعادی عجیب و غریب داشت.
+shellack#شکست دادن#The team was shellacked in the final game.#defeat soundly#C1#ʃəˈlæk#تیم در بازی نهایی به شدت شکست خورد.
+letterform#فرم حروف#The artist experimented with different letterforms in his typography.#shape of letters#C2#ˈlɛtərˌfɔrm#هنرمند با فرم‌های مختلف حروف در تایپوگرافی خود آزمایش کرد.
+testator#وصیت‌کننده#The testator left his entire estate to his children.#will-maker#C2#tɛˈsteɪtər#وصیت‌کننده تمام دارایی خود را به فرزندانش واگذار کرد.
+unredeemable#غیرقابل جبران#His actions were considered to be unredeemable.#irredeemable#C2#ˌʌnrɪˈdiːməbəl#اقدامات او غیرقابل جبران تلقی می‌شد.
+adventism#ادونتیسم#Adventism is a branch of Protestant Christianity.#religious movement#C2#ˈædvɛntɪzəm#ادونتیسم شاخه‌ای از مسیحیت پروتستان است.
+overcommit#بیش از حد متعهد شدن#He overcommitted to too many projects at once.#commit too much#C2#ˌoʊvərkəˈmɪt#او همزمان به پروژه‌های زیادی بیش از حد متعهد شد.
+calabrian#کالابریا#He cooked a traditional Calabrian dish.#from Calabria#C2#kəˈleɪbriən#او یک غذای سنتی کالابریا پخت.
+distractible#حواس‌پرت#The student was easily distractible in class.#easily distracted#C1#dɪˈstræktəbəl#دانش‌آموز در کلاس به راحتی حواسش پرت می‌شد.
+complicitous#همدست، شریک#He was found to be complicitous in the crime.#involved#C2#kəmˈplɪsɪtəs#او همدست در جنایت شناخته شد.
+pneumonic#پنومونیک#Pneumonic plague is a severe lung infection.#related to pneumonia#C2#nʊˈmɑnɪk#طاعون پنومونیک یک عفونت شدید ریه است.
+scopolamine#اسکوپولامین#Scopolamine is a medication used to treat motion sickness.#anti-nausea drug#C2#skəˈpɑləˌmiːn#اسکوپولامین دارویی است که برای درمان بیماری حرکت استفاده می‌شود.
+peplum#پپلم#Her dress had a stylish peplum at the waist.#flared ruffle#C2#ˈpɛpləm#لباس او یک پپلم شیک در کمر داشت.
+accentuate#برجسته کردن، تاکید کردن#She used a scarf to accentuate her outfit.#emphasize#C1#ækˈsɛntʃuˌeɪt#او از یک روسری برای برجسته کردن لباسش استفاده کرد.
+maguey#ماگوی#Tequila is made from the maguey plant.#agave plant#C2#ˈmɑɡeɪ#تکیلا از گیاه ماگوی تهیه می‌شود.
+metacarpal#استخوان کف دست#He broke a metacarpal bone in his hand.#hand bone#C2#ˌmɛtəˈkɑrpəl#او یکی از استخوان‌های کف دستش را شکست.
+certifier#گواهی‌دهنده#The certifier confirmed the product met all standards.#certifying agent#C2#ˈsɜrtəˌfaɪər#گواهی‌دهنده تایید کرد که محصول تمام استانداردها را رعایت می‌کند.
+amish#آمیش#The Amish live a simple life, separate from modern society.#religious group#C2#ˈɑmɪʃ#آمیش‌ها زندگی ساده‌ای دارند، جدا از جامعه مدرن.
+unbelt#کمربند را باز کردن#He unbelted his pants after a big meal.#unfasten a belt#C2#ˌʌnˈbɛlt#او بعد از یک وعده غذایی بزرگ، کمربند شلوارش را باز کرد.
+haplessly#بیچاره‌وار#He haplessly dropped the entire tray of food.#unluckily#C2#ˈhæpləsli#او بیچاره‌وار کل سینی غذا را انداخت.
+gamine#دختر بازیگوش#She had a gamine charm and playful personality.#playful girl#C2#ɡəˈmiːn#او یک جذابیت دختر بازیگوش و شخصیتی سرزنده داشت.
+heterogeneously#به‌طور ناهمگون#The population was distributed heterogeneously across the region.#unevenly#C2#ˌhɛtərəˈdʒiːniəsli#جمعیت به طور ناهمگون در سراسر منطقه توزیع شده بود.
+endocytosis#آندوسیتوز#Endocytosis is the process of a cell taking in substances.#cellular intake#C2#ˌɛndoʊˌsaɪˈtoʊsɪs#آندوسیتوز فرآیند جذب مواد توسط یک سلول است.
+gravid#باردار#The gravid cat was getting ready to give birth.#pregnant#C2#ˈɡrævɪd#گربه باردار برای زایمان آماده می‌شد.
+walla#والا#The sound designer added walla to the scene to make it feel more real.#background chatter#C2#ˈwɑlə#طراح صدا برای واقعی‌تر شدن صحنه، والا اضافه کرد.
+kulak#کولاک#The kulaks were a class of wealthy peasants in Russia.#wealthy peasant#C2#ˈkuːlæk#کولاک‌ها یک طبقه از دهقانان ثروتمند در روسیه بودند.
+interurban#بین شهری#The interurban train connected several major cities.#between cities#C2#ˌɪntərˈɜrbən#قطار بین شهری چندین شهر بزرگ را به هم متصل می‌کرد.
+ilium#استخوان لگن#The ilium is the largest of the three bones that form the hip bone.#hip bone#C2#ˈɪliəm#استخوان لگن بزرگ‌ترین از سه استخوانی است که استخوان لگن را تشکیل می‌دهند.
+underlayer#لایه زیرین#The underlayer of paint was still wet.#bottom layer#C2#ˈʌndərˌleɪər#لایه زیرین رنگ هنوز خیس بود.
+cholecystitis#کوله سیستیت#Cholecystitis is inflammation of the gallbladder.#gallbladder inflammation#C2#ˌkoʊləsɪˈstaɪtɪs#کوله سیستیت، التهاب کیسه صفرا است.
+olmec#اولمک#The Olmec civilization was one of the earliest in Mesoamerica.#ancient civilization#C2#ˈoʊlmɛk#تمدن اولمک یکی از اولین تمدن‌ها در آمریکای میانه بود.
+cruet#شیشه‌دان#He poured olive oil from the cruet.#small bottle#C2#ˈkruːɪt#او روغن زیتون را از شیشه‌دان ریخت.
+bustline#خط سینه#The dress had an empire waist just below the bustline.#bust measurement#C2#ˈbʌstˌlaɪn#لباس یک کمر امپراتوری درست زیر خط سینه داشت.
+dysfunctionality#اختلال عملکرد#The family's dysfunctionality was a source of great stress.#malfunction#C1#ˌdɪsfʌŋkʃənˈælɪti#اختلال عملکرد خانواده منبع استرس بزرگی بود.
+screwworm#کرم پیچی#The screwworm is a parasitic larva of a fly.#parasitic larva#C2#ˈskruːˌwɔrm#کرم پیچی یک لارو انگلی از یک مگس است.
+plasticine#پلاستیسین#Children love to play with plasticine to create shapes.#modeling clay#B2#ˈplæstɪsiːn#کودکان دوست دارند با پلاستیسین بازی کنند تا اشکال بسازند.
+perambulation#پیاده‌روی#They enjoyed a leisurely perambulation through the park.#walk#C2#pəˌræmbjəˈleɪʃən#آن‌ها از یک پیاده‌روی آرام در پارک لذت بردند.
+nepotistic#پارتی‌بازانه#He was criticized for his nepotistic hiring practices.#favoring relatives#C2#ˌnɛpəˈtɪstɪk#او به خاطر شیوه‌های پارتی‌بازانه‌اش در استخدام مورد انتقاد قرار گرفت.
+dissimulate#پنهان کردن#She tried to dissimulate her true feelings.#hide#C2#dɪˈsɪmjəˌleɪt#او سعی کرد احساسات واقعی خود را پنهان کند.
+croton#کروتون#The croton plant has brightly colored leaves.#plant species#C2#ˈkroʊtən#گیاه کروتون برگ‌های رنگارنگ و درخشانی دارد.
+cognitional#شناختی#The new program aims to improve cognitional skills.#cognitive#C2#kɑɡˈnɪʃənl#برنامه جدید با هدف بهبود مهارت‌های شناختی است.
+adipocyte#سلول چربی#Adipocytes are specialized cells that store fat.#fat cell#C2#ˈædəpəˌsaɪt#آدیپوسیت‌ها سلول‌های تخصصی هستند که چربی را ذخیره می‌کنند.
+lorazepam#لورازپام#Lorazepam is a medication used to treat anxiety.#anxiolytic drug#C2#ləˈræzəˌpæm#لورازپام دارویی است که برای درمان اضطراب استفاده می‌شود.
+nonexperimental#غیرتجربی#The study used a nonexperimental research design.#observational#C2#ˌnɑnɪkˌspɛrəˈmɛntəl#این مطالعه از یک طرح تحقیق غیرتجربی استفاده کرد.
+unexcavate#حفر نکردن#They chose to unexcavate the site to preserve it.#not excavate#C2#ʌnˈɛkskəˌveɪt#آن‌ها تصمیم گرفتند سایت را حفر نکنند تا آن را حفظ کنند.
+intersexual#بیناجنسی#The intersexual person had both male and female characteristics.#hermaphroditic#C2#ˌɪntərˈsɛksuəl#فرد بیناجنسی هم ویژگی‌های مردانه و هم زنانه داشت.
+howto#چگونه#The howto guide explained how to build a shelf.#instructional guide#B2#ˈhaʊˌtuː#راهنمای چگونه توضیح داد که چگونه یک قفسه بسازیم.
+guestbook#دفتر یادبود مهمان#Please sign the guestbook before you leave.#visitor's book#B2#ˈɡɛstˌbʊk#لطفاً قبل از رفتن، دفتر یادبود مهمان را امضا کنید.
+highlife#های‌لایف#Highlife is a popular music genre in Ghana.#music genre#C2#ˈhaɪˌlaɪf#های‌لایف یک ژانر موسیقی محبوب در غنا است.
+remanufacture#بازسازی کردن#The company will remanufacture the old parts.#rebuild#C2#ˌrimænjəˈfæktʃər#شرکت قطعات قدیمی را بازسازی خواهد کرد.
+endcap#انتهای قفسه فروشگاه#The new product was placed on the endcap.#shelf end#C2#ˈɛndˌkæp#محصول جدید در انتهای قفسه فروشگاه قرار داده شد.
+upwell#بالا آمدن#Cold, nutrient-rich water will upwell from the depths.#rise#C2#ˌʌpˈwɛl#آب سرد و غنی از مواد مغذی از اعماق بالا خواهد آمد.
+unglove#دستکش را درآوردن#He ungloved his hands to shake mine.#remove a glove#C2#ˌʌnˈɡlʌv#او دستکش‌هایش را درآورد تا با من دست دهد.
+nondramatic#غیردراماتیک#The event unfolded in a nondramatic manner.#calm#C2#ˌnɑndrəˈmætɪk#رویداد به شکلی غیردراماتیک رخ داد.
+gild#روکش طلا کردن#He used gold leaf to gild the frame.#cover with gold#C2#ɡɪld#او از ورق طلا برای روکش کردن قاب استفاده کرد.
+orisha#اوریشا#The orisha are deities in the Yoruba religion.#deity#C2#ɔˈriːʃə#اوریشاها خدایانی در دین یوروبا هستند.
+retroactivity#عطف به ماسبق بودن#The law was criticized for its retroactivity.#ex post facto effect#C2#ˌrɛtroʊˌækˈtɪvəti#قانون به خاطر عطف به ماسبق بودن مورد انتقاد قرار گرفت.
+pictish#پیکتی#The Pictish people inhabited ancient Scotland.#of the Picts#C2#ˈpɪktɪʃ#مردم پیکتی در اسکاتلند باستان زندگی می‌کردند.
+disposability#یک‌بار مصرف بودن#The product's disposability makes it convenient.#being disposable#C2#dɪˌspoʊzəˈbɪləti#یک‌بار مصرف بودن محصول آن را راحت می‌کند.
+fastback#خودرو فست‌بک#The new car model is a sleek fastback.#car style#C2#ˈfæstˌbæk#مدل جدید خودرو یک فست‌بک شیک است.
+schlong#آلت تناسلی مرد#The crude joke referenced a man's schlong.#penis#C2#ʃlɑŋ#جوک مبتذل به آلت تناسلی مرد اشاره داشت.
+democratizer#دموکراتیزه‌کننده#The internet has been a great democratizer of information.#agent of democratization#C2#dəˈmɑkrəˌtaɪzər#اینترنت یک دموکراتیزه‌کننده بزرگ اطلاعات بوده است.
+dispensationalism#دیسپنساسیونالیسم#Dispensationalism is a theological system.#theological system#C2#dɪˌspɛnˈseɪʃənəlɪzəm#دیسپنساسیونالیسم یک نظام الهیاتی است.
+petrous#سخت، سنگی#The petrous bone is a dense part of the skull.#rock-like#C2#ˈpɛtrəs#استخوان سنگی یک بخش متراکم از جمجمه است.
+chromoly#کرومولی#The bike frame was made of chromoly steel.#steel alloy#C2#ˈkroʊmoʊli#قاب دوچرخه از فولاد کرومولی ساخته شده بود.
+favor#طرفداری کردن، ترجیح دادن#She favored her younger son over the others.#prefer#B1#ˈfeɪvər#او پسر کوچک‌تر خود را به دیگران ترجیح می‌داد.
+abstractness#انتزاعی بودن#The abstractness of the concept made it difficult to understand.#abstraction#C1#ˈæbstræktnəs#انتزاعی بودن مفهوم درک آن را دشوار می‌کرد.
+shrike#مرغ زیتون‌خوار#A shrike is a bird known for impaling its prey.#butcherbird#C2#ʃraɪk#مرغ زیتون‌خوار پرنده‌ای است که به خاطر میخکوب کردن شکارش شناخته می‌شود.
+macroevolution#کلان تکامل#Macroevolution studies large-scale evolutionary changes.#large-scale evolution#C2#ˌmækroʊˌɛvəˈluːʃən#کلان تکامل تغییرات تکاملی در مقیاس بزرگ را مطالعه می‌کند.
+bazar#بازار#They went to the local bazar to buy spices.#market#C1#bəˈzɑr#آنها به بازار محلی رفتند تا ادویه بخرند.
+catechize#تعلیم دادن#The priest would catechize the children on religious doctrine.#instruct#C2#ˈkætɪˌkaɪz#کشیش به کودکان درباره اصول مذهبی تعلیم می‌داد.
+uncurtain#پرده‌ها را کنار زدن#She uncurtained the window to let in the light.#open curtains#C2#ʌnˈkɜrtən#او پرده‌های پنجره را کنار زد تا نور وارد شود.
+vengefulness#انتقام‌جویی#His vengefulness was a result of past betrayal.#vindictiveness#C2#ˈvɛndʒfəlnəs#انتقام‌جویی او نتیجه خیانت گذشته بود.
+gurdwara#گوردوارا#They visited the gurdwara, the Sikh place of worship.#Sikh temple#C2#ˈɡʊərdˌwɑrə#آنها از گوردوارا، محل عبادت سیک‌ها، دیدن کردند.
+semipermeable#نیمه‌تراوا#The cell membrane is semipermeable, allowing only some molecules to pass.#partially permeable#C2#ˌsɛmiˈpɜrmiəbəl#غشای سلول نیمه‌تراوا است و فقط به برخی مولکول‌ها اجازه عبور می‌دهد.
+seatwork#کار کلاسی#The teacher assigned seatwork for the rest of the period.#in-class assignment#C2#ˈsiːtˌwɜrk#معلم برای بقیه زمان کلاس کار کلاسی تعیین کرد.
+kanamycin#کانامایسین#Kanamycin is an antibiotic used to treat severe infections.#antibiotic#C2#ˌkænəˈmaɪsɪn#کانامایسین یک آنتی‌بیوتیک است که برای درمان عفونت‌های شدید استفاده می‌شود.
+sunporch#ایوان آفتابگیر#They had coffee in the sunporch in the morning.#enclosed porch#C2#ˈsʌnˌpɔrtʃ#آنها صبح در ایوان آفتابگیر قهوه نوشیدند.
+spiritism#احضار روح#Spiritism involves communicating with the spirits of the dead.#spiritualism#C2#ˈspɪrətɪzəm#احضار روح شامل ارتباط با ارواح مردگان است.
+handsy#دست‌درازی‌کن#He was known for being handsy with his colleagues.#touchy-feely#C2#ˈhændzi#او به خاطر دست‌درازی کردن به همکارانش شناخته شده بود.
+visite#بازدید، دیدار#The royal family paid a visite to the new hospital.#visit#C2#vɪˈziːt#خانواده سلطنتی از بیمارستان جدید بازدید کردند.
+unreach#به دست نیافتن#The ball was an unreach for the fielder.#inaccessible#C2#ʌnˈriːtʃ#توپ برای بازیکن میدانی غیرقابل دسترس بود.
+underuse#کم‌کاری، استفاده کمتر#The building was in underuse for several years.#underutilization#C1#ˌʌndərˈjuːz#ساختمان برای چندین سال در حال کم‌کاری بود.
+chalcedonian#خلقیدونی#The Chalcedonian Creed is a key doctrine in Christianity.#related to Chalcedon#C2#ˌkælsəˈdoʊniən#اعتقادنامه خلقیدونی یک آموزه کلیدی در مسیحیت است.
+musculocutaneous#عضلی-پوستی#The musculocutaneous nerve innervates certain arm muscles.#muscle and skin#C2#ˌmʌskjəloʊkjuˈteɪniəs#عصب عضلی-پوستی عصب‌رسانی به برخی عضلات بازو را انجام می‌دهد.
+alienness#بیگانگی#He felt a sense of alienness in the new city.#foreignness#C1#ˈeɪliənnəs#او در شهر جدید احساس بیگانگی می‌کرد.
+oxygenate#اکسیژن‌رسانی کردن#The lungs' job is to oxygenate the blood.#add oxygen#C1#ˈɑksɪdʒəˌneɪt#وظیفه ریه‌ها اکسیژن‌رسانی به خون است.
+neutropenia#نوتروپنی#Neutropenia is a low count of a type of white blood cell.#low white blood cell count#C2#ˌnuːtrəˈpiːniə#نوتروپنی، تعداد کم یک نوع از سلول‌های سفید خون است.
+presider#رئیس، اداره‌کننده#The presider of the meeting kept the discussion on track.#chairperson#C2#prɪˈsaɪdər#رئیس جلسه بحث را در مسیر درست نگه داشت.
+fermionic#فرمیونیک#Fermionic particles obey the Pauli exclusion principle.#related to fermions#C2#ˌfɜrmɪˈɑnɪk#ذرات فرمیونیک از اصل طرد پاولی پیروی می‌کنند.
+darkle#تاریک شدن#The sky began to darkle as the storm approached.#grow dark#C2#ˈdɑrkl#با نزدیک شدن طوفان، آسمان شروع به تاریک شدن کرد.
+popemobile#پاپ‌موبیل#The Pope rode in the popemobile during his visit.#Pope's vehicle#C2#ˈpoʊpəˌmoʊbəl#پاپ در طول بازدید خود در پاپ‌موبیل سوار شد.
+compulsiveness#وسواسی بودن#Her compulsiveness led her to check the locks multiple times.#obsessiveness#C2#kəmˈpʌlsɪvnəs#وسواسی بودن او باعث شد که چندین بار قفل‌ها را چک کند.
+epiphytic#اپیفیتیک#An epiphytic plant grows on another plant but does not parasitize it.#grows on another plant#C2#ˌɛpɪˈfɪtɪk#یک گیاه اپیفیتیک روی گیاه دیگری رشد می‌کند اما از آن تغذیه نمی‌کند.
+summiteer#صعودکننده به قله#The summiteer waved from the mountain peak.#mountain climber#C2#ˈsʌmətɪər#صعودکننده به قله از قله کوه دست تکان داد.
+ditsy#احمق، خل#She was a little ditsy and often forgot things.#scatterbrained#C2#ˈdɪtsi#او کمی احمق بود و اغلب چیزها را فراموش می‌کرد.
+rivalrous#رقابتی#Their relationship was intensely rivalrous.#competitive#C2#ˈraɪvəlrəs#رابطه آن‌ها به شدت رقابتی بود.
+coumarin#کومارین#Coumarin is an organic chemical compound with a sweet smell.#chemical compound#C2#ˈkuːmərɪn#کومارین یک ترکیب شیمیایی آلی با بوی شیرین است.
+coalmine#معدن زغال سنگ#He worked in a coalmine for twenty years.#coal pit#B2#ˈkoʊlˌmaɪn#او بیست سال در یک معدن زغال سنگ کار کرد.
+barnburner#یک رویداد هیجان‌انگیز#The championship game was a real barnburner.#exciting event#C2#ˈbɑrnˌbɜrnər#بازی قهرمانی یک رویداد واقعاً هیجان‌انگیز بود.
+menshevik#منشویک#The Mensheviks were a faction of the Russian revolutionary movement.#political faction#C2#ˈmɛnʃəˌvɪk#منشویک‌ها یک جناح از جنبش انقلابی روسیه بودند.
+unembellish#ساده، بدون تزیین#The report was written in an unembellished style.#plain#C2#ˌʌnɪmˈbɛlɪʃt#گزارش به سبکی ساده نوشته شده بود.
+intellection#فرایند فکری#He was a man of great intellection and deep thought.#thinking#C2#ˌɪntəˈlɛkʃən#او مردی با فرایند فکری بزرگ و تفکر عمیق بود.
+shortgrass#علف کوتاه#The bison grazed on the shortgrass prairie.#short grass#C2#ˈʃɔrtˌɡræs#گاومیش کوهان‌دار در چمنزار علف کوتاه می‌چرید.
+heptachlor#هپتاکلر#Heptachlor is a banned organochlorine insecticide.#insecticide#C2#ˈhɛptəˌklɔr#هپتاکلر یک حشره‌کش ارگانوکلرینه ممنوع است.
+generating#تولید کردن#The power plant is generating electricity.#producing#B2#ˈdʒɛnəˌreɪtɪŋ#نیروگاه در حال تولید برق است.
+grasslike#شبیه به چمن#The plant had long, grasslike leaves.#resembling grass#C2#ˈɡræslɑɪk#گیاه برگ‌های بلند و شبیه به چمن داشت.
+videocam#ویدئو کم#She recorded the event with her videocam.#video camera#B2#ˈvɪdioʊˌkæm#او رویداد را با ویدئو کم خود ضبط کرد.
+hybridoma#هیبریدوما#Hybridoma cells are used to produce monoclonal antibodies.#hybrid cell#C2#ˌhaɪbrɪˈdoʊmə#سلول‌های هیبریدوما برای تولید آنتی‌بادی‌های مونوکلونال استفاده می‌شوند.
+irredentism#تجدیدنظرطلبی#The political movement was based on irredentism.#political movement#C2#ɪˈrɛdənˌtɪzəm#جنبش سیاسی بر اساس تجدیدنظرطلبی بود.
+mealworm#کرم آرد#The birds were fed mealworms as a treat.#insect larva#C2#ˈmiːlˌwɜrm#به پرندگان کرم آرد به عنوان یک خوراکی داده شد.
+godself#خود الهی#In some spiritual beliefs, people seek to connect with their godself.#divine self#C2#ˈɡɑdˌsɛlf#در برخی باورهای معنوی، مردم به دنبال ارتباط با خود الهی خود هستند.
+reseat#دوباره نشستن#The usher had to reseat the latecomers.#seat again#C2#ˌriːˈsiːt#مهمان‌دار مجبور شد دیرآمدگان را دوباره بنشاند.
+capoeira#کاپوئرا#Capoeira is an Afro-Brazilian martial art.#martial art#C2#ˌkæpoʊˈɛrə#کاپوئرا یک هنر رزمی آفریقایی-برزیلی است.
+brevet#درجه افتخاری#He was granted a brevet promotion for his service.#honorary rank#C2#brəˈvɛt#به او به خاطر خدماتش یک درجه افتخاری اعطا شد.
+neuroanatomy#عصب‌شناسی#Neuroanatomy is the study of the structure of the nervous system.#brain anatomy#C2#ˌnʊroʊəˈnætəmi#عصب‌شناسی مطالعه ساختار سیستم عصبی است.
+pression#فشار#The engineer calculated the pression on the bridge.#pressure#C2#ˈprɛʃən#مهندس فشار روی پل را محاسبه کرد.
+sumptuary#مربوط به هزینه‌ها#Sumptuary laws once regulated what people could wear.#regulating expenses#C2#ˈsʌmptʃuˌɛri#قوانین مربوط به هزینه‌ها زمانی آنچه مردم می‌توانستند بپوشند را تنظیم می‌کرد.
+polyploid#پلی‌پلوئید#The plant was a polyploid, with multiple sets of chromosomes.#multiple chromosome sets#C2#ˈpɑləˌplɔɪd#گیاه یک پلی‌پلوئید بود، با چندین مجموعه کروموزوم.
+daydreamer#خیالباف#He was a hopeless daydreamer, always lost in thought.#fantasist#C1#ˈdeɪˌdriːmər#او یک خیال‌باف ناامید بود که همیشه در افکارش غرق می‌شد.
+scrutinize#به دقت بررسی کردن#The lawyer will scrutinize the documents for any errors.#examine closely#C1#ˈskruːtənaɪz#وکیل اسناد را به دقت بررسی خواهد کرد تا هرگونه اشتباهی را پیدا کند.
+deweyan#دیویی#His educational philosophy was influenced by Deweyan principles.#of John Dewey#C2#ˈduːwiən#فلسفه آموزشی او تحت تاثیر اصول دیویی بود.
+nigiri#نیگیری#He ordered a plate of nigiri sushi.#type of sushi#C2#nɪˈɡɪri#او یک بشقاب سوشی نیگیری سفارش داد.
+chukchi#چوکچی#The Chukchi people are indigenous to Siberia.#indigenous people#C2#ˈtʃʊktʃi#مردم چوکچی بومی سیبری هستند.
+oldness#کهنگی#The oldness of the building was evident in its cracked walls.#age#C2#ˈoʊldnəs#کهنگی ساختمان در دیوارهای ترک‌خورده آن مشهود بود.
+osteonecrosis#استئونکروز#Osteonecrosis is a condition where bone tissue dies.#bone tissue death#C2#ˌɑstioʊnɛˈkroʊsɪs#استئونکروز وضعیتی است که بافت استخوان می‌میرد.
+skald#شاعر اسکالد#The skald recited epic poems of Norse mythology.#Norse poet#C2#skɔld#شاعر اسکالد اشعار حماسی اساطیر نورس را تلاوت کرد.
+mantlepiece#کنسول شومینه#She placed the photo frame on the mantlepiece.#fireplace shelf#B2#ˈmæntlˌpiːs#او قاب عکس را روی کنسول شومینه قرار داد.
+horizontality#افقی بودن#The horizontality of the lines created a sense of calm.#flatness#C2#ˌhɔrəzɑnˈtæləti#افقی بودن خطوط یک حس آرامش ایجاد کرد.
