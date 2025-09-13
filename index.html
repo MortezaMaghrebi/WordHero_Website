@@ -458,6 +458,30 @@
             font-size: 0.9rem;
         }
         
+		.btn-myket {
+			background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%) !important;
+			box-shadow: 0 4px 6px rgba(247, 147, 30, 0.3) !important;
+		}
+		
+		.btn-myket:hover {
+			box-shadow: 0 7px 14px rgba(247, 147, 30, 0.4) !important;
+		}
+		
+		.btn-direct {
+			background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%) !important;
+			box-shadow: 0 4px 6px rgba(99, 102, 241, 0.3) !important;
+		}
+		
+		.btn-direct:hover {
+			box-shadow: 0 7px 14px rgba(99, 102, 241, 0.4) !important;
+		}
+		
+		.modal-footer {
+			display: flex;
+			flex-direction: column;
+			gap: 0.8rem;
+		}
+
         /* بهبودهای جدید برای رابط کاربری */
         .header-content {
             max-width: 800px;
@@ -928,12 +952,20 @@
             </div>
             
             <div class="modal-footer">
-                <a href="#" class="btn-download" id="downloadAppBtn">
-                    <i class="fas fa-download"></i>
-                    دانلود اپلیکیشن
-                </a>
-                <button class="btn-later" id="closeModalBtn">بعداً دانلود می‌کنم</button>
-            </div>
+				<a href="#" class="btn-download" id="downloadCafeBazaarBtn">
+					<i class="fas fa-store"></i>
+					دانلود از کافه بازار
+				</a>
+				<a href="#" class="btn-download btn-myket" id="downloadMyketBtn">
+					<i class="fas fa-shopping-bag"></i>
+					دانلود از مایکت
+				</a>
+				<a href="#" class="btn-download btn-direct" id="downloadDirectBtn">
+					<i class="fas fa-download"></i>
+					دانلود مستقیم
+				</a>
+				<button class="btn-later" id="closeModalBtn">بعداً دانلود می‌کنم</button>
+			</div>
         </div>
     </div>
 <script>
@@ -2119,36 +2151,58 @@ async function addLineToGitHubFile(newLine) {
 
 	
 	// تابع نمایش modal دانلود
-    function showDownloadModal() {
-        const modal = document.getElementById('downloadModal');
-        modal.classList.add('active');
-        
-        // اضافه کردن event listener برای دکمه‌ها
-        document.getElementById('downloadAppBtn').addEventListener('click', function(e) {
-            e.preventDefault();
-            // در اینجا می‌توانید کاربر را به صفحه دانلود هدایت کنید
-            // برای نمونه، یک لینک فرضی گذاشته شده
-            window.location.href = 'https://github.com/MortezaMaghrebi/Word-Hero/raw/refs/heads/main/WordHero/app/release/app-release.apk';
-            
-            // افکت کلیک روی دکمه
-            this.style.transform = 'scale(0.98)';
-            setTimeout(() => {
-                this.style.transform = '';
-            }, 200);
-        });
-        
-        document.getElementById('closeModalBtn').addEventListener('click', function() {
-            closeDownloadModal();
-        });
-        
-        // بستن modal با کلیک خارج از آن
-        modal.addEventListener('click', function(e) {
-            if (e.target === modal) {
-                closeDownloadModal();
-            }
-        });
-    }
-    
+	function showDownloadModal() {
+		const modal = document.getElementById('downloadModal');
+		modal.classList.add('active');
+		
+		// اضافه کردن event listener برای دکمه‌ها
+		document.getElementById('downloadCafeBazaarBtn').addEventListener('click', function(e) {
+			e.preventDefault();
+			// هدایت به صفحه برنامه در کافه بازار در تب جدید
+			window.open('https://cafebazaar.ir/app/mortezamaghrebi.com.wordhero', '_blank');
+			
+			// افکت کلیک روی دکمه
+			this.style.transform = 'scale(0.98)';
+			setTimeout(() => {
+				this.style.transform = '';
+			}, 200);
+		});
+		
+		document.getElementById('downloadMyketBtn').addEventListener('click', function(e) {
+			e.preventDefault();
+			// هدایت به صفحه برنامه در مایکت در تب جدید
+			window.open('https://myket.ir/app/mortezamaghrebi.com.wordhero', '_blank');
+			
+			// افکت کلیک روی دکمه
+			this.style.transform = 'scale(0.98)';
+			setTimeout(() => {
+				this.style.transform = '';
+			}, 200);
+		});
+		
+		document.getElementById('downloadDirectBtn').addEventListener('click', function(e) {
+			e.preventDefault();
+			// دانلود مستقیم فایل APK
+			window.location.href = 'https://github.com/MortezaMaghrebi/Word-Hero/raw/refs/heads/main/WordHero/app/release/app-release.apk';
+			
+			// افکت کلیک روی دکمه
+			this.style.transform = 'scale(0.98)';
+			setTimeout(() => {
+				this.style.transform = '';
+			}, 200);
+		});
+		
+		document.getElementById('closeModalBtn').addEventListener('click', function() {
+			closeDownloadModal();
+		});
+		
+		// بستن modal با کلیک خارج از آن
+		modal.addEventListener('click', function(e) {
+			if (e.target === modal) {
+				closeDownloadModal();
+			}
+		});
+	}    
     // تابع بستن modal
     function closeDownloadModal() {
         const modal = document.getElementById('downloadModal');
